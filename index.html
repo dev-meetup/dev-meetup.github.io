@@ -2,56 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <title>DevMeetup</title>
     <!--    <link rel="stylesheet" href="./css/style.css">-->
     <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.css"/>
 
 
     <!--<link rel="stylesheet" href="./css/_materialFullCalendar.scss"/>-->
-    <link rel="stylesheet" href="./static/style/style.css"/>
+    <link rel="stylesheet" href="./static/style/material-kit.css"/>
 </head>
 
-<body>
+<body style="background-color: white">
 
-<nav class="navbar navbar-default" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
+<!-- Navbar Primary  -->
+<nav class="navbar navbar-info">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-primary">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#pablo">DevMeetup</a>
+        </div>
 
+        <div class="collapse navbar-collapse" id="example-navbar-primary">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active" id="btn-calendar">
+                    <a href="#pablo" >
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        Calendar
+                    </a>
+                </li>
+                <li id="btn-list">
+                    <a href="#pablo">
+                        <i class="fa fa-list" aria-hidden="true"></i>
+                        List
+                    </a>
+                </li>
+
+            </ul>
+        </div>
     </div>
-    <a class="navbar-brand" href="#">DevMeetup</a>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-
-        <ul class="nav navbar-nav navbar-left">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">보기<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#" id="btn-calendar">달력</a></li>
-                    <li><a href="#" id="btn-list">리스트</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div><!-- /.navbar-collapse -->
-
-
 </nav>
-<div class="container" id="container">
+<!-- End Navbar Primary -->
 
 
+
+
+<div class="wrapper">
+    <!-- you can use the class main-raised if you want the main area to be as a page with shadows -->
+    <div class="main">
+        <div class="container"  id="container">
+            <!-- here you can add your content -->
+        </div>
+    </div>
 </div>
+
+
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
@@ -70,12 +90,34 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+
 <footer class="footer">
     <div class="container">
+        <nav class="pull-left">
+            <ul>
+                <li>
+                    <a href="https://github.com/AhnSeongHyun/devmeetup.github.io">
+                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                        github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/AhnSeongHyun/devmeetup.github.io/blob/master/LICENSE">
+                       MIT Licenses
+                    </a>
+                </li>
+                <li>
+                    I am because we are
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright pull-right">
+            © 2017, made with <i class="material-icons">favorite</i> by devmeetup.github.io.
 
-        <p class="text-muted"  ><h4>I am because we are</h4></p>
+        </div>
     </div>
 </footer>
+
 
 </body>
 
@@ -87,6 +129,9 @@
 <script src="https://fb.me/react-0.13.3.js"></script>
 <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
 
+<script src="./static/js/material.min.js"></script>
+<script src="./static/js/nouislider.min.js"></script>
+
 
 <script type="text/jsx">
     // React Component
@@ -95,7 +140,6 @@
             return (
                     <div id="calendar">
                         <div id='fullcalendar'></div>
-
                     </div>
             );
         }
@@ -124,6 +168,9 @@
         drawCalendar();
     }
 
+    function drawListView(){
+        React.render(<ListView />, document.getElementById('container'));
+    }
     function drawCalendar() {
         $('#fullcalendar').fullCalendar({
 
@@ -158,11 +205,15 @@
     }
 
     $("#btn-calendar").click(function(e){
+        $(this).addClass('active');
+        $("#btn-list").removeClass('active');
         drawCalendarView();
     });
 
     $("#btn-list").click(function(e){
-
+        $("#btn-calendar").removeClass('active');
+        $(this).addClass('active');
+        drawListView();
     });
 
 </script>
