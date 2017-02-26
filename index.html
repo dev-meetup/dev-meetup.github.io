@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#pablo">DevMeetup</a>
+            <a class="navbar-brand" href="./">DevMeetup</a>
         </div>
 
         <div class="collapse navbar-collapse" id="example-navbar-primary">
@@ -137,8 +137,8 @@
     var ListView = React.createClass({
         render: function() {
             return (
-                    <div id="list">
-                        <div> 리스트 </div>
+                    <div id="calendar">
+                        <div id='fullcalendar'></div>
                     </div>
             );
         }
@@ -154,13 +154,15 @@
 
     function drawCalendarView(){
         React.render(<CalendarView />, document.getElementById('container'));
-        drawCalendar();
+        drawCalendarMonth();
     }
 
     function drawListView(){
         React.render(<ListView />, document.getElementById('container'));
+        drawCalendarList();
     }
-    function drawCalendar() {
+
+    function drawCalendarMonth() {
         $('#fullcalendar').fullCalendar({
 
             header: {
@@ -173,6 +175,51 @@
             views: {},
             locale: 'ko',
             defaultView: 'month',
+            defaultDate: moment().format(),
+            navLinks: true, // can click day/week names to navigate views
+            editable: true,
+            eventLimit: true, // allow "more" link when too many events
+            events: function (start, end, timezone, callback) {
+                $.getJSON( "data/events.json", function( result ) {
+
+                    for(var i=0; i<result.events.length; i++) {
+                        var start = result.events[i].start;
+                        if (moment(start).isAfter(moment())) {
+                            result.events[i]['color'] = '#03A9F4';
+                        }
+                        else{
+                            result.events[i]['color'] = '#B3E5FC';
+                        }
+                    }
+
+                    console.log(result.events);
+
+                    callback(result.events);
+                });
+            },
+            eventClick: function(calEvent, jsEvent, view) {
+                $("#iframe").attr('src', calEvent.url);
+                $('#myModal').modal('show');
+                return false;
+            }
+
+        });
+    }
+
+
+     function drawCalendarList() {
+        $('#fullcalendar').fullCalendar({
+
+            header: {
+                left: null ,
+                center: 'title',
+                right: 'prev,next today'
+            },
+            // customize the button names,
+            // otherwise they'd all just say "list"
+            views: {},
+            locale: 'ko',
+            defaultView: 'listMonth',
             defaultDate: moment().format(),
             navLinks: true, // can click day/week names to navigate views
             editable: true,

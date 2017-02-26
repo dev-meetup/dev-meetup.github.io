@@ -17,8 +17,8 @@
       "end": "2017-03-18 18:00:00",
       "address":"선릉역 5번출구 KossLab 세미나실",
       "tags":"python, python korea"
-    }, {
-
+    },
+    {
       "id": 3,
       "title": "Realm Tour Seoul - Realm 모바일 데이터베이스 & 플랫폼 개발자 서울 모임",
       "url": "http://onoffmix.com/event/90162",
@@ -26,7 +26,15 @@
       "end": "2017-03-08 21:30:00",
       "address":"[메리츠타워] 서울 강남구 역삼동 D2 STARTUP FACTORY 강남 메리츠타워 16층",
       "tags":"realm, mobile, db"
-
+    },
+    {
+      "id":4,
+      "title":"AWSome Day - Tech",
+      "url":"https://aws.amazon.com/ko/events/awsome-day/seoul-06-tech",
+      "start": "2017-03-17 09:00:00",
+      "end": "2017-03-18 16:30:00",
+      "address":" 서울 광진구 광나루로19길 44-8 세종대학교 광개토관 지하2층 A, B, C홀",
+      "tags":"aws, awsomeday"
     }
 
   ]
