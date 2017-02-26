@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <title>DevMeetup</title>
-    <!--    <link rel="stylesheet" href="./css/style.css">-->
-    <!-- Latest compiled and minified CSS -->
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.css"/>
-
-
-    <!--<link rel="stylesheet" href="./css/_materialFullCalendar.scss"/>-->
     <link rel="stylesheet" href="./static/style/material-kit.css"/>
+    <link rel="stylesheet" href="./static/style/materialFullCalendar.css"/>
+
 </head>
 
 <body style="background-color: white">
@@ -84,7 +75,6 @@
                 <iframe src="" id="iframe" style="zoom:0.60" width="100%" height="750" frameborder="0"></iframe>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -103,7 +93,7 @@
                 </li>
                 <li>
                     <a href="https://github.com/AhnSeongHyun/devmeetup.github.io/blob/master/LICENSE">
-                       MIT Licenses
+                        MIT Licenses
                     </a>
                 </li>
                 <li>
@@ -128,7 +118,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/locale-all.js"></script>
 <script src="https://fb.me/react-0.13.3.js"></script>
 <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
-
 <script src="./static/js/material.min.js"></script>
 <script src="./static/js/nouislider.min.js"></script>
 
@@ -189,9 +178,20 @@
             editable: true,
             eventLimit: true, // allow "more" link when too many events
             events: function (start, end, timezone, callback) {
-
                 $.getJSON( "data/events.json", function( result ) {
-                    console.log(result);
+
+                    for(var i=0; i<result.events.length; i++) {
+                        var start = result.events[i].start;
+                        if (moment(start).isAfter(moment())) {
+                            result.events[i]['color'] = '#03A9F4';
+                        }
+                        else{
+                            result.events[i]['color'] = '#B3E5FC';
+                        }
+                    }
+
+                    console.log(result.events);
+
                     callback(result.events);
                 });
             },
