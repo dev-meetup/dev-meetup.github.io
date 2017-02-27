@@ -32,13 +32,13 @@
         <div class="collapse navbar-collapse" id="example-navbar-primary">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active" id="btn-calendar">
-                    <a href="#pablo" >
+                    <a>
                         <i class="fa fa-calendar" aria-hidden="true"></i>
                         Calendar
                     </a>
                 </li>
                 <li id="btn-list">
-                    <a href="#pablo">
+                    <a>
                         <i class="fa fa-list" aria-hidden="true"></i>
                         List
                     </a>
@@ -114,52 +114,52 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/locale-all.js"></script>
-<script src="https://fb.me/react-0.13.3.js"></script>
-<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
 <script src="./static/js/material.min.js"></script>
 <script src="./static/js/nouislider.min.js"></script>
 
-
-<script type="text/jsx">
+<script type="text/babel">
     // React Component
-    var CalendarView = React.createClass({
-        render: function() {
+
+    class CalendarView extends React.Component {
+        render() {
             return (
                     <div id="calendar">
                         <div id='fullcalendar'></div>
                     </div>
             );
         }
-    });
+    }
 
-    var ListView = React.createClass({
-        render: function() {
+
+    class ListView extends React.Component {
+        render() {
             return (
                     <div id="calendar">
                         <div id='fullcalendar'></div>
                     </div>
             );
         }
-    });
-</script>
+    }
 
-<script type="text/jsx">
     //Event Handler
 
-    $(document).ready(function(e) {
-        drawCalendarView();
-    });
+    document.onload = drawCalendarView();
 
     function drawCalendarView(){
-        React.render(<CalendarView />, document.getElementById('container'));
+        ReactDOM.render(<CalendarView />, document.getElementById('container'));
         drawCalendarMonth();
     }
 
     function drawListView(){
-        React.render(<ListView />, document.getElementById('container'));
+        ReactDOM.render(<ListView />, document.getElementById('container'));
         drawCalendarList();
+
     }
 
     function drawCalendarMonth() {
@@ -170,15 +170,15 @@
                 center: 'title',
                 right: 'prev,next today'
             },
-            // customize the button names,
-            // otherwise they'd all just say "list"
             views: {},
+
             locale: 'ko',
             defaultView: 'month',
             defaultDate: moment().format(),
-            navLinks: true, // can click day/week names to navigate views
-            editable: true,
-            eventLimit: true, // allow "more" link when too many events
+            navLinks: true,
+              timeFormat: 'H:mm',
+            editable: false,
+            eventLimit: true,
             events: function (start, end, timezone, callback) {
                 $.getJSON( "data/events.json", function( result ) {
 
@@ -190,10 +190,7 @@
                         else{
                             result.events[i]['color'] = '#B3E5FC';
                         }
-                    }
-
-                    console.log(result.events);
-
+                     }
                     callback(result.events);
                 });
             },
@@ -207,7 +204,7 @@
     }
 
 
-     function drawCalendarList() {
+    function drawCalendarList() {
         $('#fullcalendar').fullCalendar({
 
             header: {
@@ -215,17 +212,16 @@
                 center: 'title',
                 right: 'prev,next today'
             },
-            // customize the button names,
-            // otherwise they'd all just say "list"
             views: {},
             locale: 'ko',
             defaultView: 'listMonth',
             defaultDate: moment().format(),
-            navLinks: true, // can click day/week names to navigate views
-            editable: true,
-            eventLimit: true, // allow "more" link when too many events
+            timeFormat: 'H:mm',
+            navLinks: true,
+            editable: false,
+            eventLimit: true,
             events: function (start, end, timezone, callback) {
-                $.getJSON( "data/events.json", function( result ) {
+                $.getJSON("data/events.json", function( result ) {
 
                     for(var i=0; i<result.events.length; i++) {
                         var start = result.events[i].start;
@@ -236,9 +232,6 @@
                             result.events[i]['color'] = '#B3E5FC';
                         }
                     }
-
-                    console.log(result.events);
-
                     callback(result.events);
                 });
             },
@@ -257,10 +250,15 @@
         drawCalendarView();
     });
 
+
     $("#btn-list").click(function(e){
         $("#btn-calendar").removeClass('active');
         $(this).addClass('active');
         drawListView();
+    });
+
+    $('#myModal').on('hide.bs.modal', function () {
+        $("#iframe").attr('src', 'about:blank');
     });
 
 </script>
