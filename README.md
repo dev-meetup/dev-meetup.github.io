@@ -6,7 +6,7 @@
 ## 이벤트 추가하기
 - `data/events.json`에 데이터 추가
 
-  - ```json
+```json
 {
   "events":[
     {
