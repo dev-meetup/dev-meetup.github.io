@@ -62,6 +62,15 @@
       "end": "2017-04-23 18:00:00",
       "address":"서울 송파구 신천동 [삼성SDS타워 서관] 지하 1층 마젤란홀 & 파스칼홀",
       "tags":"spring, java"
+    }, 
+    {
+       "id":8,
+      "title":"IBM Bluemix Meetup : DevOps",
+      "url":"https://www.meetup.com/Bluemix-Seoul-PaaS-and-Cloud-Computing-Meetup/events/237844764/",
+      "start": "2017-03-02 18:30:00",
+      "end": "2017-03-02 21:00:00",
+      "address":"선릉 D.Camp 6층 다목적홀",
+      "tags":"paas, devops"
     }
 
 
