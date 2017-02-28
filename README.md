@@ -1,4 +1,4 @@
-# DevMeetup
+# DevMeetup  [![Travis](https://travis-ci.org/dev-meetup/dev-meetup.github.io.svg?branch=master)](https://travis-ci.org/dev-meetup/dev-meetup.github.io)
 
 개발 관련 밋업, 세미나 정보 공유 페이지
 
