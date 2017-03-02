@@ -135,7 +135,7 @@
 
     function onLoad(){
             var md = new MobileDetect(window.navigator.userAgent);
-            if(md.isMobile){
+            if(md.mobile()){
                 drawListView();
             }
             else{
