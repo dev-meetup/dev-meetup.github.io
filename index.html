@@ -154,6 +154,47 @@
 
     }
 
+    function drawCalendarMonth() {
+        $('#fullcalendar').fullCalendar({
+
+            header: {
+                left: null ,
+                center: 'title',
+                right: 'prev,next today'
+            },
+            views: {},
+
+            locale: 'ko',
+            defaultView: 'month',
+            defaultDate: moment().format(),
+            navLinks: true,
+              timeFormat: 'H:mm',
+            editable: false,
+            eventLimit: true,
+            events: function (start, end, timezone, callback) {
+                $.getJSON( "data/events.json", function( result ) {
+
+                    for(var i=0; i<result.events.length; i++) {
+                        var start = result.events[i].start;
+                        if (moment(start).isAfter(moment())) {
+                            result.events[i]['color'] = '#03A9F4';
+                        }
+                        else{
+                            result.events[i]['color'] = '#B3E5FC';
+                        }
+                     }
+                    callback(result.events);
+                });
+            },
+            eventClick: function(calEvent, jsEvent, view) {
+                window.open(calEvent.url, '_blank');
+                return false;
+            }
+
+        });
+    }
+
+
     function drawCalendarList() {
         $('#fullcalendar').fullCalendar({
 
@@ -172,6 +213,7 @@
             eventLimit: true,
             events: function (start, end, timezone, callback) {
                 $.getJSON("data/events.json", function( result ) {
+
                     for(var i=0; i<result.events.length; i++) {
                         var start = result.events[i].start;
                         if (moment(start).isAfter(moment())) {
@@ -203,8 +245,7 @@
         $("#btn-calendar").removeClass('active');
         $(this).addClass('active');
         drawListView();
-    });
- 
+    }); 
 
 </script>
 
