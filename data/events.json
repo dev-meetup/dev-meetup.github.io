@@ -116,6 +116,33 @@
       "end": "2017-03-18 15:00:00",
       "address":"[토즈 신촌비즈센터] 서울 마포구 노고산동 서울특별시 마포구 노고산동 106-5",
       "tags":"server, azure"
+    },
+    {
+      "id":14,
+      "title":"제4회 한국IBM과 함께하는 난공불락 오픈소스 인프라 세미나",
+      "url":"http://onoffmix.com/event/91546",
+      "start": "2017-03-25 13:00:00",
+      "end": "2017-03-25 18:00:00",
+      "address":"[토즈 강남2호점] 서울 서초구 서초동",
+      "tags":"ibm, infra, ai, opensource"
+    },
+    {
+      "id":15,
+      "title":"제3회 마스터즈 오픈세미나",
+      "url":"http://onoffmix.com/event/93172",
+      "start": "2017-03-28 19:00:00",
+      "end": "2017-03-28 21:30:00",
+      "address":"[디캠프] 서울 강남구 역삼동 서울특별시 강남구 선릉로 551 디캠프 4층 세미나룸",
+      "tags":"opensource, javascript, frontend"
+    },
+    {
+      "id":16,
+      "title":"제3회 마스터즈 오픈세미나",
+      "url":"http://onoffmix.com/event/93172",
+      "start": "2017-03-15 19:00:00",
+      "end": "2017-03-15 22:00:00",
+      "address":"[아남타워] 서울 강남구 역삼동 서울특별시 강남구 테헤란로 311(역삼동) 아남타워 7층 대강의장",
+      "tags":"react, javascript, polymer, angular"
     }
 
   ]
