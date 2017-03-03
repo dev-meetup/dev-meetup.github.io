@@ -57,6 +57,25 @@
     </div>
 </div>
 
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">상세내용</h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="about:blank" id="iframe" style="zoom:0.60" width="100%" height="750" frameborder="0"></iframe>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
 <footer class="footer">
     <div class="container">
         <nav class="pull-left">
@@ -78,8 +97,7 @@
             </ul>
         </nav>
         <div class="copyright pull-right">
-            © 2017, made with <i class="material-icons">favorite</i> by <a href="https://dev-meeup.github.io"dev-meetup.github.io.
-
+            © 2017, made with <i class="material-icons">favorite</i> by <a href="https://dev-meeup.github.io">dev-meetup.github.io.</a>
         </div>
     </div>
 </footer>
@@ -168,7 +186,8 @@
                 });
             },
             eventClick: function(calEvent, jsEvent, view) {
-                window.open(calEvent.url, '_blank');
+                $("#iframe").attr('src', calEvent.url);
+                $('#myModal').modal('show');
                 return false;
             }
 
@@ -206,7 +225,12 @@
                     }
                     callback(result.events);
                 });
-            } 
+            },
+            eventClick: function(calEvent, jsEvent, view) {
+                $("#iframe").attr('src', calEvent.url);
+                $('#myModal').modal('show');
+                return false;
+            }
 
         });
     }
@@ -224,6 +248,9 @@
         drawListView();
     });
 
+    $('#myModal').on('hide.bs.modal', function () {
+        $("#iframe").attr('src', 'about:blank');
+    });
 
 </script>
 
