@@ -197,6 +197,15 @@
       "end": "2017-03-24 22:00:00",
       "address":"강남역 모임플러스 9층 2강의실 (42인실)",
       "tags":"atlassian, devops"
+    }, 
+    {  
+      "id":23,
+      "title":"GDG Korea, 2017년 3월 정기모임",
+      "url":"https://festi.kr/festi/gdg-korea-2017-mar/",
+      "start": "2017-03-30 19:30:00",
+      "end": "2017-03-30 22:00:00",
+      "address":"미정",
+      "tags":"gdg, gdgkorea, googlenext"
     }
      
   ]
