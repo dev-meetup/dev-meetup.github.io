@@ -206,6 +206,24 @@
       "end": "2017-03-30 22:00:00",
       "address":"미정",
       "tags":"gdg, gdgkorea, googlenext"
+    },
+    {  
+      "id":24,
+      "title":"AWS Summit Seoul 2017",
+      "url":"https://www.awssummit.kr/",
+      "start": "2017-04-19 12:30:00",
+      "end": "2017-04-19 18:30:00",
+      "address":"코엑스 D홀",
+      "tags":"aws, amazon, awssummit"
+    },
+    {  
+      "id":25,
+      "title":"AWS Summit Seoul 2017",
+      "url":"https://www.awssummit.kr/",
+      "start": "2017-04-20 12:30:00",
+      "end": "2017-04-20 18:30:00",
+      "address":"코엑스 D홀",
+      "tags":"aws, amazon, awssummit"
     }
      
   ]
