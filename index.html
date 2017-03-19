@@ -61,6 +61,12 @@
                         List
                     </a>
                 </li>
+                <li id="btn-comment">
+                    <a>
+                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                        Comment
+                    </a>
+                </li>
 
             </ul>
         </div>
@@ -142,6 +148,16 @@
         }
     }
 
+
+
+    class CommentView extends React.Component {
+        render() {
+            return (
+                    <div id="disqus_thread"></div>
+            );
+        }
+    }
+
     document.onload = onLoad();
 
     function onLoad(){
@@ -162,6 +178,25 @@
     function drawListView(){
         ReactDOM.render(<ListView />, document.getElementById('container'));
         drawCalendarList();
+
+    }
+
+    function drawCommentView(){
+        ReactDOM.render(<CommentView />, document.getElementById('container'));
+
+
+        var disqus_config = function () {
+            this.page.url = 'https://dev-meetup.github.io/';
+            this.page.identifier = 'https://dev-meetup.github.io/';
+            this.page.title = 'Dev-Meetup';
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://dev-meetup.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
 
     }
 
@@ -246,16 +281,25 @@
     }
 
     $("#btn-calendar").click(function(e){
-        $(this).addClass('active');
         $("#btn-list").removeClass('active');
+        $("#btn-comment").removeClass('active');
+        $(this).addClass('active');
         drawCalendarView();
     });
 
 
     $("#btn-list").click(function(e){
+        $("#btn-comment").removeClass('active');
         $("#btn-calendar").removeClass('active');
         $(this).addClass('active');
         drawListView();
+    });
+
+    $("#btn-comment").click(function(e){
+        $("#btn-list").removeClass('active');
+        $("#btn-calendar").removeClass('active');
+        $(this).addClass('active');
+        drawCommentView();
     });
 
 </script>
