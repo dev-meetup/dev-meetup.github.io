@@ -224,6 +224,15 @@
       "end": "2017-04-20 18:30:00",
       "address":"코엑스 D홀",
       "tags":"aws, amazon, awssummit"
+    }, 
+    {  
+      "id":26,
+      "title":"타입스크립트 유저 그룹 기술 세미나",
+      "url":"http://onoffmix.com/event/95026",
+      "start": "2017-04-06 19:00:00",
+      "end": "2017-04-06 21:30:00",
+      "address":"[MARU180] 서울 강남구 역삼동 지하 1층 이벤트홀",
+      "tags":"typescript, javascript"
     }
      
   ]
