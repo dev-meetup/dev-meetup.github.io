@@ -233,6 +233,24 @@
       "end": "2017-04-06 21:30:00",
       "address":"[MARU180] 서울 강남구 역삼동 지하 1층 이벤트홀",
       "tags":"typescript, javascript"
+    }, 
+    {  
+      "id":27,
+      "title":"Kotlin Night Seoul",
+      "url":"https://www.meetup.com/ko-KR/kotlinkr/events/238580224/",
+      "start": "2017-04-12 19:00:00",
+      "end": "2017-04-12 22:00:00",
+      "address":"D.CAMP",
+      "tags":"kotlin"
+    }, 
+    {  
+      "id":28,
+      "title":"개.꿈.세 Season 3 개발자를 꿈꾸는 분들을 위한 커리어 전환 세미나",
+      "url":"http://onoffmix.com/event/94168",
+      "start": "2017-04-02 15:00:00",
+      "end": "2017-04-02 17:00:00",
+      "address":"서울 강남구 역삼동 MARU 180 지하 1층 이벤트홀",
+      "tags":"developer, career"
     }
      
   ]
