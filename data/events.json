@@ -278,6 +278,15 @@
       "end": "2017-04-15 17:00:00",
       "address":"[한국마이크로소프트] 서울 종로구 중학동 광화문 더케이트윈타워 A동",
       "tags":"azure, window10, cli, raspberrypi"
+    }, 
+    {  
+      "id":32,
+      "title":"카카오톡 오픈채팅 iOS Developer 방의 세미나",
+      "url":"https://iosdevkor.github.io/TalkTalk/",
+      "start": "2017-04-01 13:00:00",
+      "end": "2017-04-01 18:00:00",
+      "address":"서울시 강남구 강남대로 382 메리츠타워 7층 커넥트재단 대교육장 ",
+      "tags":"iOS"
     }
     
      
