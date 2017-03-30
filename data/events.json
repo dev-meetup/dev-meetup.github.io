@@ -296,8 +296,16 @@
       "end": "2017-04-15 18:00:00",
       "address":"즈스터디센터 반포래미안퍼스티지센터",
       "tags":"git, github, oss"
+    },
+    {
+     "id": 34,
+      "title": "Seoul Elasticsearch Community Meetup",
+      "url": "http://onoffmix.com/event/95434",
+      "start": "2017-04-13 19:00:00",
+      "end": "2017-04-13 21:00:00",
+      "address":"[메리츠타워] 서울 강남구 역삼동 16층 Naver D2",
+      "tags":"elastic, elasticsearch, elastic stack"
     }
     
-     
   ]
 }
