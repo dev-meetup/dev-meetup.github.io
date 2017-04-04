@@ -323,6 +323,15 @@
       "end": "2017-04-17 21:30:00",
       "address":"토즈 강남점",
       "tags":"OOP"
+    }, 
+    {
+      "id": 37,
+      "title": "GDG Incheon 4월 정기 모임",
+      "url": "https://sites.google.com/view/gdgincheon4/",
+      "start": "2017-04-15 13:30:00",
+      "end": "2017-04-15 18:00:00",
+      "address":"한국 만화 박물관 2층 (체험 교육실)",
+      "tags":"gdg, webtech"
     }
   ]
 }
