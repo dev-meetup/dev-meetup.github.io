@@ -341,6 +341,15 @@
       "end": "2017-04-14 22:00:00",
       "address":"[데브시스터즈] 서울 강남구 신사동",
       "tags":"9xd"
+    },
+    {
+      "id": 39,
+      "title": "Swift Korea Meetup",
+      "url": "http://onoffmix.com/event/96420",
+      "start": "2017-04-28 19:30:00",
+      "end": "2017-04-28 22:00:00",
+      "address":"하이퍼커넥트, 서울특별시 서초구 서초대로78길 5 대각빌딩 14층",
+      "tags":"swift, swiftkorea   "
     }
   ]
 }
