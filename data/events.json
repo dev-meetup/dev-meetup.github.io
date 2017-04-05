@@ -359,6 +359,15 @@
       "end": "2017-04-05 21:00:00",
       "address":"쿠 퍼실리테이션, 서울 강남구 테헤란로 22길 9 (역삼동), 아름다운 빌딩 7층",
       "tags":"php, web"
+    }, 
+    {
+      "id": 41,
+      "title": "양파님과 함께하는 토크콘서트",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdjh9qe3Jd4xJEB1SygZFyldlhgnw9GEeq8g6zup00LhXj4QQ/viewform?c=0&w=1",
+      "start": "2017-04-11 19:00:00",
+      "end": "2017-04-11 22:00:00",
+      "address":"스타트업 얼라이언스 (서울특별시 강남구 테헤란로 423 현대타워 7층)",
+      "tags":"datascience, datamarketing, growth_hacking"
     }
   ]
 }
