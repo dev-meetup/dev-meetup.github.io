@@ -377,6 +377,15 @@
       "end": "2017-04-28 22:00:00",
       "address":"[토즈 강남토즈타워점] 서울 강남구 역삼동",
       "tags":"electron"
-    }
+    },
+    {
+      "id": 43,
+      "title": "Vue·tiful Korea (Vue.js 한국어 사용자 모임 - 1회 미트업),
+      "url": "https://vuejs-kr.github.io/meetup/",
+      "start": "2017-04-19 19:00:00",
+      "end": "2017-04-19 22:00:00",
+      "address":"[디캠프] 서울 강남구 선릉로 551 새롬빌딩 6층 다목적홀",
+      "tags":"vue, vuejs, web"
+    },
   ]
 }
