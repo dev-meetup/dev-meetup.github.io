@@ -368,6 +368,15 @@
       "end": "2017-04-11 22:00:00",
       "address":"스타트업 얼라이언스 (서울특별시 강남구 테헤란로 423 현대타워 7층)",
       "tags":"datascience, datamarketing, growth_hacking"
+    }, 
+    {
+      "id": 42,
+      "title": "일렉트론미트업",
+      "url": "http://onoffmix.com/event/96805",
+      "start": "2017-04-28 19:30:00",
+      "end": "2017-04-28 22:00:00",
+      "address":"[토즈 강남토즈타워점] 서울 강남구 역삼동",
+      "tags":"electron"
     }
   ]
 }
