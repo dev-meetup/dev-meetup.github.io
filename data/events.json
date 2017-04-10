@@ -386,6 +386,15 @@
       "end": "2017-04-19 22:00:00",
       "address":"[디캠프] 서울 강남구 선릉로 551 새롬빌딩 6층 다목적홀",
       "tags":"vue, vuejs, web"
+    },
+    {
+      "id": 44,
+      "title": "AWSKRUG 구로디지털단지 모임 - 3회차",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/239093516/?eventId=239093516",
+      "start": "2017-04-25 19:30:00",
+      "end": "2017-04-25 22:00:00",
+      "address":"구로구 디지털로33길 12, 우림e비즈2차 202호",
+      "tags":"aws, awskrug"
     }
   ]
 }
