@@ -395,6 +395,15 @@
       "end": "2017-04-25 22:00:00",
       "address":"구로구 디지털로33길 12, 우림e비즈2차 202호",
       "tags":"aws, awskrug"
+    },
+     {
+      "id": 45,
+      "title": "PROGRESSIVE WEB APP ROADSHOW 2017 KOREA",
+      "url": "https://gdg-korea-webtech.firebaseapp.com/pwa-roadshow17/",
+      "start": "2017-04-23 10:30:00",
+      "end": "2017-04-23 16:40:00",
+      "address":"마루 180 B1 이벤트 홀",
+      "tags":"gdg, progressive_web, web"
     }
   ]
 }
