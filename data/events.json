@@ -404,6 +404,15 @@
       "end": "2017-04-23 16:40:00",
       "address":"마루 180 B1 이벤트 홀",
       "tags":"gdg, progressive_web, web"
+    }, 
+    {
+      "id": 46,
+      "title": "JetBrains spring 세미나",
+      "url": "https://www.jetbrains.com/languages/kr/jetbrains-spring-seminar-2017/",
+      "start": "2017-05-19 14:00:00",
+      "end": "2017-05-19 18:40:00",
+      "address":"판교 테크노벨리 스타트업캠퍼스 [컨퍼런스홀]",
+      "tags":"jetbrains"
     }
   ]
 }
