@@ -24,6 +24,13 @@
 ```
 - pull request 혹은 commit 후 반영됨.
 
+
+## TODO 
+- [ ] mobile support 
+- [ ] subscribe email 
+- [ ] dump google calendar ics
+- [ ] search hashtag 
+
 ### References :
 - [React](https://facebook.github.io/react/)
 - [bootstarap](getbootstrap.com)
