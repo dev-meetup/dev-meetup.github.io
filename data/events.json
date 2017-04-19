@@ -422,6 +422,33 @@
       "end": "2017-05-20 18:00:00",
       "address":"[누리꿈스퀘어] 서울 마포구 상암동 비즈니스타워 3층 국제회의실",
       "tags":"machine_learning, data_science, ms"
+    }, 
+    {
+      "id": 48,
+      "title": "Azure, The Open Cloud Roadshow 2017 Seoul",
+      "url": "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x1894358b02d",
+      "start": "2017-05-24 09:30:00",
+      "end": "2017-05-24 17:20:00",
+      "address":"롯데 호텔 소공동실 2층 크리스탈볼륨",
+      "tags":"ms, azure"
+    }, 
+    {
+      "id": 49
+      "title": "일렉트론 기초강좌",
+      "url": "https://www.inflearn.com/course/javascript-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A1%A0-%EA%B0%95%EC%A2%8C/",
+      "start": "2017-04-29 10:00:00",
+      "end": "2017-04-29 17:00:00",
+      "address":"경기창조경제혁신센터 3층",
+      "tags":"js, electron"
+    }, 
+    {
+      "id": 50
+      "title": "일렉트론 기초강좌",
+      "url": "https://www.inflearn.com/course/javascript-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A1%A0-%EA%B0%95%EC%A2%8C/",
+      "start": "2017-04-29 10:00:00",
+      "end": "2017-04-29 17:00:00",
+      "address":"경기창조경제혁신센터 3층",
+      "tags":"js, electron"
     }
   ]
 }
