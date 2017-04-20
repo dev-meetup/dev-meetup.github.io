@@ -433,7 +433,7 @@
       "tags":"ms, azure"
     }, 
     {
-      "id": 49
+      "id": 49,
       "title": "일렉트론 기초강좌",
       "url": "https://www.inflearn.com/course/javascript-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A1%A0-%EA%B0%95%EC%A2%8C/",
       "start": "2017-04-29 10:00:00",
@@ -442,7 +442,7 @@
       "tags":"js, electron"
     }, 
     {
-      "id": 50
+      "id": 50,
       "title": "일렉트론 기초강좌",
       "url": "https://www.inflearn.com/course/javascript-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A1%A0-%EA%B0%95%EC%A2%8C/",
       "start": "2017-04-29 10:00:00",
