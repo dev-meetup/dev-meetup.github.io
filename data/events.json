@@ -449,6 +449,15 @@
       "end": "2017-04-29 17:00:00",
       "address":"경기창조경제혁신센터 3층",
       "tags":"js, electron"
+    }, 
+    {
+      "id": 51,
+      "title": "Atlassian Solution Conference Seoul 2017",
+      "url": "http://atlassiankorea.com/seminar/seminar_view.php?sem_id=13&partnerid=0",
+      "start": "2017-06-01 08:00:00",
+      "end": "2017-06-01 18:00:00",
+      "address":"서울 광진구 능동로 209 (군자동) 세종대학교 광개토관(컨벤션센터) 지하 2층",
+      "tags":"git, agile, devops, ci, cd, alm"
     }
   ]
 }
