@@ -323,7 +323,7 @@
       "end": "2017-04-17 21:30:00",
       "address":"토즈 강남점",
       "tags":"OOP"
-    }, 
+    },
     {
       "id": 37,
       "title": "GDG Incheon 4월 정기 모임",
@@ -359,7 +359,7 @@
       "end": "2017-04-05 21:00:00",
       "address":"쿠 퍼실리테이션, 서울 강남구 테헤란로 22길 9 (역삼동), 아름다운 빌딩 7층",
       "tags":"php, web"
-    }, 
+    },
     {
       "id": 41,
       "title": "양파님과 함께하는 토크콘서트",
@@ -368,7 +368,7 @@
       "end": "2017-04-11 22:00:00",
       "address":"스타트업 얼라이언스 (서울특별시 강남구 테헤란로 423 현대타워 7층)",
       "tags":"datascience, datamarketing, growth_hacking"
-    }, 
+    },
     {
       "id": 42,
       "title": "일렉트론미트업",
@@ -404,7 +404,7 @@
       "end": "2017-04-23 16:40:00",
       "address":"마루 180 B1 이벤트 홀",
       "tags":"gdg, progressive_web, web"
-    }, 
+    },
     {
       "id": 46,
       "title": "JetBrains spring 세미나",
@@ -413,7 +413,7 @@
       "end": "2017-05-19 18:40:00",
       "address":"판교 테크노벨리 스타트업캠퍼스 [컨퍼런스홀]",
       "tags":"jetbrains"
-    }, 
+    },
     {
       "id": 47,
       "title": "APAC Machine Learning & Data Science Community Summit",
@@ -422,7 +422,7 @@
       "end": "2017-05-20 18:00:00",
       "address":"[누리꿈스퀘어] 서울 마포구 상암동 비즈니스타워 3층 국제회의실",
       "tags":"machine_learning, data_science, ms"
-    }, 
+    },
     {
       "id": 48,
       "title": "Azure, The Open Cloud Roadshow 2017 Seoul",
@@ -431,7 +431,7 @@
       "end": "2017-05-24 17:20:00",
       "address":"롯데 호텔 소공동실 2층 크리스탈볼륨",
       "tags":"ms, azure"
-    }, 
+    },
     {
       "id": 49,
       "title": "일렉트론 기초강좌",
@@ -440,7 +440,7 @@
       "end": "2017-04-29 17:00:00",
       "address":"경기창조경제혁신센터 3층",
       "tags":"js, electron"
-    }, 
+    },
     {
       "id": 50,
       "title": "일렉트론 기초강좌",
@@ -449,7 +449,7 @@
       "end": "2017-04-29 17:00:00",
       "address":"경기창조경제혁신센터 3층",
       "tags":"js, electron"
-    }, 
+    },
     {
       "id": 51,
       "title": "Atlassian Solution Conference Seoul 2017",
@@ -458,7 +458,7 @@
       "end": "2017-06-01 18:00:00",
       "address":"서울 광진구 능동로 209 (군자동) 세종대학교 광개토관(컨벤션센터) 지하 2층",
       "tags":"git, agile, devops, ci, cd, alm"
-    }, 
+    },
     {
       "id": 52,
       "title": "장고걸스서울 격월 Meetup 첫번째",
@@ -476,7 +476,7 @@
       "end": "2017-04-27 21:30:00",
       "address":"선정릉역 토즈 메가젠토즈타워점",
       "tags":"vue.js"
-    }, 
+    },
     {
       "id": 54,
       "title": "제 4회 파이썬 격월 세미나",
@@ -485,6 +485,15 @@
       "end": "2017-05-27 18:00:00",
       "address":"쿠팡",
       "tags":"python, pyconkr"
+    },
+    {
+     "id": 55,
+      "title": "개발자, 한 달에 책 한 권 읽기 - 루비로 배우는 객체지향 디자인",
+      "url": "http://onoffmix.com/event/98263",
+      "start": "2017-05-22 19:30:00",
+      "end": "2017-05-22 21:30:00",
+      "address":"토즈 강남점",
+      "tags":"OOP, OOD, Ruby, 객체지향"
     }
   ]
 }
