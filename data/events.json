@@ -476,6 +476,15 @@
       "end": "2017-04-27 21:30:00",
       "address":"선정릉역 토즈 메가젠토즈타워점",
       "tags":"vue.js"
+    }, 
+    {
+      "id": 54,
+      "title": "제 4회 파이썬 격월 세미나",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeggBb3ORZTvq5eb7ZL-HJb_mYq_Q7zBv39wa_107MWnMyKKw/viewform?c=0&w=1",
+      "start": "2017-05-27 14:00:00",
+      "end": "2017-05-27 18:00:00",
+      "address":"쿠팡",
+      "tags":"python, pyconkr"
     }
   ]
 }
