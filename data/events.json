@@ -459,7 +459,7 @@
       "address":"서울 광진구 능동로 209 (군자동) 세종대학교 광개토관(컨벤션센터) 지하 2층",
       "tags":"git, agile, devops, ci, cd, alm"
     }, 
-     {
+    {
       "id": 52,
       "title": "장고걸스서울 격월 Meetup 첫번째",
       "url": "http://onoffmix.com/event/97840",
@@ -467,6 +467,15 @@
       "end": "2017-04-30 17:00:00",
       "address":"선정릉역 토즈 메가젠토즈타워점",
       "tags":"python, django, djangogirls"
+    },
+    {
+      "id": 53,
+      "title": "ABCD 4월 정기 세미나 - Vue Detail",
+      "url": "http://onoffmix.com/event/98006",
+      "start": "2017-04-27 19:30:00",
+      "end": "2017-04-27 21:30:00",
+      "address":"선정릉역 토즈 메가젠토즈타워점",
+      "tags":"vue.js"
     }
   ]
 }
