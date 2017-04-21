@@ -321,8 +321,8 @@
       "url": "http://onoffmix.com/event/96292",
       "start": "2017-04-17 19:30:00",
       "end": "2017-04-17 21:30:00",
-      "address":"토즈 강남점",
-      "tags":"OOP"
+      "address": "토즈 강남점",
+      "tags": "OOP"
     },
     {
       "id": 37,
@@ -492,8 +492,17 @@
       "url": "http://onoffmix.com/event/98263",
       "start": "2017-05-22 19:30:00",
       "end": "2017-05-22 21:30:00",
-      "address":"토즈 강남점",
-      "tags":"OOP, OOD, Ruby, 객체지향"
+      "address": "토즈 강남점",
+      "tags": "OOP, OOD, Ruby, 객체지향"
+    },
+    {
+     "id": 56,
+      "title": "Xper 4월 소모임",
+      "url": "https://groups.google.com/d/msg/xper/GXw3FiQxzh0/4PaFv0TBDgAJ",
+      "start": "2017-04-24 19:30:00",
+      "end": "2017-04-24 22:00:00",
+      "address": "넷스루 9층",
+      "tags": "Agile, Kanban"
     }
   ]
 }
