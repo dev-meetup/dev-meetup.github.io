@@ -521,6 +521,15 @@
       "end": "2017-05-17 18:00:00",
       "address": "코엑스 오디토리움",
       "tags": "unity"
+    }, 
+    {
+      "id": 59,
+      "title": "2017 Google I/O viewing party with GDG Seoul",
+      "url": "https://www.meetup.com/ko-KR/GDG-Seoul/events/239654458/",
+      "start": "2017-05-17 21:00:00",
+      "end": "2017-05-18 06:00:00",
+      "address": "서울시 강남구 역삼동 683-34 새롬빌딩 4~6층, 디캠프 6층 다목적홀",
+      "tags": "gdg, google I/O"
     }
   ]
 }
