@@ -534,11 +534,20 @@
     {
       "id": 60,
       "title": "쉽게 하는 Node.js 성능 튜닝",
-      "url": "http://onoffmix.com/event/98451",
+      "url": "http://onoffmix.com/event/99383",
       "start": "2017-05-19 16:00:00",
       "end": "2017-05-19 18:00:00",
       "address": "[서울 강남구 선릉로 551] 서울 강남구 역삼동",
       "tags": "node.js"
+    }, 
+    {
+      "id": 61,
+      "title": "우분투 한국 커뮤니티 5월 정기 세미나 - 오픈소스 프로젝트에 기여하기",
+      "url": "http://onoffmix.com/event/99631",
+      "start": "2017-05-27 13:30:00",
+      "end": "2017-05-27 18:00:00",
+      "address": "[롯데액셀러레이터] 서울 강남구 삼성동 서울특별시 강남구 테헤란로69길 5 유기타워 15층 롯데엑셀러레이터",
+      "tags": "ubuntu, opensource"
     }
   ]
 }
