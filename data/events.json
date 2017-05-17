@@ -575,6 +575,15 @@
       "end": "2017-05-26 18:25:00",
       "address": "킨텍스 제2전시장 경기도 고양시 일산서구 대화동 킨텍스로 217-59",
       "tags": "vr, ar"
+    }, 
+    {
+      "id": 65,
+      "title": "여자개발자모임터 10th Conference 2017",
+      "url": "https://d2ynol40vnhrgy.cloudfront.net/",
+      "start": "2017-06-10 12:00:00",
+      "end": "2017-06-10 17:30:00",
+      "address": "D-CAMP",
+      "tags": "developer"
     }
   ]
 }
