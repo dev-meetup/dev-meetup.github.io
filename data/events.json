@@ -584,6 +584,15 @@
       "end": "2017-06-10 17:30:00",
       "address": "D-CAMP",
       "tags": "developer"
+    }, 
+    {
+      "id": 66,
+      "title": "마소의 밤(MASOCON)",
+      "url": "http://www.imaso.co.kr/?p=16882",
+      "start": "2017-05-25 19:00:00",
+      "end": "2017-05-25 22:00:00",
+      "address": "IT조선 연결지성센터 (서울 중구 세종대로 21길 22, 태성빌딩 306호)",
+      "tags": "micronsoftware"
     }
   ]
 }
