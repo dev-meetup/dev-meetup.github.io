@@ -602,6 +602,15 @@
       "end": "2017-05-25 22:00:00",
       "address": "IT조선 연결지성센터 (서울 중구 세종대로 21길 22, 태성빌딩 306호)",
       "tags": "micronsoftware"
+    }, 
+    {
+      "id": 68,
+      "title": "Typescript with MSP",
+      "url": "https://msp-typescript.github.io/",
+      "start": "2017-06-03 13:00:00",
+      "end": "2017-06-03 28:00:00",
+      "address": "Microsoft Korea, 서울 종로구 중학동 19 더케이트윈타워 A동 11층 루브르 룸",
+      "tags": "typescript"
     }
   ]
 }
