@@ -587,6 +587,15 @@
     }, 
     {
       "id": 66,
+      "title": "제8회 자동차 SW 개발자 컨퍼런스",
+      "url": "http://www.imaso.co.kr/?p=16882",
+      "start": "2017-05-31 09:00:00",
+      "end": "2017-05-31 17:20:00",
+      "address": "삼성동 코엑스 그랜드볼룸",
+      "tags": "ADAS, ISO 26262, A-SPICE, AUTOSAR, V2X, TIMING"
+    }, 
+    {
+      "id": 67,
       "title": "마소의 밤(MASOCON)",
       "url": "http://www.imaso.co.kr/?p=16882",
       "start": "2017-05-25 19:00:00",
