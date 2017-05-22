@@ -629,6 +629,15 @@
       "end": "2017-06-24 18:00:00",
       "address": "마이크로소프트코리아 12층",
       "tags": "python, django, djangogirls"
+    }, 
+    {
+      "id": 71,
+      "title": "소프트웨어 강의강의",
+      "url": "http://onoffmix.com/event/100901",
+      "start": "2017-05-27 14:00:00",
+      "end": "2017-05-27 18:00:00",
+      "address": "디캠프",
+      "tags": "software, lecture"
     }
   ]
 }
