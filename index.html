@@ -165,7 +165,7 @@
                 left: null ,
                 center: 'title',
                 right: null
-            }, window.innerHeight-120, 'auto');
+            });
             hideListBorder();
             hideFooter();
             hideNavBarMenu();
@@ -207,7 +207,7 @@
 
     function drawListView(header){
         ReactDOM.render(<ListView />, document.getElementById('container'));
-        drawCalendarList(header, 'auto', 'auto');
+        drawCalendarList(header);
 
     }
 
@@ -269,7 +269,13 @@
         });
     }
 
-    function drawCalendarList(header, height, contentHeight) {
+    function drawCalendarList(header) {
+        var md = new MobileDetect(window.navigator.userAgent);
+        var height ='auto';
+        var contentHeight = 'auto';
+        if(md.mobile()){
+            height = window.innerHeight - 120;
+        }
         $('#fullcalendar').fullCalendar({
             header: header,
             views: {},
