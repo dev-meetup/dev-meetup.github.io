@@ -584,6 +584,60 @@
       "end": "2017-06-10 17:30:00",
       "address": "D-CAMP",
       "tags": "developer"
+    }, 
+    {
+      "id": 66,
+      "title": "제8회 자동차 SW 개발자 컨퍼런스",
+      "url": "http://www.imaso.co.kr/?p=16882",
+      "start": "2017-05-31 09:00:00",
+      "end": "2017-05-31 17:20:00",
+      "address": "삼성동 코엑스 그랜드볼룸",
+      "tags": "ADAS, ISO 26262, A-SPICE, AUTOSAR, V2X, TIMING"
+    }, 
+    {
+      "id": 67,
+      "title": "마소의 밤(MASOCON)",
+      "url": "http://www.imaso.co.kr/?p=16882",
+      "start": "2017-05-25 19:00:00",
+      "end": "2017-05-25 22:00:00",
+      "address": "IT조선 연결지성센터 (서울 중구 세종대로 21길 22, 태성빌딩 306호)",
+      "tags": "micronsoftware"
+    }, 
+    {
+      "id": 68,
+      "title": "Typescript with MSP",
+      "url": "https://msp-typescript.github.io/",
+      "start": "2017-06-03 13:00:00",
+      "end": "2017-06-03 28:00:00",
+      "address": "Microsoft Korea, 서울 종로구 중학동 19 더케이트윈타워 A동 11층 루브르 룸",
+      "tags": "typescript"
+    }, 
+     {
+      "id": 69,
+      "title": "Django Girls Main Workshop",
+      "url": "https://djangogirls.org/seoul/apply/",
+      "start": "2017-06-23 19:00:00",
+      "end": "2017-06-23 22:00:00",
+      "address": "마이크로소프트코리아 12층",
+      "tags": "python, django, djangogirls"
+    }, 
+    {
+      "id": 70,
+      "title": "Django Girls Main Workshop",
+      "url": "https://djangogirls.org/seoul/apply/",
+      "start": "2017-06-24 10:00:00",
+      "end": "2017-06-24 18:00:00",
+      "address": "마이크로소프트코리아 12층",
+      "tags": "python, django, djangogirls"
+    }, 
+    {
+      "id": 71,
+      "title": "소프트웨어 강의강의",
+      "url": "http://onoffmix.com/event/100901",
+      "start": "2017-05-27 14:00:00",
+      "end": "2017-05-27 18:00:00",
+      "address": "디캠프",
+      "tags": "software, lecture"
     }
   ]
 }
