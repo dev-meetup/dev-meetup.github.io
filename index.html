@@ -165,7 +165,7 @@
                 left: null ,
                 center: 'title',
                 right: null
-            });
+            }, window.innerHeight-120, 'auto');
             hideListBorder();
             hideFooter();
             hideNavBarMenu();
@@ -207,7 +207,7 @@
 
     function drawListView(header){
         ReactDOM.render(<ListView />, document.getElementById('container'));
-        drawCalendarList(header);
+        drawCalendarList(header, 'auto', 'auto');
 
     }
 
@@ -240,7 +240,6 @@
             },
             views: {},
             locale: 'ko',
-            height:'1000px',
             defaultView: 'month',
             defaultDate: moment().format(),
             navLinks: true,
@@ -270,13 +269,13 @@
         });
     }
 
-    function drawCalendarList(header) {
+    function drawCalendarList(header, height, contentHeight) {
         $('#fullcalendar').fullCalendar({
             header: header,
             views: {},
             locale: 'ko',
-            height:'auto',
-            contentHeight: 'auto',
+            height:height,
+            contentHeight:contentHeight,
             defaultView: 'listMonth',
             defaultDate: moment().format(),
             timeFormat: 'H:mm',
@@ -330,13 +329,11 @@
 
     var hammertime = new Hammer(document.getElementById("body"));
     hammertime.on('swipeleft', function(ev) {
-        console.log(ev);
-        $('#fullcalendar').fullCalendar('prev');
+        $('#fullcalendar').fullCalendar('next');
     });
 
     hammertime.on('swiperight', function(ev) {
-        console.log(ev);
-        $('#fullcalendar').fullCalendar('next');
+        $('#fullcalendar').fullCalendar('prev');
     });
 
 
