@@ -36,3 +36,4 @@
 - [bootstarap](getbootstrap.com)
 - [material-kit](https://www.creative-tim.com/)
 - [fullcalendar](https://fullcalendar.io)
+- [hammer.js](http://hammerjs.github.io/)

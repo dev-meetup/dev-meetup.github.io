@@ -10,11 +10,6 @@
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:site_name" content="Dev-Meetup" />
     <meta property="og:description" content="개발자 밋업/세미나 모음" />
-
-    <link rel="apple-touch-icon-precomposed" href="./static/images/app_icon1.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./static/images/app_icon2.png" />
-
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -26,8 +21,8 @@
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-92973130-1', 'auto');
@@ -36,23 +31,23 @@
 
 </head>
 
-<body>
+<body id="body">
 
 <!-- Navbar -->
 <nav class="navbar navbar-info">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-primary">
+            <button type="button" class="navbar-toggle" id="navbar-menu" style="display: none;" data-toggle="collapse" data-target="#example-navbar-primary">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="./">
-              <img alt="Brand" src="./static/images/devmeetup.png"></a>
+                <img alt="Brand" src="./static/images/devmeetup.png"></a>
         </div>
 
-        <div class="collapse navbar-collapse" id="example-navbar-primary">
+        <div class="collapse navbar-collapse" >
             <ul class="nav navbar-nav navbar-right">
                 <li class="active" id="btn-calendar">
                     <a>
@@ -79,15 +74,15 @@
 </nav>
 <!-- End Navbar -->
 
-<div class="wrapper">
+<div class="wrapper" >
     <div class="main">
-        <div class="container"  id="container">
+        <div class="container" id="container">
         </div>
     </div>
 </div>
 
 
-<footer class="footer">
+<footer class="footer" id="footer" style="display: none">
     <div class="container">
         <nav class="pull-left">
             <ul>
@@ -126,6 +121,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.5/mobile-detect.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
 <script src="./static/js/material.min.js"></script>
 <script src="./static/js/nouislider.min.js"></script>
@@ -136,30 +132,27 @@
         render() {
             return (
                     <div id="calendar">
-                        <div id='fullcalendar'></div>
+                    <div id='fullcalendar'></div>
                     </div>
-            );
+        );
         }
     }
-
 
     class ListView extends React.Component {
         render() {
             return (
                     <div id="calendar">
-                        <div id='fullcalendar'></div>
+                    <div id='fullcalendar'></div>
                     </div>
-            );
+        );
         }
     }
-
-
 
     class CommentView extends React.Component {
         render() {
             return (
                     <div id="disqus_thread"></div>
-            );
+        );
         }
     }
 
@@ -168,11 +161,43 @@
     function onLoad(){
         var md = new MobileDetect(window.navigator.userAgent);
         if(md.mobile()){
-            drawListView();
+            drawListView({
+                left: null ,
+                center: 'title',
+                right: null
+            }, window.innerHeight-120, 'auto');
+            hideListBorder();
+            hideFooter();
+            hideNavBarMenu();
+            removePaddingForMobile();
         }
         else{
             drawCalendarView();
+            showFooter();
         }
+    }
+
+    function removePaddingForMobile(){
+        $("#container").css('padding-right', '0px');
+        $("#container").css('padding-left', '0px');
+    }
+
+    function hideFooter(){
+        $("#footer").css('display', 'none');
+    }
+    function showFooter(){
+        $("#footer").css('display', 'block');
+    }
+
+    function hideNavBarMenu(){
+        $("#navbar-menu").css('display', 'none');
+    }
+    function showNavBarMenu(){
+        $("#navbar-menu").css('display', 'block');
+    }
+
+    function hideListBorder(){
+        $(".fc-list-view").css('border-style', 'none');
     }
 
     function drawCalendarView(){
@@ -180,9 +205,9 @@
         drawCalendarMonth();
     }
 
-    function drawListView(){
+    function drawListView(header){
         ReactDOM.render(<ListView />, document.getElementById('container'));
-        drawCalendarList();
+        drawCalendarList(header, 'auto', 'auto');
 
     }
 
@@ -211,10 +236,9 @@
             header: {
                 left: null ,
                 center: 'title',
-                right: 'prev,next today'
+                right: 'prev, next today'
             },
             views: {},
-
             locale: 'ko',
             defaultView: 'month',
             defaultDate: moment().format(),
@@ -245,17 +269,13 @@
         });
     }
 
-
-    function drawCalendarList() {
+    function drawCalendarList(header, height, contentHeight) {
         $('#fullcalendar').fullCalendar({
-
-            header: {
-                left: null ,
-                center: 'title',
-                right: 'prev,next today'
-            },
+            header: header,
             views: {},
             locale: 'ko',
+            height:height,
+            contentHeight:contentHeight,
             defaultView: 'listMonth',
             defaultDate: moment().format(),
             timeFormat: 'H:mm',
@@ -306,6 +326,16 @@
         $(this).addClass('active');
         drawCommentView();
     });
+
+    var hammertime = new Hammer(document.getElementById("body"));
+    hammertime.on('swipeleft', function(ev) {
+        $('#fullcalendar').fullCalendar('next');
+    });
+
+    hammertime.on('swiperight', function(ev) {
+        $('#fullcalendar').fullCalendar('prev');
+    });
+
 
 </script>
 
