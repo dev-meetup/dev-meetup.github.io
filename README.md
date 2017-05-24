@@ -26,7 +26,7 @@
 
 
 ## TODO 
-- [ ] mobile support 
+- [x] mobile support
 - [ ] subscribe email 
 - [ ] dump google calendar ics
 - [ ] search hashtag 
