@@ -647,6 +647,15 @@
       "end": "2017-06-04 17:00:00",
       "address": "[서울 종로구 세종대로 178] 서울 종로구 세종로 서울창조경제혁신센터, 열정회의실",
       "tags": "oop"
+    }, 
+    {
+      "id": 73,
+      "title": "I/O 17 Extended Incheon",
+      "url": "https://sites.google.com/view/io-extended-incheon-17/",
+      "start": "2017-06-10 14:00:00",
+      "end": "2017-06-10 19:00:00",
+      "address": "인천광역시 남구 주안1동 166-1",
+      "tags": "gdg, google, pwa, android, kotlin, ml"
     }
   ]
 }
