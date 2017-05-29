@@ -656,6 +656,24 @@
       "end": "2017-06-10 19:00:00",
       "address": "인천광역시 남구 주안1동 166-1",
       "tags": "gdg, google, pwa, android, kotlin, ml"
+    }, 
+    {
+      "id": 74,
+      "title": "하드코딩하는사람들 프론트엔드 개발 세미나",
+      "url": "http://onoffmix.com/event/101326",
+      "start": "2017-06-17 14:00:00",
+      "end": "2017-06-17 18:30:00",
+      "address": "[새롬빌딩] 서울 강남구 역삼동 683-34 새롬빌딩 6층 D.CAMP",
+      "tags": "github, angular, react, vue, web, html"
+    }, 
+    {
+      "id": 75,
+      "title": "AWS Community Day 2017 - AWSKRUG 연합 세미나",
+      "url": "http://onoffmix.com/event/101479",
+      "start": "2017-06-24 10:00:00",
+      "end": "2017-06-24 17:00:00",
+      "address": "[GS타워] 서울 강남구 역삼동 [역삼역 7번 출구] 서울시 강남구 역삼동 논현로 508 GS타워 12층",
+      "tags": "aws, AWSKRUG"
     }
   ]
 }
