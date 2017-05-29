@@ -676,13 +676,22 @@
       "tags": "aws, AWSKRUG"
     }, 
     {
-      "id": 75,
+      "id": 76,
       "title": "[TF-KR] Paper Day for CVPR 2017",
       "url": "http://onoffmix.com/event/101307",
       "start": "2017-06-17 13:00:00",
       "end": "2017-06-17 18:00:00",
       "address": "[서울 강남구 강남대로 382] 서울 강남구 역삼동 메리츠타워 16층 (네이버 D2 스타트업 팩토리)",
       "tags": "텐서플로우코리아, TensorFlowKR, TFKR, CVPR2017"
+    }, 
+    {
+      "id": 77,
+      "title": "Seoul Elasticsearch Community Meetup",
+      "url": "http://onoffmix.com/event/101650",
+      "start": "2017-06-22 19:00:00",
+      "end": "2017-06-22 21:00:00",
+      "address": "[메리츠타워] 서울 강남구 역삼동 16층 Naver D2 Startup",
+      "tags": "elasticsearch, elastic, 엘라스틱서치, elk"
     }
   ]
 }
