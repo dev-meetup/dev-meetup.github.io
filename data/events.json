@@ -674,6 +674,15 @@
       "end": "2017-06-24 17:00:00",
       "address": "[GS타워] 서울 강남구 역삼동 [역삼역 7번 출구] 서울시 강남구 역삼동 논현로 508 GS타워 12층",
       "tags": "aws, AWSKRUG"
+    }, 
+    {
+      "id": 75,
+      "title": "[TF-KR] Paper Day for CVPR 2017",
+      "url": "http://onoffmix.com/event/101307",
+      "start": "2017-06-17 13:00:00",
+      "end": "2017-06-17 18:00:00",
+      "address": "[서울 강남구 강남대로 382] 서울 강남구 역삼동 메리츠타워 16층 (네이버 D2 스타트업 팩토리)",
+      "tags": "텐서플로우코리아, TensorFlowKR, TFKR, CVPR2017"
     }
   ]
 }
