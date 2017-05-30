@@ -692,6 +692,25 @@
       "end": "2017-06-22 21:00:00",
       "address": "[메리츠타워] 서울 강남구 역삼동 16층 Naver D2 Startup",
       "tags": "elasticsearch, elastic, 엘라스틱서치, elk"
-    }
+    }, 
+    {
+      "id": 78,
+      "title": "AWSKRUG 구로디지털단지 모임 - 5회차",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/240281253/?eventId=240281253",
+      "start": "2017-06-07 19:30:00",
+      "end": "2017-06-07 23:00:00",
+      "address": "서울특별시 구로구 디지털로 33길 12, 우림 e 비즈 2차 202호 ((주)이오 에스엔씨(IO S&C)) ",
+      "tags": "aws, awskrug"
+    },    
+    {
+      "id": 79,
+      "title": "개발자, 한 달에 책 한 권 읽기 - 도메인 주도 설계",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/240281253/?eventId=240281253",
+      "start": "2017-06-19 19:30:00",
+      "end": "2017-06-19 21:30:00",
+      "address": "[토즈 강남점] 서울 서초구 서초동 토즈 강남점",
+      "tags": "dev, book, ddd"
+    }, 
+    
   ]
 }
