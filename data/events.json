@@ -710,6 +710,15 @@
       "end": "2017-06-19 21:30:00",
       "address": "[토즈 강남점] 서울 서초구 서초동 토즈 강남점",
       "tags": "dev, book, ddd"
+    }, 
+    {
+      "id": 80,
+      "title": "Google Bigdata Showcase",
+      "url": "https://rockplace.co.kr/bigdatashowcase/",
+      "start": "2017-06-20 14:00:00",
+      "end": "2017-06-20 18:30:00",
+      "address": "강남구 역삼동 마루180",
+      "tags": "google, gcp, bigdata, dataproc, bigquery"
     }
     
   ]
