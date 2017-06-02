@@ -728,6 +728,15 @@
       "end": "2017-06-25 18:00:00",
       "address": "[한국마이크로소프트] 서울 종로구 중학동 서울특별시 종로구 중학동 19 더케이트윈타워 A동 11층",
       "tags": "erd, database, modling"
+    },
+    {
+      "id":82,
+      "title":"Pyjog #59",
+      "url":"https://www.facebook.com/events/476304452711601/?acontext=%7B%22ref%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_joined_nearby%22%2C%22action_history%22%3A%22null%22%7D&notif_t=event_joined_nearby&notif_id=1496360017275020",
+      "start": "2017-06-03 14:00:00",
+      "end": "2017-06-03 18:00:00",
+      "address":"강남구 논현동 277-27 502호, 서울 135-833, 하이브아레나",
+      "tags":"python, pyjog"
     }
     
   ]
