@@ -503,7 +503,7 @@
       "end": "2017-04-24 22:00:00",
       "address": "넷스루 9층",
       "tags": "Agile, Kanban"
-    }, 
+    },
     {
       "id": 57,
       "title": "Unity 17 Seoul",
@@ -512,7 +512,7 @@
       "end": "2017-05-16 18:00:00",
       "address": "코엑스 오디토리움",
       "tags": "unity"
-    }, 
+    },
     {
       "id": 58,
       "title": "Unity 17 Seoul",
@@ -521,7 +521,7 @@
       "end": "2017-05-17 18:00:00",
       "address": "코엑스 오디토리움",
       "tags": "unity"
-    }, 
+    },
     {
       "id": 59,
       "title": "2017 Google I/O viewing party with GDG Seoul",
@@ -530,7 +530,7 @@
       "end": "2017-05-18 06:00:00",
       "address": "서울시 강남구 역삼동 683-34 새롬빌딩 4~6층, 디캠프 6층 다목적홀",
       "tags": "gdg, google I/O"
-    }, 
+    },
     {
       "id": 60,
       "title": "쉽게 하는 Node.js 성능 튜닝",
@@ -539,7 +539,7 @@
       "end": "2017-05-19 18:00:00",
       "address": "[서울 강남구 선릉로 551] 서울 강남구 역삼동",
       "tags": "node.js"
-    }, 
+    },
     {
       "id": 61,
       "title": "우분투 한국 커뮤니티 5월 정기 세미나 - 오픈소스 프로젝트에 기여하기",
@@ -548,7 +548,7 @@
       "end": "2017-05-27 18:00:00",
       "address": "[롯데액셀러레이터] 서울 강남구 삼성동 서울특별시 강남구 테헤란로69길 5 유기타워 15층 롯데엑셀러레이터",
       "tags": "ubuntu, opensource"
-    }, 
+    },
     {
       "id": 62,
       "title": "나는 자바스크립트 개발자다 - React Korea & JSDev.KR ",
@@ -557,7 +557,7 @@
       "end": "2017-05-17 22:00:00",
       "address": "[아남타워] 서울 강남구 역삼동 서울 강남구 역삼동 서울특별시 강남구 테헤란로 311(역삼동) 아남타워 7층 대강의장",
       "tags": "javascript, react"
-    }, 
+    },
     {
       "id": 63,
       "title": "#GDF2017",
@@ -566,7 +566,7 @@
       "end": "2017-05-25 18:25:00",
       "address": "킨텍스 제2전시장 경기도 고양시 일산서구 대화동 킨텍스로 217-59",
       "tags": "vr, ar"
-    },  
+    },
     {
       "id": 64,
       "title": "#GDF2017",
@@ -575,7 +575,7 @@
       "end": "2017-05-26 18:25:00",
       "address": "킨텍스 제2전시장 경기도 고양시 일산서구 대화동 킨텍스로 217-59",
       "tags": "vr, ar"
-    }, 
+    },
     {
       "id": 65,
       "title": "여자개발자모임터 10th Conference 2017",
@@ -584,7 +584,7 @@
       "end": "2017-06-10 17:30:00",
       "address": "D-CAMP",
       "tags": "developer"
-    }, 
+    },
     {
       "id": 66,
       "title": "제8회 자동차 SW 개발자 컨퍼런스",
@@ -593,7 +593,7 @@
       "end": "2017-05-31 17:20:00",
       "address": "삼성동 코엑스 그랜드볼룸",
       "tags": "ADAS, ISO 26262, A-SPICE, AUTOSAR, V2X, TIMING"
-    }, 
+    },
     {
       "id": 67,
       "title": "마소의 밤(MASOCON)",
@@ -602,7 +602,7 @@
       "end": "2017-05-25 22:00:00",
       "address": "IT조선 연결지성센터 (서울 중구 세종대로 21길 22, 태성빌딩 306호)",
       "tags": "micronsoftware"
-    }, 
+    },
     {
       "id": 68,
       "title": "Typescript with MSP",
@@ -611,7 +611,7 @@
       "end": "2017-06-03 28:00:00",
       "address": "Microsoft Korea, 서울 종로구 중학동 19 더케이트윈타워 A동 11층 루브르 룸",
       "tags": "typescript"
-    }, 
+    },
      {
       "id": 69,
       "title": "Django Girls Main Workshop",
@@ -620,7 +620,7 @@
       "end": "2017-06-23 22:00:00",
       "address": "마이크로소프트코리아 12층",
       "tags": "python, django, djangogirls"
-    }, 
+    },
     {
       "id": 70,
       "title": "Django Girls Main Workshop",
@@ -629,7 +629,7 @@
       "end": "2017-06-24 18:00:00",
       "address": "마이크로소프트코리아 12층",
       "tags": "python, django, djangogirls"
-    }, 
+    },
     {
       "id": 71,
       "title": "소프트웨어 강의강의",
@@ -638,7 +638,7 @@
       "end": "2017-05-27 18:00:00",
       "address": "디캠프",
       "tags": "software, lecture"
-    }, 
+    },
     {
       "id": 72,
       "title": "객체지향 프로그래밍 매트릭스",
@@ -647,7 +647,7 @@
       "end": "2017-06-04 17:00:00",
       "address": "[서울 종로구 세종대로 178] 서울 종로구 세종로 서울창조경제혁신센터, 열정회의실",
       "tags": "oop"
-    }, 
+    },
     {
       "id": 73,
       "title": "I/O 17 Extended Incheon",
@@ -656,7 +656,7 @@
       "end": "2017-06-10 19:00:00",
       "address": "인천광역시 남구 주안1동 166-1",
       "tags": "gdg, google, pwa, android, kotlin, ml"
-    }, 
+    },
     {
       "id": 74,
       "title": "하드코딩하는사람들 프론트엔드 개발 세미나",
@@ -665,7 +665,7 @@
       "end": "2017-06-17 18:30:00",
       "address": "[새롬빌딩] 서울 강남구 역삼동 683-34 새롬빌딩 6층 D.CAMP",
       "tags": "github, angular, react, vue, web, html"
-    }, 
+    },
     {
       "id": 75,
       "title": "AWS Community Day 2017 - AWSKRUG 연합 세미나",
@@ -674,7 +674,7 @@
       "end": "2017-06-24 17:00:00",
       "address": "[GS타워] 서울 강남구 역삼동 [역삼역 7번 출구] 서울시 강남구 역삼동 논현로 508 GS타워 12층",
       "tags": "aws, AWSKRUG"
-    }, 
+    },
     {
       "id": 76,
       "title": "[TF-KR] Paper Day for CVPR 2017",
@@ -683,7 +683,7 @@
       "end": "2017-06-17 18:00:00",
       "address": "[서울 강남구 강남대로 382] 서울 강남구 역삼동 메리츠타워 16층 (네이버 D2 스타트업 팩토리)",
       "tags": "텐서플로우코리아, TensorFlowKR, TFKR, CVPR2017"
-    }, 
+    },
     {
       "id": 77,
       "title": "Seoul Elasticsearch Community Meetup",
@@ -692,7 +692,7 @@
       "end": "2017-06-22 21:00:00",
       "address": "[메리츠타워] 서울 강남구 역삼동 16층 Naver D2 Startup",
       "tags": "elasticsearch, elastic, 엘라스틱서치, elk"
-    }, 
+    },
     {
       "id": 78,
       "title": "AWSKRUG 구로디지털단지 모임 - 5회차",
@@ -701,16 +701,16 @@
       "end": "2017-06-07 23:00:00",
       "address": "서울특별시 구로구 디지털로 33길 12, 우림 e 비즈 2차 202호 ((주)이오 에스엔씨(IO S&C)) ",
       "tags": "aws, awskrug"
-    },    
+    },
     {
       "id": 79,
       "title": "개발자, 한 달에 책 한 권 읽기 - 도메인 주도 설계",
-      "url": "https://www.meetup.com/ko-KR/awskrug/events/240281253/?eventId=240281253",
+      "url": "http://onoffmix.com/event/101712",
       "start": "2017-06-19 19:30:00",
       "end": "2017-06-19 21:30:00",
       "address": "[토즈 강남점] 서울 서초구 서초동 토즈 강남점",
       "tags": "dev, book, ddd"
-    }, 
+    },
     {
       "id": 80,
       "title": "Google Bigdata Showcase",
@@ -719,7 +719,7 @@
       "end": "2017-06-20 18:30:00",
       "address": "강남구 역삼동 마루180",
       "tags": "google, gcp, bigdata, dataproc, bigquery"
-    }, 
+    },
     {
       "id": 81,
       "title": "소프트웨어를 더 잘 만들기 위한 ERD DB모델링",
@@ -738,6 +738,5 @@
       "address":"강남구 논현동 277-27 502호, 서울 135-833, 하이브아레나",
       "tags":"python, pyjog"
     }
-    
   ]
 }
