@@ -737,6 +737,15 @@
       "end": "2017-06-03 18:00:00",
       "address":"강남구 논현동 277-27 502호, 서울 135-833, 하이브아레나",
       "tags":"python, pyjog"
+    },
+    {
+      "id":83,
+      "title":"Google I/O 2017 Extended in Seoul",
+      "url":"https://io-extended-seoul-17.firebaseapp.com/",
+      "start": "2017-07-02 12:00:00",
+      "end": "2017-07-02 18:00:00",
+      "address":"세종대학교 광개토관 컨벤션홀",
+      "tags":"google, googleio"
     }
   ]
 }
