@@ -746,6 +746,14 @@
       "end": "2017-07-02 18:00:00",
       "address":"세종대학교 광개토관 컨벤션홀",
       "tags":"google, googleio"
+    },
+      "id": 84,
+      "title": "TensorFlow와 Deep Learning (초급)",
+      "url": "http://onoffmix.com/event/102270",
+      "start": "2017-06-20 19:30:00",
+      "end": "2017-06-20 22:00:00",
+      "address": "토즈 강남토즈타워점",
+      "tags": "python, scipy, numpy, tensorflow, deep learning, ai"
     }
   ]
 }
