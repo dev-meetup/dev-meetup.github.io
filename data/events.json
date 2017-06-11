@@ -764,6 +764,42 @@
       "end": "2017-07-01 18:00:00",
       "address": "[더케이트윈타워] 서울 종로구 중학동 더케이트윈타워 A동 11층(Microsoft)",
       "tags": "oss, opensource"
+    }, 
+    {
+      "id": 86,
+      "title": "7월 스터디뽀개기 - 실전 머신러닝",
+      "url": "http://onoffmix.com/event/102933",
+      "start": "2017-07-08 13:00:00",
+      "end": "2017-07-08 16:00:00",
+      "address": "[서울 강남구 역삼동 825-11] 서울 강남구 역삼동 D2 STARTUP FACTORY(강남 메리츠타워, 16층)",
+      "tags": "Kaggle, ml, r"
+    },
+    {
+      "id": 87,
+      "title": "웹엔진 코아 기술 해부_AMP(Accelerated Mobile Pages), HTTP/2",
+      "url": "http://onoffmix.com/event/102576",
+      "start": "2017-06-15 14:00:00",
+      "end": "2017-06-15 19:30:00",
+      "address": "[한국과학기술회관 본관] 서울 강남구 역삼동 한국과학기술회관 소회의실3",
+      "tags": "http, html5, amp"
+    }, 
+    {
+      "id": 88,
+      "title": "[KOSSLab] 6월 오픈랩 세미나",
+      "url": "http://onoffmix.com/event/102190",
+      "start": "2017-06-16 17:00:00",
+      "end": "2017-06-16 20:30:00",
+      "address": "[서울 강남구 테헤란로 311] 서울 강남구 역삼동 아남타워 7층 KOSSLab 대강의장",
+      "tags": "opensource, ai, deeplearning"
+    },
+    {
+      "id": 89,
+      "title": "2017 널리 세미나(널리 사람을 이롭게 하다)",
+      "url": "http://onoffmix.com/event/102644",
+      "start": "2017-06-28 13:00:00",
+      "end": "2017-06-28 18:30:00",
+      "address": "[그린팩토리] 경기 성남시 분당구 정자동 2층 커넥트홀",
+      "tags": "nuli, naver, ai, capcha"
     }
   ]
 }
