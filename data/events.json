@@ -827,6 +827,15 @@
       "end": "2017-07-14 18:00:00",
       "address": "코엑스 컨퍼런스룸 327",
       "tags": "openstack"
+    },
+    {
+      "id": 93,
+      "title": "Spark Day 2017 by 스사모(스파크 사용자 모임)",
+      "url": "http://onoffmix.com/event/102625",
+      "start": "2017-06-27 09:30:00",
+      "end": "2017-06-27 20:00:00",
+      "address": "역삼동 마루 180",
+      "tags": "spark"
     }
   ]
 }
