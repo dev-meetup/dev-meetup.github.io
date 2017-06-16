@@ -836,6 +836,15 @@
       "end": "2017-06-27 20:00:00",
       "address": "역삼동 마루 180",
       "tags": "spark"
+    }, 
+    {
+      "id": 94,
+      "title": "누구나 쉽게 따라하며 이해하는 Azure Machine Learning",
+      "url": "http://onoffmix.com/event/103412/",
+      "start": "2017-06-28 18:40:00",
+      "end": "2017-06-28 22:00:00",
+      "address": " 부산광역시 해운대구 우동, 부산창조경제혁신센터 4층.",
+      "tags": "azure, machine learning"
     }
   ]
 }
