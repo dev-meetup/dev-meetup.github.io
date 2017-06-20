@@ -845,6 +845,33 @@
       "end": "2017-06-28 22:00:00",
       "address": " 부산광역시 해운대구 우동, 부산창조경제혁신센터 4층.",
       "tags": "azure, machine learning"
+    },
+    {
+      "id": 95,
+      "title": "ML CAMP JEJU 2017 1차 세미나",
+      "url": "http://onoffmix.com/event/103905",
+      "start": "2017-07-10 09:20:00",
+      "end": "2017-07-10 16:30:00",
+      "address": "[제주대학교] 제주 제주시 아라일동 대강당",
+      "tags": "ml, machine learning"
+    },
+    {
+      "id": 96,
+      "title": "ML CAMP JEJU 2017 2차 세미나",
+      "url": "http://onoffmix.com/event/103913",
+      "start": "2017-07-15 10:20:00",
+      "end": "2017-07-15 12:00:00",
+      "address": "[카카오 본사] 제주 제주시 영평동 멀티홀",
+      "tags": "ml, machine learning"
+    },
+    {
+      "id": 97,
+      "title": "Server, Serverless 세미나(Azure)",
+      "url": "http://onoffmix.com/event/103311",
+      "start": "2017-06-24 14:00:00",
+      "end": "2017-06-24 18:00:00",
+      "address": "연세대학교 신촌캠퍼스 공학원 205호",
+      "tags": "ms, azure"
     }
   ]
 }
