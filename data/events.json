@@ -881,6 +881,15 @@
       "end": "2017-06-24 18:00:00",
       "address": "경기도 성남시 분당구 판교역로 235 H스퀘어 N동 7층 KAKAO 스위치온 회의실",
       "tags": "iOS"
+    },
+    {
+      "id": 99,
+      "title": "Korea Vaadin User Meetup #1",
+      "url": "http://onoffmix.com/event/104025",
+      "start": "2017-06-30 19:00:00",
+      "end": "2017-06-30 22:00:00",
+      "address": "[경기 성남시 분당구 판교역로146번길 20] 경기 성남시 분당구 백현동 Office H 10F",
+      "tags": "java, vaadin"
     }
   ]
 }
