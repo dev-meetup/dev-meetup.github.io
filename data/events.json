@@ -921,11 +921,20 @@
     {
       "id": 103,
       "title": "WSConf. 2017 Seoul. Vol.2",
-      "url": " http://wsconf.org",
+      "url": "http://wsconf.org",
       "start": "2017-07-15 10:00:00",
       "end": "2017-07-15 17:00:00",
       "address": "SK플래닛 1층 SUPEX홀",
       "tags": "wsconf"
+    }, 
+    {
+      "id": 104,
+      "title": "재야의 고수로 부터 듣는 모던 아키텍쳐 구축 이야기",
+      "url": "https://events.withgoogle.com/google-cloudy-day-gcp-july/",
+      "start": "2017-07-06 13:00:00",
+      "end": "2017-07-06 18:30:00",
+      "address": "서울 강남구 대치동 영동대로 417 오토웨이타워 지하 2층 구글 캠퍼스 서울",
+      "tags": "gae, ml, bigquery, docker, serverless"
     }
   ]
 }
