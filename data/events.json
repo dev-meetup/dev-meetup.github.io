@@ -899,6 +899,33 @@
       "end": "2017-06-30 17:30:00",
       "address": "경기도 경제과학진흥원",
       "tags": "aws"
+    }, 
+    {
+      "id": 101,
+      "title": "Red Hat 플랫폼 기술 제품 관리 담당자와의 오픈소스 커뮤니티",
+      "url": "http://onoffmix.com/event/104259",
+      "start": "2017-07-12 19:30:00",
+      "end": "2017-07-12 21:00:00",
+      "address": "[덕명빌딩] 서울 강남구 삼성동 12층 한국레드햇 대회의실",
+      "tags": "redhat, linux, openstack"
+    }, 
+    {
+      "id": 102,
+      "title": "스타트업을 위한 장애 분석 및 대응방법 세미나",
+      "url": "http://onoffmix.com/event/103425",
+      "start": "2017-06-29 15:00:00",
+      "end": "2017-06-29 17:30:00",
+      "address": "[MARU180] 서울 강남구 역삼동 서울특별시 강남구 역삼로180 마루180 by 아산나눔재단 지하1층 Think룸",
+      "tags": "whatap, performace, node"
+    }, 
+    {
+      "id": 103,
+      "title": "WSConf. 2017 Seoul. Vol.2",
+      "url": " http://wsconf.org",
+      "start": "2017-07-15 10:00:00",
+      "end": "2017-07-15 17:00:00",
+      "address": "SK플래닛 1층 SUPEX홀",
+      "tags": "wsconf"
     }
   ]
 }
