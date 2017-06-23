@@ -935,6 +935,15 @@
       "end": "2017-07-06 18:30:00",
       "address": "서울 강남구 대치동 영동대로 417 오토웨이타워 지하 2층 구글 캠퍼스 서울",
       "tags": "gae, ml, bigquery, docker, serverless"
+    }, 
+    {
+      "id": 105,
+      "title": "Tech-HR Conference",
+      "url": "https://events.withgoogle.com/google-cloudy-day-gcp-july/",
+      "start": "2017-07-22 09:00:00",
+      "end": "2017-07-22 17:00:00",
+      "address": "서울여성플라자 국제회의장 동작구 여의대방로 54길 18(대방동)",
+      "tags": "developer, hr"
     }
   ]
 }
