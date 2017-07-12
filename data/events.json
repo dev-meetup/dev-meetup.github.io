@@ -980,6 +980,24 @@
       "end": "2017-07-29 18:00:00",
       "address": "[토즈 강남토즈타워점] 서울특별시 강남구 역삼1동 강남대로84길 24-4",
       "tags": "ubuntu, linux, iot, security, opensource"
+    },
+    {
+      "id": 110,
+      "title": "AWSKRUG 데이터사이언스 빅데이터모임 - 3회차",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/240731990/",
+      "start": "2017-07-20 19:00:00",
+      "end": "2017-07-20 21:00:00",
+      "address": "역삼GS타워 12층 AWS컨퍼런스룸",
+      "tags": "aws, datascience"
+    }, 
+    {
+      "id": 111,
+      "title": "올어바웃 코틀린 (AAK: All About Kotlin)",
+      "url": "https://onoffmix.com/event/106217/",
+      "start": "2017-07-18 19:00:00",
+      "end": "2017-07-18 21:00:00",
+      "address": "메리츠타워 16층 D2 ",
+      "tags": "android, kotlin"
     }
   ]
 }
