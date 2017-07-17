@@ -998,6 +998,44 @@
       "end": "2017-07-18 21:00:00",
       "address": "메리츠타워 16층 D2 ",
       "tags": "android, kotlin"
+    }, 
+    {
+      "id": 112,
+      "title": "PyConKR2017 - 컨퍼런스",
+      "url": "https://www.pycon.kr/2017/",
+      "start": "2017-08-12 09:00:00",
+      "end": "2017-08-12 17:00:00",
+      "address": "코엑스, 그랜드볼룸",
+      "tags": "python, pycon"
+    }, 
+    {
+      "id": 113,
+      "title": "PyConKR2017 - 컨퍼런스",
+      "url": "https://www.pycon.kr/2017/",
+      "start": "2017-08-13 09:00:00",
+      "end": "2017-08-13 17:00:00",
+      "address": "코엑스, 그랜드볼룸",
+      "tags": "python, pycon"
+    }, 
+    {
+      "id": 114,
+      "title": "PyConKR2017 - sprint&tutorial",
+      "url": "https://www.pycon.kr/2017/",
+      "start": "2017-08-14 10:00:00",
+      "end": "2017-08-14 18:00:00",
+      "address": "코엑스, 그랜드볼륨 2F",
+      "tags": "python, pycon"
+    }, 
+    {
+      "id": 115,
+      "title": "PyConKR2017 - sprint&tutorial",
+      "url": "https://www.pycon.kr/2017/",
+      "start": "2017-08-15 10:00:00",
+      "end": "2017-08-15 18:00:00",
+      "address": " 코엑스 그랜드볼륨 2F",
+      "tags": "python, pycon"
     }
+    
+    
   ]
 }
