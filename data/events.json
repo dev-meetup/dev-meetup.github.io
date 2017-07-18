@@ -836,7 +836,7 @@
       "end": "2017-06-27 20:00:00",
       "address": "역삼동 마루 180",
       "tags": "spark"
-    }, 
+    },
     {
       "id": 94,
       "title": "누구나 쉽게 따라하며 이해하는 Azure Machine Learning",
@@ -890,7 +890,7 @@
       "end": "2017-06-30 22:00:00",
       "address": "[경기 성남시 분당구 판교역로146번길 20] 경기 성남시 분당구 백현동 Office H 10F",
       "tags": "java, vaadin"
-    }, 
+    },
     {
       "id": 100,
       "title": "AWS와 함께 하는 판교 개발자데이",
@@ -899,7 +899,7 @@
       "end": "2017-06-30 17:30:00",
       "address": "경기도 경제과학진흥원",
       "tags": "aws"
-    }, 
+    },
     {
       "id": 101,
       "title": "Red Hat 플랫폼 기술 제품 관리 담당자와의 오픈소스 커뮤니티",
@@ -908,7 +908,7 @@
       "end": "2017-07-12 21:00:00",
       "address": "[덕명빌딩] 서울 강남구 삼성동 12층 한국레드햇 대회의실",
       "tags": "redhat, linux, openstack"
-    }, 
+    },
     {
       "id": 102,
       "title": "스타트업을 위한 장애 분석 및 대응방법 세미나",
@@ -917,7 +917,7 @@
       "end": "2017-06-29 17:30:00",
       "address": "[MARU180] 서울 강남구 역삼동 서울특별시 강남구 역삼로180 마루180 by 아산나눔재단 지하1층 Think룸",
       "tags": "whatap, performace, node"
-    }, 
+    },
     {
       "id": 103,
       "title": "WSConf. 2017 Seoul. Vol.2",
@@ -926,7 +926,7 @@
       "end": "2017-07-15 17:00:00",
       "address": "SK플래닛 1층 SUPEX홀",
       "tags": "wsconf"
-    }, 
+    },
     {
       "id": 104,
       "title": "재야의 고수로 부터 듣는 모던 아키텍쳐 구축 이야기",
@@ -935,7 +935,7 @@
       "end": "2017-07-06 18:30:00",
       "address": "서울 강남구 대치동 영동대로 417 오토웨이타워 지하 2층 구글 캠퍼스 서울",
       "tags": "gae, ml, bigquery, docker, serverless"
-    }, 
+    },
     {
       "id": 105,
       "title": "Tech-HR Conference",
@@ -944,7 +944,7 @@
       "end": "2017-07-22 17:00:00",
       "address": "서울여성플라자 국제회의장 동작구 여의대방로 54길 18(대방동)",
       "tags": "developer, hr"
-    }, 
+    },
     {
       "id": 106,
       "title": "AWSKRUG 데이터사이언스 딥러닝모임 - 2회차(6월29일)",
@@ -953,7 +953,7 @@
       "end": "2017-06-29 21:00:00",
       "address": "역삼GS타워 12층 AWS컨퍼런스룸",
       "tags": "aws, data science"
-    }, 
+    },
     {
       "id": 107,
       "title": "[싸이랭 7월 워크샵] English in the Shell",
@@ -962,7 +962,7 @@
       "end": "2017-07-01 17:30:00",
       "address": "[토즈 강남점] 서울 서초구 서초동",
       "tags": "psylang"
-    }, 
+    },
     {
       "id": 108,
       "title": "개발자, 한 달에 책 한 권 읽기 - UML 실전에서는 이것만 쓴다",
@@ -989,7 +989,7 @@
       "end": "2017-07-20 21:00:00",
       "address": "역삼GS타워 12층 AWS컨퍼런스룸",
       "tags": "aws, datascience"
-    }, 
+    },
     {
       "id": 111,
       "title": "올어바웃 코틀린 (AAK: All About Kotlin)",
@@ -998,7 +998,7 @@
       "end": "2017-07-18 21:00:00",
       "address": "메리츠타워 16층 D2 ",
       "tags": "android, kotlin"
-    }, 
+    },
     {
       "id": 112,
       "title": "PyConKR2017 - 컨퍼런스",
@@ -1007,7 +1007,7 @@
       "end": "2017-08-12 17:00:00",
       "address": "코엑스, 그랜드볼룸",
       "tags": "python, pycon"
-    }, 
+    },
     {
       "id": 113,
       "title": "PyConKR2017 - 컨퍼런스",
@@ -1016,7 +1016,7 @@
       "end": "2017-08-13 17:00:00",
       "address": "코엑스, 그랜드볼룸",
       "tags": "python, pycon"
-    }, 
+    },
     {
       "id": 114,
       "title": "PyConKR2017 - sprint&tutorial",
@@ -1025,7 +1025,7 @@
       "end": "2017-08-14 18:00:00",
       "address": "코엑스, 그랜드볼륨 2F",
       "tags": "python, pycon"
-    }, 
+    },
     {
       "id": 115,
       "title": "PyConKR2017 - sprint&tutorial",
@@ -1034,8 +1034,17 @@
       "end": "2017-08-15 18:00:00",
       "address": " 코엑스 그랜드볼륨 2F",
       "tags": "python, pycon"
+    },
+    {
+      "id": 116,
+      "title": "DEVIEW 2017",
+      "url": "https://deview.kr/2017/cfs",
+      "start": "2017-10-16 09:00:00",
+      "end": "2017-10-17 18:00:00",
+      "address": "코엑스 그랜드볼륨, 서울 (COEX Grand BallRoom, SEOUL)",
+      "tags": "deview, naver"
     }
-    
-    
+
+
   ]
 }
