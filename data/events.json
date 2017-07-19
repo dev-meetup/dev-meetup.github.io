@@ -1043,6 +1043,33 @@
       "end": "2017-10-17 18:00:00",
       "address": "코엑스 그랜드볼륨, 서울 (COEX Grand BallRoom, SEOUL)",
       "tags": "deview, naver"
+    },
+    {
+      "id": 117,
+      "title": "아해(Ahea) java개발자를 위한 공개세미나",
+      "url": "https://onoffmix.com/event/106437",
+      "start": "2017-07-29 09:00:00",
+      "end": "2017-07-29 18:00:00",
+      "address": "서울 강남구 역삼동 736-40",
+      "tags": "java"
+    },
+    {
+      "id": 118,
+      "title": "ML CAMP JEJU 2017 Final Presentation",
+      "url": "https://onoffmix.com/event/106983",
+      "start": "2017-07-27 09:00:00",
+      "end": "2017-07-27 18:00:00",
+      "address": "카카오 본사",
+      "tags": "ml"
+    },
+    {
+      "id": 119,
+      "title": "ML CAMP JEJU 2017 Final Presentation",
+      "url": "https://onoffmix.com/event/106983",
+      "start": "2017-07-28 09:00:00",
+      "end": "2017-07-28 13:30:00",
+      "address": "카카오 본사",
+      "tags": "ml"
     }
 
 
