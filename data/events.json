@@ -1096,7 +1096,7 @@
       "start": "2017-08-19 13:30:00",
       "end": "2017-08-19 18:00:00",
       "address": "서울특별시 강남구 역삼1동 강남대로84길 24-4 토즈 강남토즈타워점 대형부스B",
-      "tags": "ubuntu", "opensource", "contribution", "localization", "l10n"
+      "tags": "ubuntu, opensource, contribution, localization, l10n"
     }
 
 
