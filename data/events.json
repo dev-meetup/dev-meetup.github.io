@@ -1088,6 +1088,15 @@
       "end": "2017-08-10 20:30:00",
       "address": "미정이거나 등록된 모임장소가 없습니다.",
       "tags": "opensource"
+    },
+    { 
+      "id": 122,
+      "title": "우분투한국커뮤니티 번역 워크샵",
+      "url": "https://onoffmix.com/event/106672",
+      "start": "2017-08-19 13:30:00",
+      "end": "2017-08-19 18:00:00",
+      "address": "서울특별시 강남구 역삼1동 강남대로84길 24-4 토즈 강남토즈타워점 대형부스B",
+      "tags": "ubuntu, opensource, contribution, localization, l10n"
     }
 
 
