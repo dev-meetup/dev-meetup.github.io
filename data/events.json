@@ -1097,7 +1097,17 @@
       "end": "2017-08-19 18:00:00",
       "address": "서울특별시 강남구 역삼1동 강남대로84길 24-4 토즈 강남토즈타워점 대형부스B",
       "tags": "ubuntu, opensource, contribution, localization, l10n"
+    },
+    { 
+      "id": 123,
+      "title": "실무자들이 전하는 최신 프론트엔드 프레임워크 Angular, React, Vue 이야기",
+      "url": "https://www.meetup.com/ko-KR/GDG-WebTech/events/242157106/?eventId=242157106",
+      "start": "2017-08-27 13:00:00",
+      "end": "2017-08-27 16:30:00",
+      "address": "마루 180",
+      "tags": "angular, react, vue"
     }
+
 
 
   ]
