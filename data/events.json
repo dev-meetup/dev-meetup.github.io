@@ -1106,9 +1106,15 @@
       "end": "2017-08-27 16:30:00",
       "address": "마루 180",
       "tags": "angular, react, vue"
+    },
+    { 
+      "id": 124,
+      "title": "Seoul.js 미트업",
+      "url": "https://onoffmix.com/event/108442",
+      "start": "2017-08-18 19:00:00",
+      "end": "2017-08-18 22:00:00",
+      "address": "[MARU180] 서울 강남구 역삼동 지하1층 이벤트홀",
+      "tags": "js, javascript, seouljs, es2017, es8, electron, flybook, zeit"
     }
-
-
-
   ]
 }
