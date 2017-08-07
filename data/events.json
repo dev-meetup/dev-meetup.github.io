@@ -1169,6 +1169,15 @@
       "end": "2017-09-22 21:00:00",
       "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
       "tags": "electron, typescript"
+    }, 
+    { 
+      "id": 131,
+      "title": "[MeltingPot]개발자커리어 Young Community 연합세미나",
+      "url": "https://onoffmix.com/event/108861",
+      "start": "2017-08-26 13:00:00",
+      "end": "2017-08-26 18:30:00",
+      "address": "[한국마이크로소프트] 서울 종로구 중학동 서울시 종로구 종로 1길 50 더 케이트윈타워 A동 11층",
+      "tags": "developer"
     }
   ]
 }
