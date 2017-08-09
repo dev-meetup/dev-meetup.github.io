@@ -1203,8 +1203,17 @@
       "url": "https://www.facebook.com/groups/vuejs.korea/permalink/1399137453473035/",
       "start": "2017-08-23 19:00:00",
       "end": "2017-08-23 22:00:00",
-      "address": "maru180"
+      "address": "maru180",
       "tags": "vue.js"
+    },
+    { 
+      "id": 135,
+      "title": "디자이너를 위한 AWS 소모임(8월2일) - 2번째 모임",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/242404853/?eventId=242404853"",
+      "start": "2017-08-16 19:30:00",
+      "end": "2017-08-16 22:00:00",
+      "address": "GS Tower, 12층 , 지하철 2호선 역삼역 7번 출구",
+      "tags": "aws, desginer"
     }
   ]
 }
