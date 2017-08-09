@@ -1178,6 +1178,33 @@
       "end": "2017-08-26 18:30:00",
       "address": "[한국마이크로소프트] 서울 종로구 중학동 서울시 종로구 종로 1길 50 더 케이트윈타워 A동 11층",
       "tags": "developer"
+    }, 
+    { 
+      "id": 132,
+      "title": "WebRTC Demoday Korea",
+      "url": "http://onoffmix.com/event/109276",
+      "start": "2017-08-25 14:00:00",
+      "end": "2017-08-25 18:00:00",
+      "address": "[한국과학기술회관 본관] 서울 강남구 역삼동",
+      "tags": "webrtc"
+    }, 
+    { 
+      "id": 133,
+      "title": "2017년 8월 Seoul Elasticsearch Community Meetup",
+      "url": "http://onoffmix.com/event/108684",
+      "start": "2017-08-10 19:00:00",
+      "end": "2017-08-10 21:00:00",
+      "address": "[위워크빌딩] 서울 강남구 삼성동 서울 강남구 테헤란로 507 WeWork 빌딩 지하 1층",
+      "tags": "elasticsearch"
+    }, 
+    { 
+      "id": 134,
+      "title": "Vue.js 한국어 사용자 모임 (Vuetiful Korea) 2회 얼리버드 모집",
+      "url": "https://www.facebook.com/groups/vuejs.korea/permalink/1399137453473035/",
+      "start": "2017-08-23 19:00:00",
+      "end": "2017-08-23 22:00:00",
+      "address": "maru180"
+      "tags": "vue.js"
     }
   ]
 }
