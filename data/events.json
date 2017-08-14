@@ -1215,5 +1215,15 @@
       "address": "GS Tower, 12층 , 지하철 2호선 역삼역 7번 출구",
       "tags": "aws, desginer"
     }
+    ,
+    { 
+      "id": 136,
+      "title": "Vuetiful Korea (Vue.js 한국어 사용자 모임) 2회 모임",
+      "url": "https://onoffmix.com/event/109807",
+      "start": "2017-08-23 19:00:00",
+      "end": "2017-08-23 22:00:00",
+      "address": "[MARU180] 서울 강남구 역삼동 서울시 강남구 역삼로 180(역삼동, 790-6) 지하 1층 이벤트홀",
+      "tags": "vue.js"
+    }
   ]
 }
