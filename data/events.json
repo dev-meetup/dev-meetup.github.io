@@ -1251,6 +1251,33 @@
       "end": "2017-08-25 18:00:00",
       "address": "[고려대학교 하나스퀘어] 서울 성북구 안암동5가 대강당 & 멀티미디어실",
       "tags": "security"
+    },
+    { 
+      "id": 140,
+      "title": "2017 보안 & 해킹 INC0GNITO 컨퍼런스",
+      "url": "https://onoffmix.com/event/109392",
+      "start": "2017-08-25 13:30:00",
+      "end": "2017-08-25 18:00:00",
+      "address": "[고려대학교 하나스퀘어] 서울 성북구 안암동5가 대강당 & 멀티미디어실",
+      "tags": "security"
+    },
+    { 
+      "id": 141,
+      "title": "9XD: Young, Wild Hackathon",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7RvQnq0sAaTH6orXV-H-GLv3TNNepM08IQAx0nogl8Llwow/viewform",
+      "start": "2017-09-09 09:00:00",
+      "end": "2017-09-09 22:00:00",
+      "address": "소프트웨어마에스트로센터",
+      "tags": "hackathon"
+    },
+    { 
+      "id": 142,
+      "title": "9XD: Young, Wild Hackathon",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7RvQnq0sAaTH6orXV-H-GLv3TNNepM08IQAx0nogl8Llwow/viewform",
+      "start": "2017-09-10 09:00:00",
+      "end": "2017-09-10 18:00:00",
+      "address": "소프트웨어마에스트로센터",
+      "tags": "hackathon"
     }
   ]
 }
