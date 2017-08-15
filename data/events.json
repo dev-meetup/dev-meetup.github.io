@@ -1278,6 +1278,15 @@
       "end": "2017-09-10 18:00:00",
       "address": "소프트웨어마에스트로센터",
       "tags": "hackathon"
+    },
+    { 
+      "id": 143,
+      "title": "J2S Conference 2017",
+      "url": "https://www.facebook.com/events/1224117631048905/",
+      "start": "2017-09-16 14:00:00",
+      "end": "2017-09-16 22:00:00",
+      "address": "마루180 Event hall",
+      "tags": "developer"
     }
   ]
 }
