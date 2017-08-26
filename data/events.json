@@ -1089,7 +1089,7 @@
       "address": "미정이거나 등록된 모임장소가 없습니다.",
       "tags": "opensource"
     },
-    { 
+    {
       "id": 122,
       "title": "우분투한국커뮤니티 번역 워크샵",
       "url": "https://onoffmix.com/event/106672",
@@ -1098,7 +1098,7 @@
       "address": "서울특별시 강남구 역삼1동 강남대로84길 24-4 토즈 강남토즈타워점 대형부스B",
       "tags": "ubuntu, opensource, contribution, localization, l10n"
     },
-    { 
+    {
       "id": 123,
       "title": "실무자들이 전하는 최신 프론트엔드 프레임워크 Angular, React, Vue 이야기",
       "url": "https://www.meetup.com/ko-KR/GDG-WebTech/events/242157106/?eventId=242157106",
@@ -1107,7 +1107,7 @@
       "address": "마루 180",
       "tags": "angular, react, vue"
     },
-    { 
+    {
       "id": 124,
       "title": "Seoul.js 미트업",
       "url": "https://onoffmix.com/event/108442",
@@ -1116,7 +1116,7 @@
       "address": "[MARU180] 서울 강남구 역삼동 지하1층 이벤트홀",
       "tags": "js, javascript, seouljs, es2017, es8, electron, flybook, zeit"
     },
-    { 
+    {
       "id": 125,
       "title": "GDG Campus Summer Party - Technical Talk",
       "url": "https://gdgsummerparty.firebaseapp.com/",
@@ -1125,7 +1125,7 @@
       "address": "배달의 민족 배민아카데미",
       "tags": "gdg"
     },
-    { 
+    {
       "id": 126,
       "title": "GDG Campus Summer Party - Developer`s Career",
       "url": "https://gdgsummerparty.firebaseapp.com/",
@@ -1134,7 +1134,7 @@
       "address": "마루180",
       "tags": "gdg"
     },
-    { 
+    {
       "id": 127,
       "title": "Electron-with-TypeScript Hands-On Labs",
       "url": "https://ts-korea.github.io/electron-with-typescript/",
@@ -1142,8 +1142,8 @@
       "end": "2017-09-01 21:00:00",
       "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
       "tags": "electron, typescript"
-    }, 
-     { 
+    },
+     {
       "id": 128,
       "title": "Electron-with-TypeScript Hands-On Labs",
       "url": "https://ts-korea.github.io/electron-with-typescript/",
@@ -1151,8 +1151,8 @@
       "end": "2017-09-08 21:00:00",
       "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
       "tags": "electron, typescript"
-    }, 
-    { 
+    },
+    {
       "id": 129,
       "title": "Electron-with-TypeScript Hands-On Labs",
       "url": "https://ts-korea.github.io/electron-with-typescript/",
@@ -1160,8 +1160,8 @@
       "end": "2017-09-15 21:00:00",
       "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
       "tags": "electron, typescript"
-    }, 
-    { 
+    },
+    {
       "id": 130,
       "title": "Electron-with-TypeScript Hands-On Labs",
       "url": "https://ts-korea.github.io/electron-with-typescript/",
@@ -1169,8 +1169,8 @@
       "end": "2017-09-22 21:00:00",
       "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
       "tags": "electron, typescript"
-    }, 
-    { 
+    },
+    {
       "id": 131,
       "title": "[MeltingPot]개발자커리어 Young Community 연합세미나",
       "url": "https://onoffmix.com/event/108861",
@@ -1178,8 +1178,8 @@
       "end": "2017-08-26 18:30:00",
       "address": "[한국마이크로소프트] 서울 종로구 중학동 서울시 종로구 종로 1길 50 더 케이트윈타워 A동 11층",
       "tags": "developer"
-    }, 
-    { 
+    },
+    {
       "id": 132,
       "title": "WebRTC Demoday Korea",
       "url": "http://onoffmix.com/event/109276",
@@ -1187,8 +1187,8 @@
       "end": "2017-08-25 18:00:00",
       "address": "[한국과학기술회관 본관] 서울 강남구 역삼동",
       "tags": "webrtc"
-    }, 
-    { 
+    },
+    {
       "id": 133,
       "title": "2017년 8월 Seoul Elasticsearch Community Meetup",
       "url": "http://onoffmix.com/event/108684",
@@ -1196,8 +1196,8 @@
       "end": "2017-08-10 21:00:00",
       "address": "[위워크빌딩] 서울 강남구 삼성동 서울 강남구 테헤란로 507 WeWork 빌딩 지하 1층",
       "tags": "elasticsearch"
-    }, 
-    { 
+    },
+    {
       "id": 134,
       "title": "Vue.js 한국어 사용자 모임 (Vuetiful Korea) 2회 얼리버드 모집",
       "url": "https://www.facebook.com/groups/vuejs.korea/permalink/1399137453473035/",
@@ -1206,7 +1206,7 @@
       "address": "maru180",
       "tags": "vue.js"
     },
-    { 
+    {
       "id": 135,
       "title": "디자이너를 위한 AWS 소모임(8월2일) - 2번째 모임",
       "url": "https://www.meetup.com/ko-KR/awskrug/events/242404853/?eventId=242404853",
@@ -1216,7 +1216,7 @@
       "tags": "aws, desginer"
     }
     ,
-    { 
+    {
       "id": 136,
       "title": "Vuetiful Korea (Vue.js 한국어 사용자 모임) 2회 모임",
       "url": "https://onoffmix.com/event/109807",
@@ -1225,7 +1225,7 @@
       "address": "[MARU180] 서울 강남구 역삼동 서울시 강남구 역삼로 180(역삼동, 790-6) 지하 1층 이벤트홀",
       "tags": "vue.js"
     },
-    { 
+    {
       "id": 137,
       "title": "Let'Swift 17 : 스위프트 개발자 축제",
       "url": "https://onoffmix.com/event/109521",
@@ -1234,7 +1234,7 @@
       "address": "[전문건설회관] 서울 동작구 신대방동 4층 대회의실",
       "tags": "swift"
     },
-    { 
+    {
       "id": 138,
       "title": "2017 보안 & 해킹 INC0GNITO 컨퍼런스",
       "url": "https://onoffmix.com/event/109392",
@@ -1243,7 +1243,7 @@
       "address": "[고려대학교 하나스퀘어] 서울 성북구 안암동5가 대강당 & 멀티미디어실",
       "tags": "security"
     },
-    { 
+    {
       "id": 139,
       "title": "2017 보안 & 해킹 INC0GNITO 컨퍼런스",
       "url": "https://onoffmix.com/event/109392",
@@ -1252,7 +1252,7 @@
       "address": "[고려대학교 하나스퀘어] 서울 성북구 안암동5가 대강당 & 멀티미디어실",
       "tags": "security"
     },
-    { 
+    {
       "id": 140,
       "title": "2017 보안 & 해킹 INC0GNITO 컨퍼런스",
       "url": "https://onoffmix.com/event/109392",
@@ -1261,7 +1261,7 @@
       "address": "[고려대학교 하나스퀘어] 서울 성북구 안암동5가 대강당 & 멀티미디어실",
       "tags": "security"
     },
-    { 
+    {
       "id": 141,
       "title": "9XD: Young, Wild Hackathon",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7RvQnq0sAaTH6orXV-H-GLv3TNNepM08IQAx0nogl8Llwow/viewform",
@@ -1270,7 +1270,7 @@
       "address": "소프트웨어마에스트로센터",
       "tags": "hackathon"
     },
-    { 
+    {
       "id": 142,
       "title": "9XD: Young, Wild Hackathon",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7RvQnq0sAaTH6orXV-H-GLv3TNNepM08IQAx0nogl8Llwow/viewform",
@@ -1279,7 +1279,7 @@
       "address": "소프트웨어마에스트로센터",
       "tags": "hackathon"
     },
-    { 
+    {
       "id": 143,
       "title": "J2S Conference 2017",
       "url": "https://www.facebook.com/events/1224117631048905/",
@@ -1287,8 +1287,8 @@
       "end": "2017-09-16 22:00:00",
       "address": "마루180 Event hall",
       "tags": "developer"
-    }, 
-     { 
+    },
+     {
       "id": 144,
       "title": "소프트웨어를 더 잘 만들기 위한 ERD DB모델링",
       "url": "https://onoffmix.com/event/110414",
@@ -1296,6 +1296,15 @@
       "end": "2017-09-10 17:30:00",
       "address": "마루180 Event hall",
       "tags": "db, erd"
-    }
+    },
+    {
+     "id": 145,
+     "title": "우분투한국커뮤니티 * 한국애저사용자그룹 9월 연합세미나",
+     "url": "https://ubuntu-kr.github.io/events/2017/08/25/ubuntu-kr-krazure-joint-seminar.html",
+     "start": "2017-09-16 14:00:00",
+     "end": "2017-09-10 18:00:00",
+     "address": "한국마이크로소프트",
+     "tags": "ubuntu, linux, windows, azure, desktop, cloud"
+   }
   ]
 }
