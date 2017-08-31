@@ -1323,6 +1323,24 @@
      "end": "2017-09-16 20:00:00",
      "address": "디캠프 6층 다목적홀",
      "tags": "go"
+    },
+    {
+     "id": 148,
+     "title": "EMOCON",
+     "url": "https://www.weirdx.io/emocon/",
+     "start": "2017-10-13 21:00:00",
+     "end": "2017-10-14 00:00:00",
+     "address": "온라인",
+     "tags": "emocon, weirdx"
+    },
+    {
+     "id": 149,
+     "title": "EMOCON",
+     "url": "https://www.weirdx.io/emocon/",
+     "start": "2017-10-14 21:00:00",
+     "end": "2017-10-15 00:00:00",
+     "address": "온라인",
+     "tags": "emocon, weirdx"
     }
   ]
 }
