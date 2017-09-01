@@ -264,6 +264,23 @@
             eventClick: function(calEvent, jsEvent, view) {
                 window.open(calEvent.url, '_blank');
                 return false;
+            },
+            eventMouseover: function(calEvent, domEvent) {
+
+
+                closePopovers();
+                var title ="<a href='" + calEvent.url + "'>" + calEvent.title + "</a>";
+                var content = '<ul>';
+                content +="<li>" + $.fullCalendar.formatDate(calEvent.start, 'HH:mm') + " ~ " + $.fullCalendar.formatDate(calEvent.end, 'HH:mm') + "</li>";
+                content +="<li>" + calEvent.address + "</li>";
+                content +="<li>" + calEvent.tags + "</li>";
+
+                $(domEvent.currentTarget).popover({
+                    title:title,
+                    content:content,
+                    html:true,
+                    container: 'body'
+                }).popover('show');
             }
 
         });
@@ -342,7 +359,13 @@
         $('#fullcalendar').fullCalendar('prev');
     });
 
+    function closePopovers() {
+        $('.popover').not(this).popover('hide');
+    }
+
+    $('body').on('click', function (e) {
+        closePopovers();
+    });
 
 </script>
-
 </html>
