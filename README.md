@@ -5,6 +5,7 @@
 
 ## 이벤트 추가하기
 - `data/events.json`에 데이터 추가
+- `master` branch 대상으로 추가
 
 ```json
 {
@@ -22,8 +23,8 @@
 ]
 }
 ```
-- pull request 혹은 commit 후 반영됨.
 
+- pull request 혹은 commit 후 반영됨.
 
 ## TODO 
 - [x] mobile support
