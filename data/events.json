@@ -1341,6 +1341,15 @@
      "end": "2017-10-15 00:00:00",
      "address": "온라인",
      "tags": "emocon, weirdx"
+    }, 
+    {
+     "id": 150,
+     "title": "Agile Korea Conference 2017",
+     "url": "https://onoffmix.com/event/111479",
+     "start": "2017-09-29 08:30:00",
+     "end": "2017-09-29 19:00:00",
+     "address": "[삼성SDS타워 서관] 서울 송파구 신천동 지하 1층 마젤란홀, 파스칼홀, 다목적홀",
+     "tags": "agile"
     }
   ]
 }
