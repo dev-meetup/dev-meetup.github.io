@@ -1359,6 +1359,15 @@
      "end": "2017-10-13 19:00:00",
      "address": "미정",
      "tags": "data"
+    }, 
+    {
+     "id": 152,
+     "title": "구글 클라우드 데이 @ 판교 ",
+     "url": "https://events.withgoogle.com/google-day-pangyo-1/",
+     "start": "2017-09-12 13:00:00",
+     "end": "2017-09-12 18:00:00",
+     "address": "경기도 성남시 분당구 대왕판교로645번길 12 경기창조경제혁신센터 ",
+     "tags": "google, cloud"
     }
   ]
 }
