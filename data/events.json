@@ -1395,6 +1395,15 @@
      "end": "2017-09-19 21:00:00",
      "address": "위워크 을지로점 8F",
      "tags": "python, django"
+    }, 
+    {
+     "id": 156,
+     "title": "Meet up : 스타트업 + 개발자",
+     "url": "https://www.wanted.co.kr/events/57",
+     "start": "2017-09-28 19:30:00",
+     "end": "2017-09-28 22:00:00",
+     "address": "메리어트 판교 2층 라디오베이",
+     "tags": "startup, developer"
     }
   ]
 }
