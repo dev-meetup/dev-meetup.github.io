@@ -1422,6 +1422,42 @@
      "end": "2017-11-19 18:00:00",
      "address": "서울대학교 글로벌 컨벤션 플라자 5층",
      "tags": "gdg"
+    }, 
+    {
+     "id": 159,
+     "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 1차 워크샵",
+     "url": "http://onoffmix.com/event/109466",
+     "start": "2017-09-30 14:00:00",
+     "end": "2017-09-30 17:00:00",
+     "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+     "tags": "aws"
+    }, 
+    {
+     "id": 160,
+     "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 2차 워크샵",
+     "url": "http://onoffmix.com/event/109466",
+     "start": "2017-10-14 14:00:00",
+     "end": "2017-10-14 17:00:00",
+     "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+     "tags": "aws"
+    }, 
+    {
+     "id": 161,
+     "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 3차 워크샵",
+     "url": "http://onoffmix.com/event/109466",
+     "start": "2017-10-28 14:00:00",
+     "end": "2017-10-28 17:00:00",
+     "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+     "tags": "aws"
+    }, 
+    {
+     "id": 162,
+     "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 4차 워크샵",
+     "url": "http://onoffmix.com/event/109466",
+     "start": "2017-11-11 14:00:00",
+     "end": "2017-11-11 17:00:00",
+     "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+     "tags": "aws"
     }
   ]
 }
