@@ -1413,6 +1413,15 @@
      "end": "2017-09-24 17:00:00",
      "address": "토즈 홍대점",
      "tags": "postgresql"
+    }, 
+     {
+     "id": 158,
+     "title": "GDG DevFest Seoul 2017",
+     "url": "about:blank",
+     "start": "2017-11-19 13:00:00",
+     "end": "2017-11-19 18:00:00",
+     "address": "서울대학교 글로벌 컨벤션 플라자 5층",
+     "tags": "gdg"
     }
   ]
 }
