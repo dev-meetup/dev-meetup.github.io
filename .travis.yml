@@ -8,3 +8,9 @@ install:
 
 script:
   - python ./test/test.py
+
+after_success:
+  - python ./script/event_seperator.py
+  - git add -A
+  - git commit -a -m "travis auto : add event files"
+  - git push origin develop

@@ -1,7 +1,6 @@
+# -*- coding:utf-8 -*-
 import unittest
 import re
-
-
 
 class JsonValidateCase(unittest.TestCase):
 
@@ -14,17 +13,13 @@ class JsonValidateCase(unittest.TestCase):
         self.json_schema = json.loads(self.get_json_from_file(json_schema_file_path))
 
     def get_json_from_file(self, path):
-
-
         with open(path, 'r') as f:
             return self.clean_json(f.read())
 
- 
 
     def clean_json(self, string):
         string = re.sub(",[ \t\r\n]+}", "}", string)
         string = re.sub(",[ \t\r\n]+\]", "]", string)
-
         return string
 
 
