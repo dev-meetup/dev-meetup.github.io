@@ -1494,6 +1494,15 @@
      "end": "2017-10-28 18:00:00",
      "address": "[서울대학교 공대대형강의동] 서울 관악구 신림동",
      "tags": "data, r"
+    }, 
+     {
+     "id": 167,
+     "title": "PgDay.Seoul 2017",
+     "url": "https://onoffmix.com/event/114109",
+     "start": "2017-11-04 13:00:00",
+     "end": "2017-11-04 18:00:00",
+     "address": "[KTDS] 서울 서초구 방배동 KTDS 2층 유니버스티",
+     "tags": "pgday, postgresql"
     }
   ]
 }
