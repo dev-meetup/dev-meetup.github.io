@@ -1467,6 +1467,24 @@
      "end": "2017-10-21 18:00:00",
      "address": "인천 주안시민지하상가 문화공간 Art Avenue 27",
      "tags": "gdg"
+    }, 
+     {
+     "id": 164,
+     "title": "삼성 오픈소스 컨퍼런스 2017",
+     "url": "https://onoffmix.com/event/112923",
+     "start": "2017-10-25 09:00:00",
+     "end": "2017-10-25 17:30:00",
+     "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
+     "tags": "open source"
+    }, 
+     {
+     "id": 165,
+     "title": "삼성 오픈소스 컨퍼런스 2017",
+     "url": "https://onoffmix.com/event/112923",
+     "start": "2017-10-26 09:00:00",
+     "end": "2017-10-26 17:30:00",
+     "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
+     "tags": "open source"
     }
   ]
 }
