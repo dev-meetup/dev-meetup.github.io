@@ -1485,6 +1485,15 @@
      "end": "2017-10-26 17:30:00",
      "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
      "tags": "open source"
+    }, 
+     {
+     "id": 166,
+     "title": "R User Conference in Korea 2017",
+     "url": "https://onoffmix.com/event/114006",
+     "start": "2017-10-28 09:30:00",
+     "end": "2017-10-28 18:00:00",
+     "address": "[서울대학교 공대대형강의동] 서울 관악구 신림동",
+     "tags": "data, r"
     }
   ]
 }
