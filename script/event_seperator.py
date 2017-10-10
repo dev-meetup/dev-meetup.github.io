@@ -26,4 +26,4 @@ if events:
     for k, v in classified_events.items():
         write_file_path = './data/events-' + k + '.json'
         with open(write_file_path, 'w') as f:
-            f.write(json.dumps(v, ensure_ascii=False, indent=4).encode('utf-8'))
+            f.write(json.dumps(v, ensure_ascii=False, indent=4))
