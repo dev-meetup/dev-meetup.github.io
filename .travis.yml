@@ -1,16 +1,19 @@
 language: python
 python:
-  - "3.6"
-
+- '3.6'
 install:
-  - pip install jsonschema
-
-
+- pip install jsonschema
+before_install:
+- git config --global user.email "ohyecloudy@gmail.com"
+- git config --global user.name "ohyecloudy"
 script:
-  - python ./test/test.py
-
+- python ./test/test.py
 after_success:
-  - python ./script/event_seperator.py
-  - git add -A
-  - git commit -a -m "travis auto : add event files"
-  - git push origin develop
+- python ./script/event_seperator.py
+- git add -A
+- git remote add origin https://$GH_TOKEN@github.com/dev-meetup/dev-meetup.github.io.git
+- git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
+- git push -f origin develop
+env:
+  global:
+  - secure: aTo+7i+9ppExWN72uE4cSjozldUEoRosoNK53AXvUQ+kmrqaH482l+WYfSdyzWZSXC5TahozmRzBAQJIEuCAZzCAo9I0epARJFv+yOKbnCKIVXL9gyfJUvmtayjMaPM5/0rZr+LPkSbKW3K2MvSIOUe7y3MRGtsCUIWigiFCSOUB9dvkd/KnSeGZ9kCghw4QmI3xDDIwG57+0YD0M0CH+O9r8N+yGaJ4r13N4MLufTYH76QZL4jsfycbCSvYoRUNuyt5uAbA32plVUBzYIdHbrdVxktDWL5+YGZGpHOpxbrMDkZQ+Wi4FAIoCE0qRnNxlNNQxRLM4a1rKBbJxO0NEpXVaoGYznFADVAUzikErMKBWmYgPX/gePb8wRRbBZPR5JyIaMuFE+kbgSsPvdtOlhti1y6a0MiCdxk6eR/8hw0jGvNikqP8MKS6aPSxfAiuA96YVzkNNB/PsguJ3ig5T9WMyHvzZ+ItTj9JwlSg3RDH+DixOIf1LNAZvgg5bbz0GDFZMok2rCW+b+mjbOIq6wCLqxZky2TuNqbtZGq6j6UBtPigVYNJt0FvpU5EEl4klj/XzsrkQdsUaEUf0PjRyjs0lqI5BDoMIgNyHjcsEv6FwqCESSw6G64ncep0dUIIMLSPWtaBSGB68xqPTREgHCrPxx34ycANYNWSyUDGbac=
