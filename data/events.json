@@ -1341,7 +1341,7 @@
      "end": "2017-10-29 01:00:00",
      "address": "온라인",
      "tags": "emocon, weirdx"
-    }, 
+    },
     {
      "id": 150,
      "title": "Agile Korea Conference 2017",
@@ -1350,7 +1350,7 @@
      "end": "2017-09-29 19:00:00",
      "address": "[삼성SDS타워 서관] 서울 송파구 신천동 지하 1층 마젤란홀, 파스칼홀, 다목적홀",
      "tags": "agile"
-    }, 
+    },
     {
      "id": 151,
      "title": "데이터야놀자",
@@ -1359,7 +1359,7 @@
      "end": "2017-10-13 19:00:00",
      "address": "한빛미디어 홍대 신사옥(03785) 서울 서대문구 연희로2길 62",
      "tags": "data"
-    }, 
+    },
     {
      "id": 152,
      "title": "구글 클라우드 데이 @ 판교 ",
@@ -1368,7 +1368,7 @@
      "end": "2017-09-12 18:00:00",
      "address": "경기도 성남시 분당구 대왕판교로645번길 12 경기창조경제혁신센터 ",
      "tags": "google, cloud"
-    }, 
+    },
     {
      "id": 153,
      "title": "React Seoul",
@@ -1377,7 +1377,7 @@
      "end": "2017-11-14 16:00:00",
      "address": "서울시 강남구 테헤란로 142 캐피탈타워 22층",
      "tags": "react"
-    }, 
+    },
     {
      "id": 154,
      "title": "FEConf2017",
@@ -1386,7 +1386,7 @@
      "end": "2017-10-21 16:30:00",
      "address": "서울 강남구 역삼로 180(역삼동, 790-6)",
      "tags": "frontend"
-    }, 
+    },
     {
      "id": 155,
      "title": "Django Girls Seoul Meetup 'Where We Work'",
@@ -1395,7 +1395,7 @@
      "end": "2017-09-19 21:00:00",
      "address": "위워크 을지로점 8F",
      "tags": "python, django"
-    }, 
+    },
     {
      "id": 156,
      "title": "Meet up : 스타트업 + 개발자",
@@ -1413,7 +1413,7 @@
      "end": "2017-09-24 17:00:00",
      "address": "토즈 홍대점",
      "tags": "postgresql"
-    }, 
+    },
      {
      "id": 158,
      "title": "GDG DevFest Seoul 2017",
@@ -1422,7 +1422,7 @@
      "end": "2017-11-19 18:00:00",
      "address": "서울대학교 글로벌 컨벤션 플라자 5층",
      "tags": "gdg"
-    }, 
+    },
     {
      "id": 159,
      "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 1차 워크샵",
@@ -1431,7 +1431,7 @@
      "end": "2017-09-30 17:00:00",
      "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
      "tags": "aws"
-    }, 
+    },
     {
      "id": 160,
      "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 2차 워크샵",
@@ -1440,7 +1440,7 @@
      "end": "2017-10-14 17:00:00",
      "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
      "tags": "aws"
-    }, 
+    },
     {
      "id": 161,
      "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 3차 워크샵",
@@ -1449,7 +1449,7 @@
      "end": "2017-10-28 17:00:00",
      "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
      "tags": "aws"
-    }, 
+    },
     {
      "id": 162,
      "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 4차 워크샵",
@@ -1458,7 +1458,7 @@
      "end": "2017-11-11 17:00:00",
      "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
      "tags": "aws"
-    }, 
+    },
      {
      "id": 163,
      "title": "GDG DevFest Incheon 2017",
@@ -1467,7 +1467,7 @@
      "end": "2017-10-21 18:00:00",
      "address": "인천 주안시민지하상가 문화공간 Art Avenue 27",
      "tags": "gdg"
-    }, 
+    },
      {
      "id": 164,
      "title": "삼성 오픈소스 컨퍼런스 2017",
@@ -1476,7 +1476,7 @@
      "end": "2017-10-25 17:30:00",
      "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
      "tags": "open source"
-    }, 
+    },
      {
      "id": 165,
      "title": "삼성 오픈소스 컨퍼런스 2017",
@@ -1485,7 +1485,7 @@
      "end": "2017-10-26 17:30:00",
      "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
      "tags": "open source"
-    }, 
+    },
      {
      "id": 166,
      "title": "R User Conference in Korea 2017",
@@ -1494,7 +1494,7 @@
      "end": "2017-10-28 18:00:00",
      "address": "[서울대학교 공대대형강의동] 서울 관악구 신림동",
      "tags": "data, r"
-    }, 
+    },
      {
      "id": 167,
      "title": "PgDay.Seoul 2017",
@@ -1503,9 +1503,64 @@
      "end": "2017-11-04 18:00:00",
      "address": "[KTDS] 서울 서초구 방배동 KTDS 2층 유니버스티",
      "tags": "pgday, postgresql"
+ 
+    },  
+     {
+     "id": 168,
+     "title": "play.node 2017",
+     "url": "http://playnode.io/2017/",
+     "start": "2017-11-09 10:30:00",
+     "end": "2017-11-09 17:55:00",
+     "address": "서울시 강남구 봉은사로 120 르메르디앙 서울",
+     "tags": "node.js"
     },
     {
      "id": 169,
+     "title": "초보자들도 쉽게 할 수 있는 Azure Function 과 Cognitive 개발 세미나",
+     "url": "https://onoffmix.com/event/116031",
+     "start": "2017-11-04 14:30:00",
+     "end": "2017-11-04 18:30:00",
+     "address": "[MARU180] 서울 강남구 역삼동",
+     "tags": "azure"
+    },
+    {
+     "id": 170,
+     "title": "JetBrains Night 2017 서울",
+     "url": "https://onoffmix.com/event/114809",
+     "start": "2017-11-21 18:00:00",
+     "end": "2017-11-21 22:00:00",
+     "address": "[엘타워] 서울 서초구 양재동 양재 엘타워 7F [그랜드홀]",
+     "tags": "ide, jetbrains"
+    },
+    {
+     "id": 171,
+     "title": "파이썬을 이용한 머쉰러닝 / Azure 마이크로서비스의 진화 / 챗봇 핸즈온",
+     "url": "https://onoffmix.com/event/115846",
+     "start": "2017-10-28 18:00:00",
+     "end": "2017-10-28 22:00:00",
+     "address": "[부산정보산업진흥원] 부산 해운대구 우동 부산광역시 해운대구 센텀동로 41, 센텀벤처타운 7층",
+     "tags": "azure, chatbot, python. serverless"
+    },
+    {
+     "id": 172,
+     "title": "WebRTC big meetup 2017 Seoul with global leaders",
+     "url": "https://onoffmix.com/event/115962",
+     "start": "2017-11-17 18:00:00",
+     "end": "2017-11-17 21:00:00",
+     "address": "[해성빌딩] 서울 강남구 역삼동 해성빌딩 팁스타운 팁스홀",
+     "tags": "webrtc"
+    }, 
+   {
+     "id": 173,
+     "title": "우분투한국커뮤니티 11월 대전지역 세미나",
+     "url": "https://ubuntu-kr.github.io/events/2017/09/19/november-daejeon-seminar.html",
+     "start": "2017-11-04 13:10:00",
+     "end": "2017-11-04 18:00:00",
+     "address": "토즈 TSC대전탄방센터(대전광역시 서구 계룡로 586 KMT빌딩 7층) 정액25인 부스",
+     "tags": "ubuntu, linux, daejeon, embeded, iot"
+   }, 
+   {
+     "id": 174,
      "title": "MeltingCon L!VE 1710",
      "url": "https://onoffmix.com/event/115786",
      "start": "2017-10-21 14:00:00",
@@ -1513,5 +1568,6 @@
      "address": "[마이크로소프트웨어] 서울특별시 중구 세종대로21길 22 태성빌딩 3층 마이크로소프트웨어",
      "tags": "open source, azure"
     }
+ 
   ]
 }
