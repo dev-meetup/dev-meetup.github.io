@@ -1503,6 +1503,15 @@
      "end": "2017-11-04 18:00:00",
      "address": "[KTDS] 서울 서초구 방배동 KTDS 2층 유니버스티",
      "tags": "pgday, postgresql"
+    },
+    {
+     "id": 169,
+     "title": "MeltingCon L!VE 1710",
+     "url": "https://onoffmix.com/event/115786",
+     "start": "2017-10-21 14:00:00",
+     "end": "2017-10-21 18:00:00",
+     "address": "[마이크로소프트웨어] 서울특별시 중구 세종대로21길 22 태성빌딩 3층 마이크로소프트웨어",
+     "tags": "open source, azure"
     }
   ]
 }
