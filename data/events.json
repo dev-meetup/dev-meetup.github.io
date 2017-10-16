@@ -1512,6 +1512,42 @@
      "end": "2017-11-09 17:55:00",
      "address": "서울시 강남구 봉은사로 120 르메르디앙 서울",
      "tags": "node.js"
+    },
+    {
+     "id": 169,
+     "title": "초보자들도 쉽게 할 수 있는 Azure Function 과 Cognitive 개발 세미나",
+     "url": "https://onoffmix.com/event/116031",
+     "start": "2017-11-04 14:30:00",
+     "end": "2017-11-04 18:30:00",
+     "address": "[MARU180] 서울 강남구 역삼동",
+     "tags": "azure"
+    },
+    {
+     "id": 170,
+     "title": "JetBrains Night 2017 서울",
+     "url": "https://onoffmix.com/event/114809",
+     "start": "2017-11-21 18:00:00",
+     "end": "2017-11-21 22:00:00",
+     "address": "[엘타워] 서울 서초구 양재동 양재 엘타워 7F [그랜드홀]",
+     "tags": "ide, jetbrains"
+    },
+    {
+     "id": 171,
+     "title": "파이썬을 이용한 머쉰러닝 / Azure 마이크로서비스의 진화 / 챗봇 핸즈온",
+     "url": "https://onoffmix.com/event/115846",
+     "start": "2017-10-28 18:00:00",
+     "end": "2017-10-28 22:00:00",
+     "address": "[부산정보산업진흥원] 부산 해운대구 우동 부산광역시 해운대구 센텀동로 41, 센텀벤처타운 7층",
+     "tags": "azure, chatbot, python. serverless"
+    },
+    {
+     "id": 172,
+     "title": "WebRTC big meetup 2017 Seoul with global leaders",
+     "url": "https://onoffmix.com/event/115962",
+     "start": "2017-11-17 18:00:00",
+     "end": "2017-11-17 21:00:00",
+     "address": "[해성빌딩] 서울 강남구 역삼동 해성빌딩 팁스타운 팁스홀",
+     "tags": "webrtc"
     }
   ]
 }
