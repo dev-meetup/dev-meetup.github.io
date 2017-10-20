@@ -1567,6 +1567,24 @@
      "end": "2017-10-21 18:00:00",
      "address": "[마이크로소프트웨어] 서울특별시 중구 세종대로21길 22 태성빌딩 3층 마이크로소프트웨어",
      "tags": "open source, azure"
+    },
+    {
+     "id": 175,
+     "title": "개발자를 위한 공감 세미나: 15번째 이야기",
+     "url": "http://www.hanbit.co.kr/store/education/edu_view.html?p_code=S3310290057",
+     "start": "2017-11-04 10:40:00",
+     "end": "2017-11-04 16:00:00",
+     "address": "한빛빌딩 B동 1층 리더스홀",
+     "tags": "developer"
+    },
+    {
+     "id": 176,
+     "title": "[2017년 10월 파이썬 세미나] Python & Data",
+     "url": "https://onoffmix.com/event/116021",
+     "start": "2017-10-21 14:00:00",
+     "end": "2017-10-21 18:00:00",
+     "address": "[페이스북코리아] 서울 강남구 역삼동 [역삼역 3번 출구] 서울 강남구 테헤란로 142 캐피탈타워 22층",
+     "tags": "python, data"
     }
  
   ]
