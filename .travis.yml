@@ -4,14 +4,13 @@ python:
 install:
 - pip install jsonschema
 before_install:
-- git config --global user.email "ohyecloudy@gmail.com"
-- git config --global user.name "ohyecloudy"
+- git config --global user.email "sh84.ahn@gmail.com"
+- git config --global user.name "AhnSeongHyun"
 script:
 - python ./test/test.py
 after_success:
 - python ./script/event_seperator.py
 - git add -A
-- git remote add origin https://$GH_TOKEN@github.com/dev-meetup/dev-meetup.github.io.git
 - git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
 - git push -f origin develop
 env:
