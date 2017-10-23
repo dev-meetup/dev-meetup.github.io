@@ -6,11 +6,9 @@ install:
 
 script:
 - python ./test/test.py
+after_success:
+- python ./script/event_seperator.py
+- git add -A ./data/*
+- git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
+- git push -f -q https://dev-meetup:fdb0ca7b28d35443c7238d310505adbd89697bbb@github.com/dev-meetup/dev-meetup.github.io
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: 6de309d467e6c961eafbd4f1e4fdb9610fb164ce
-  target_branch: test-deploy
-  on:
-    branch: develop
