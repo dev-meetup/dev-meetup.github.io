@@ -3,17 +3,14 @@ python:
 - '3.6'
 install:
 - pip install jsonschema
+
 script:
 - python ./test/test.py
-after_success:
-- python ./script/event_seperator.py
-- git add -A
-- git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: 6de309d467e6c961eafbd4f1e4fdb9610fb164ce
-  target_branch: develop
+  target_branch: test-deploy
   on:
     branch: develop
