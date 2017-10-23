@@ -3,9 +3,6 @@ python:
 - '3.6'
 install:
 - pip install jsonschema
-before_install:
-- git config --global user.email "sh84.ahn@gmail.com"
-- git config --global user.name "AhnSeongHyun"
 script:
 - python ./test/test.py
 after_success:
@@ -16,6 +13,7 @@ after_success:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: 6de309d467e6c961eafbd4f1e4fdb9610fb164ce
+  target_branch: develop
   on:
     branch: develop
