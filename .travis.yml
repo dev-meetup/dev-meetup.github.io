@@ -12,7 +12,10 @@ after_success:
 - python ./script/event_seperator.py
 - git add -A
 - git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
-- git push -f origin develop
-env:
-  global:
-  - secure: aTo+7i+9ppExWN72uE4cSjozldUEoRosoNK53AXvUQ+kmrqaH482l+WYfSdyzWZSXC5TahozmRzBAQJIEuCAZzCAo9I0epARJFv+yOKbnCKIVXL9gyfJUvmtayjMaPM5/0rZr+LPkSbKW3K2MvSIOUe7y3MRGtsCUIWigiFCSOUB9dvkd/KnSeGZ9kCghw4QmI3xDDIwG57+0YD0M0CH+O9r8N+yGaJ4r13N4MLufTYH76QZL4jsfycbCSvYoRUNuyt5uAbA32plVUBzYIdHbrdVxktDWL5+YGZGpHOpxbrMDkZQ+Wi4FAIoCE0qRnNxlNNQxRLM4a1rKBbJxO0NEpXVaoGYznFADVAUzikErMKBWmYgPX/gePb8wRRbBZPR5JyIaMuFE+kbgSsPvdtOlhti1y6a0MiCdxk6eR/8hw0jGvNikqP8MKS6aPSxfAiuA96YVzkNNB/PsguJ3ig5T9WMyHvzZ+ItTj9JwlSg3RDH+DixOIf1LNAZvgg5bbz0GDFZMok2rCW+b+mjbOIq6wCLqxZky2TuNqbtZGq6j6UBtPigVYNJt0FvpU5EEl4klj/XzsrkQdsUaEUf0PjRyjs0lqI5BDoMIgNyHjcsEv6FwqCESSw6G64ncep0dUIIMLSPWtaBSGB68xqPTREgHCrPxx34ycANYNWSyUDGbac=
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: develop
