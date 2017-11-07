@@ -1612,6 +1612,15 @@
       "end": "2017-10-31 23:00:00",
       "address": "역삼GS타워 12층 AWS 코리아 트레이닝 룸 ",
       "tags": "aws"
+     },
+    {
+      "id": 180,
+      "title": "Java And Spring forward",
+      "url": "http://www.ksug.org/seminar/20171126/",
+      "start": "2017-11-26 12:40:00",
+      "end": "2017-11-26 18:00:00",
+      "address": "을지로입구역 페럼타워 - 페럼홀(3층)",
+      "tags": "java"
      }
   ]
 }
