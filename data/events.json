@@ -1621,6 +1621,15 @@
       "end": "2017-11-26 18:00:00",
       "address": "을지로입구역 페럼타워 - 페럼홀(3층)",
       "tags": "java"
+     },
+       {
+      "id": 181,
+      "title": "Azure Web App과 네트워크 디자인, 그리고 리눅스",
+      "url": "https://onoffmix.com/event/116879",
+      "start": "2017-11-18 13:00:00",
+      "end": "2017-11-18 18:00:00",
+      "address": "역삼동 마루180 지하1층 Think 홀",
+      "tags": "azure"
      }
   ]
 }
