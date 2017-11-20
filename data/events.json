@@ -1648,6 +1648,15 @@
       "end": "2017-12-18 17:40:00",
       "address": "한국과학기술회관 국제회의장",
       "tags": "azure, asp.net core"
+     },
+     {
+      "id": 184,
+      "title": "Vuetiful Korea(Vue.js)",
+      "url": "https://tumblbug.com/vue",
+      "start": "2017-12-01 19:00:00",
+      "end": "2017-12-01 22:00:00",
+      "address": "강남권으로 추후 공지 예정",
+      "tags": "Vue, Vue.js"
      }
   ]
 }
