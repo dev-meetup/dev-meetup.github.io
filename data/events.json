@@ -1657,6 +1657,15 @@
       "end": "2017-12-01 22:00:00",
       "address": "강남권으로 추후 공지 예정",
       "tags": "Vue, Vue.js"
+     },
+     {
+      "id": 185,
+      "title": "MASOCON 2017",
+      "url": "http://www.imaso.co.kr/masocon2017/index.html",
+      "start": "2017-11-25 10:00:00",
+      "end": "2017-11-25 18:30:00",
+      "address": "누리꿈스퀘어 국제회의실 (서울특별시 마포구 상암동 월드컵북로 396(상암동)",
+      "tags": "microsoft, developer, conference"
      }
   ]
 }
