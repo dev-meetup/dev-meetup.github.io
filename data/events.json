@@ -1666,6 +1666,24 @@
       "end": "2017-11-25 18:30:00",
       "address": "누리꿈스퀘어 국제회의실 (서울특별시 마포구 상암동 월드컵북로 396(상암동)",
       "tags": "microsoft, developer, conference"
+     },
+    {
+      "id": 186,
+      "title": "2017 파이썬 연말 세미나",
+      "url": "https://onoffmix.com/event/120310",
+      "start": "2017-12-09 13:00:00",
+      "end": "2017-12-09 19:00:00",
+      "address": "서울 서대문구 연희로2길 62 한빛미디어 B동 1층 리더스 홀",
+      "tags": "python, pycon"
+     },
+      {
+      "id": 187,
+      "title": "2017 이상한모임 연말정산",
+      "url": "https://booking.naver.com/booking/12/bizes/116060",
+      "start": "2017-12-16 09:00:00",
+      "end": "2017-12-16 18:00:00",
+      "address": "서울특별시 동작구 보라매로5길 15",
+      "tags": "emocon"
      }
   ]
 }
