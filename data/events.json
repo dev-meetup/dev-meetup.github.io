@@ -1684,6 +1684,15 @@
       "end": "2017-12-16 18:00:00",
       "address": "서울특별시 동작구 보라매로5길 15",
       "tags": "emocon"
+     },
+     {
+      "id": 188,
+      "title": "애자일 코리아 컨퍼런스 밋업",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfBD-lzf5xmTwvcED_tpVGBNyNnwGJB-jfbv-gO82Z-oElQTQ/viewform",
+      "start": "2017-12-13 19:00:00",
+      "end": "2017-12-13 22:00:00",
+      "address": "삼성 SDS 잠실사옥 동관 5층 ACT 사무실, 향군잠실타워, 1층 왓슨스 건물 5층. ",
+      "tags": "agile"
      }
   ]
 }
