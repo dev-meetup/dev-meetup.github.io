@@ -1693,6 +1693,15 @@
       "end": "2017-12-13 22:00:00",
       "address": "삼성 SDS 잠실사옥 동관 5층 ACT 사무실, 향군잠실타워, 1층 왓슨스 건물 5층. ",
       "tags": "agile"
+     },
+     {
+      "id": 189,
+      "title": "2017 하드코딩하는 사람들 오픈세미나",
+      "url": "http://cafe.naver.com/hacosa",
+      "start": "2017-12-16 12:40:00",
+      "end": "2017-12-16 18:10:00",
+      "address": "마포구 성암로 330 SBA 첨단센터 7층",
+      "tags": "web, crawiling, sass"
      }
   ]
 }
