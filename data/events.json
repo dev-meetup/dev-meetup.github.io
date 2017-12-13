@@ -1717,9 +1717,18 @@
       "title": "GDG인천 2017 Year End Party",
       "url": "https://sites.google.com/view/gdgincheon17last",
       "start": "2017-12-16 13:00:00",
-      "end": "2017-12-16 17:10:00",
+      "end": "2017-12-16 17:00:00",
       "address": "유유기지 (제물포스마트타운)",
       "tags": "gdg"
+     }, 
+     {
+      "id": 192,
+      "title": "Mozilla Firefox Quntum 사용자 송년 모임",
+      "url": "https://www.meetup.com/ko-KR/Mozilla-Korea-Community/events/245708053/",
+      "start": "2017-12-21 19:00:00",
+      "end": "2017-12-21 21:00:00",
+      "address": "역삼동 갈라 빌딩 지하 1층",
+      "tags": "mozilla, firefox"
      }
   ]
 }
