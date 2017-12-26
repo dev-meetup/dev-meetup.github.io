@@ -1747,6 +1747,33 @@
       "end": "2017-12-27 22:30:00",
       "address": "한빛빌딩 B동 1층 리더스홀 (서울 서대문구 연희로2길 62)",
       "tags": "data"
+     }, 
+     {
+      "id": 196,
+      "title": "모각코 2017년 연말 모임",
+      "url": "https://www.facebook.com/groups/mogaco/permalink/1195056597260721/",
+      "start": "2017-12-28 18:00:00",
+      "end": "2017-12-28 21:00:00",
+      "address": "WeWork 강남점 라운지(서울시 서초구 강남대로 373 18F)",
+      "tags": "coding"
+     }, 
+      {
+      "id": 197,
+      "title": "모던 php 유저 그룹 2018 신년회",
+      "url": "https://www.facebook.com/events/150968008791155/",
+      "start": "2018-01-03 19:30:00",
+      "end": "2018-01-03 21:00:00",
+      "address": "네이버 D2 스타트업 팩토리 (서울특별시 강남구 강남대로 382 메리츠타워 16층)",
+      "tags": "php"
+     },   
+    {
+      "id": 198,
+      "title": "PyTorch KR 1차 오프라인 모임",
+      "url": "https://onoffmix.com/event/122625",
+      "start": "2018-01-21 13:00:00",
+      "end": "2018-01-21 19:00:00",
+      "address": "MARU 180 Event Hall (서울시 강남구 역삼동)",
+      "tags": "pytorch"
      }
   ]
 }
