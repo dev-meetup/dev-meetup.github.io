@@ -3,11 +3,13 @@ python:
 - '3.6'
 install:
 - pip install jsonschema
-
 script:
 - python ./test/test.py
 after_success:
 - python ./script/event_seperator.py
 - git add -A ./data/*
 - git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
-- git push https://dev-meetup:fdb0ca7b28d35443c7238d310505adbd89697bbb@github.com/dev-meetup/dev-meetup.github.io HEAD:develop
+- git push https://AhnSeongHyun:${GH_TOKEN}@github.com/dev-meetup/dev-meetup.github.io
+env:
+  global:
+    secure: J0lsYnL++Pfz8pTb2jidaw1epAbH1RJKzOprUJ/mbq8Uu0jy4ZtiRyeyPCXv2OC1GlNZi7kE1YeIEuYcMTH7p/HiSeyOur1SC9xrWotNxg4ceV0Imdzv8q79un5ycvhTPikJ77AuecYxyCUto3gExFNE0+JZwWIwTBSB3g+P97Ld9vMtVS8/ndXhImrzfNtWZL1WnyTG09r3QUKp6/QjT987uLpT5wDzTQYIYKKAJYSXKWoJZxJLTefiJuT7wYNlNPwXQoONvdYZsUuRsowD3b9NA9mnCWkCgaxBpivfWpskB50vHLaKJ9NCmXVZ+gTMjMhp73Veqioq/x5jm7WcdSDj9YztIwt/uh1NvHsfs9uw3s9rtQoazUsMzTB7waUEuhZ1/7zsFZctum/rn47Dmri6BJtPNE4c96wy+P7E63bP8spoVhScmSRUBelS+OgKvqk9YbATQKrkYRisrQ/uqgKesEJ7GIMvVC4ur4mCZMT2UO9Si48xuCQpJbi3VJLpbLg4omOhTHeweM2eGWT3CBW749sBywE9ml0eApDj5WpcqRMQVKt8/OI+WhpmIgWldd+JpfprASaGjE7I1YQMbJc8vowBWhcY3KgiIE83LjSRj5XtYQK9m1YwBbT3qqJ2b99N23Eh8anPwpDyNIN4ZXvGqDDRzMaljL6dMLLp/MM=
