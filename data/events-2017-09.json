@@ -1,0 +1,103 @@
+{
+    "events": [
+        {
+            "id": 127,
+            "title": "Electron-with-TypeScript Hands-On Labs",
+            "url": "https://ts-korea.github.io/electron-with-typescript/",
+            "start": "2017-09-01 19:00:00",
+            "end": "2017-09-01 21:00:00",
+            "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
+            "tags": "electron, typescript"
+        },
+        {
+            "id": 128,
+            "title": "Electron-with-TypeScript Hands-On Labs",
+            "url": "https://ts-korea.github.io/electron-with-typescript/",
+            "start": "2017-09-08 19:00:00",
+            "end": "2017-09-08 21:00:00",
+            "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
+            "tags": "electron, typescript"
+        },
+        {
+            "id": 129,
+            "title": "Electron-with-TypeScript Hands-On Labs",
+            "url": "https://ts-korea.github.io/electron-with-typescript/",
+            "start": "2017-09-15 19:00:00",
+            "end": "2017-09-15 21:00:00",
+            "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
+            "tags": "electron, typescript"
+        },
+        {
+            "id": 130,
+            "title": "Electron-with-TypeScript Hands-On Labs",
+            "url": "https://ts-korea.github.io/electron-with-typescript/",
+            "start": "2017-09-22 19:00:00",
+            "end": "2017-09-22 21:00:00",
+            "address": "강남 ~ 역삼 일대 스터디룸 예약 예정",
+            "tags": "electron, typescript"
+        },
+        {
+            "id": 137,
+            "title": "Let'Swift 17 : 스위프트 개발자 축제",
+            "url": "https://onoffmix.com/event/109521",
+            "start": "2017-09-23 09:00:00",
+            "end": "2017-09-23 18:00:00",
+            "address": "[전문건설회관] 서울 동작구 신대방동 4층 대회의실",
+            "tags": "swift"
+        },
+        {
+            "id": 141,
+            "title": "9XD: Young, Wild Hackathon",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7RvQnq0sAaTH6orXV-H-GLv3TNNepM08IQAx0nogl8Llwow/viewform",
+            "start": "2017-09-09 09:00:00",
+            "end": "2017-09-09 22:00:00",
+            "address": "소프트웨어마에스트로센터",
+            "tags": "hackathon"
+        },
+        {
+            "id": 142,
+            "title": "9XD: Young, Wild Hackathon",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7RvQnq0sAaTH6orXV-H-GLv3TNNepM08IQAx0nogl8Llwow/viewform",
+            "start": "2017-09-10 09:00:00",
+            "end": "2017-09-10 18:00:00",
+            "address": "소프트웨어마에스트로센터",
+            "tags": "hackathon"
+        },
+        {
+            "id": 143,
+            "title": "J2S Conference 2017",
+            "url": "https://www.facebook.com/events/1224117631048905/",
+            "start": "2017-09-16 14:00:00",
+            "end": "2017-09-16 22:00:00",
+            "address": "마루180 Event hall",
+            "tags": "developer"
+        },
+        {
+            "id": 144,
+            "title": "소프트웨어를 더 잘 만들기 위한 ERD DB모델링",
+            "url": "https://onoffmix.com/event/110414",
+            "start": "2017-09-10 10:00:00",
+            "end": "2017-09-10 17:30:00",
+            "address": "마루180 Event hall",
+            "tags": "db, erd"
+        },
+        {
+            "id": 145,
+            "title": "우분투한국커뮤니티 * 한국애저사용자그룹 9월 연합세미나",
+            "url": "https://ubuntu-kr.github.io/events/2017/08/25/ubuntu-kr-krazure-joint-seminar.html",
+            "start": "2017-09-16 14:00:00",
+            "end": "2017-09-16 18:00:00",
+            "address": "한국마이크로소프트",
+            "tags": "ubuntu, linux, windows, azure, desktop, cloud"
+        },
+        {
+            "id": 146,
+            "title": "개발자, 한 달에 책 한 권 읽기 - 프로그래밍 패턴",
+            "url": "https://www.facebook.com/events/288997018245342/",
+            "start": "2017-09-18 19:30:00",
+            "end": "2017-09-18 21:30:00",
+            "address": "옥셔노리오피스 세미나실",
+            "tags": "style"
+        }
+    ]
+}

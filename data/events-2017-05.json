@@ -1,0 +1,166 @@
+{
+    "events": [
+        {
+            "id": 21,
+            "title": "개발자를 위한 공감 세미나 : 14번째 이야기",
+            "url": "http://onoffmix.com/event/93165",
+            "start": "2017-05-13 10:30:00",
+            "end": "2017-05-13 16:00:00",
+            "address": "[구글캠퍼스 서울] 서울 강남구 대치동 서울특별시 강남구 대치2동 영동대로 417",
+            "tags": "dev, tech, ai, tensorflow, vr, ar, machinelearning"
+        },
+        {
+            "id": 35,
+            "title": "May Meetup",
+            "url": "https://www.meetup.com/ko-KR/cryptography/events/238531386/?eventId=238531386",
+            "start": "2017-05-13 11:00:00",
+            "end": "2017-05-13 13:00:00",
+            "address": "서울시 서초대로 78길 26번지 Angelinus",
+            "tags": "cryptographic"
+        },
+        {
+            "id": 46,
+            "title": "JetBrains spring 세미나",
+            "url": "https://www.jetbrains.com/languages/kr/jetbrains-spring-seminar-2017/",
+            "start": "2017-05-19 14:00:00",
+            "end": "2017-05-19 18:40:00",
+            "address": "판교 테크노벨리 스타트업캠퍼스 [컨퍼런스홀]",
+            "tags": "jetbrains"
+        },
+        {
+            "id": 47,
+            "title": "APAC Machine Learning & Data Science Community Summit",
+            "url": "http://onoffmix.com/event/97444",
+            "start": "2017-05-20 09:00:00",
+            "end": "2017-05-20 18:00:00",
+            "address": "[누리꿈스퀘어] 서울 마포구 상암동 비즈니스타워 3층 국제회의실",
+            "tags": "machine_learning, data_science, ms"
+        },
+        {
+            "id": 48,
+            "title": "Azure, The Open Cloud Roadshow 2017 Seoul",
+            "url": "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x1894358b02d",
+            "start": "2017-05-24 09:30:00",
+            "end": "2017-05-24 17:20:00",
+            "address": "롯데 호텔 소공동실 2층 크리스탈볼륨",
+            "tags": "ms, azure"
+        },
+        {
+            "id": 54,
+            "title": "제 4회 파이썬 격월 세미나",
+            "url": "http://onoffmix.com/event/99927",
+            "start": "2017-05-27 14:00:00",
+            "end": "2017-05-27 18:00:00",
+            "address": "쿠팡",
+            "tags": "python, pyconkr"
+        },
+        {
+            "id": 55,
+            "title": "개발자, 한 달에 책 한 권 읽기 - 루비로 배우는 객체지향 디자인",
+            "url": "http://onoffmix.com/event/98263",
+            "start": "2017-05-22 19:30:00",
+            "end": "2017-05-22 21:30:00",
+            "address": "토즈 강남점",
+            "tags": "OOP, OOD, Ruby, 객체지향"
+        },
+        {
+            "id": 57,
+            "title": "Unity 17 Seoul",
+            "url": "http://event.eventservice.co.kr/unite17/",
+            "start": "2017-05-16 09:00:00",
+            "end": "2017-05-16 18:00:00",
+            "address": "코엑스 오디토리움",
+            "tags": "unity"
+        },
+        {
+            "id": 58,
+            "title": "Unity 17 Seoul",
+            "url": "http://event.eventservice.co.kr/unite17/",
+            "start": "2017-05-17 09:00:00",
+            "end": "2017-05-17 18:00:00",
+            "address": "코엑스 오디토리움",
+            "tags": "unity"
+        },
+        {
+            "id": 59,
+            "title": "2017 Google I/O viewing party with GDG Seoul",
+            "url": "https://www.meetup.com/ko-KR/GDG-Seoul/events/239654458/",
+            "start": "2017-05-17 21:00:00",
+            "end": "2017-05-18 06:00:00",
+            "address": "서울시 강남구 역삼동 683-34 새롬빌딩 4~6층, 디캠프 6층 다목적홀",
+            "tags": "gdg, google I/O"
+        },
+        {
+            "id": 60,
+            "title": "쉽게 하는 Node.js 성능 튜닝",
+            "url": "http://onoffmix.com/event/99383",
+            "start": "2017-05-19 16:00:00",
+            "end": "2017-05-19 18:00:00",
+            "address": "[서울 강남구 선릉로 551] 서울 강남구 역삼동",
+            "tags": "node.js"
+        },
+        {
+            "id": 61,
+            "title": "우분투 한국 커뮤니티 5월 정기 세미나 - 오픈소스 프로젝트에 기여하기",
+            "url": "http://onoffmix.com/event/99631",
+            "start": "2017-05-27 13:30:00",
+            "end": "2017-05-27 18:00:00",
+            "address": "[롯데액셀러레이터] 서울 강남구 삼성동 서울특별시 강남구 테헤란로69길 5 유기타워 15층 롯데엑셀러레이터",
+            "tags": "ubuntu, opensource"
+        },
+        {
+            "id": 62,
+            "title": "나는 자바스크립트 개발자다 - React Korea & JSDev.KR ",
+            "url": "http://onoffmix.com/event/99928",
+            "start": "2017-05-17 19:00:00",
+            "end": "2017-05-17 22:00:00",
+            "address": "[아남타워] 서울 강남구 역삼동 서울 강남구 역삼동 서울특별시 강남구 테헤란로 311(역삼동) 아남타워 7층 대강의장",
+            "tags": "javascript, react"
+        },
+        {
+            "id": 63,
+            "title": "#GDF2017",
+            "url": "http://gdf.or.kr/",
+            "start": "2017-05-25 09:00:00",
+            "end": "2017-05-25 18:25:00",
+            "address": "킨텍스 제2전시장 경기도 고양시 일산서구 대화동 킨텍스로 217-59",
+            "tags": "vr, ar"
+        },
+        {
+            "id": 64,
+            "title": "#GDF2017",
+            "url": "http://gdf.or.kr/",
+            "start": "2017-05-26 09:00:00",
+            "end": "2017-05-26 18:25:00",
+            "address": "킨텍스 제2전시장 경기도 고양시 일산서구 대화동 킨텍스로 217-59",
+            "tags": "vr, ar"
+        },
+        {
+            "id": 66,
+            "title": "제8회 자동차 SW 개발자 컨퍼런스",
+            "url": "http://www.imaso.co.kr/?p=16882",
+            "start": "2017-05-31 09:00:00",
+            "end": "2017-05-31 17:20:00",
+            "address": "삼성동 코엑스 그랜드볼룸",
+            "tags": "ADAS, ISO 26262, A-SPICE, AUTOSAR, V2X, TIMING"
+        },
+        {
+            "id": 67,
+            "title": "마소의 밤(MASOCON)",
+            "url": "http://www.imaso.co.kr/?p=16882",
+            "start": "2017-05-25 19:00:00",
+            "end": "2017-05-25 22:00:00",
+            "address": "IT조선 연결지성센터 (서울 중구 세종대로 21길 22, 태성빌딩 306호)",
+            "tags": "micronsoftware"
+        },
+        {
+            "id": 71,
+            "title": "소프트웨어 강의강의",
+            "url": "http://onoffmix.com/event/100901",
+            "start": "2017-05-27 14:00:00",
+            "end": "2017-05-27 18:00:00",
+            "address": "디캠프",
+            "tags": "software, lecture"
+        }
+    ]
+}
