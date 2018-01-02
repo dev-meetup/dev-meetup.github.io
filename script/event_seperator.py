@@ -20,7 +20,6 @@ if events:
         if key not in classified_events:
             classified_events[key] = dict()
             classified_events[key]['events'] = list()
-        print(e)
         classified_events[key]['events'].append(e)
 
     for k, v in classified_events.items():
