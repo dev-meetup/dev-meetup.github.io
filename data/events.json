@@ -1792,6 +1792,15 @@
       "end": "2018-01-18 17:30:00",
       "address": "서울 강남구 삼성동 그랜드 인터컨티넨탈 호텔 2층 오키드룸",
       "tags": "aws"
+     }, 
+     {
+      "id": 201,
+      "title": "Hazelcast 7th IMDG Meetup : Hazelcast on Cloud",
+      "url": "https://www.meetup.com/ko-KR/Seoul-Hazelcast-Meetup/events/245546862/",
+      "start": "2018-01-11 19:00:00",
+      "end": "2018-01-11 22:00:00",
+      "address": "역삼동 마루 180 (지하 1F 이벤트홀)",
+      "tags": "Hazelcast IMDG, Kubernetes"
      }
   ]
 }
