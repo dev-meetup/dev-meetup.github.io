@@ -1810,6 +1810,15 @@
       "end": "2018-01-21 19:00:00",
       "address": "[MARU180] 서울 강남구 역삼동 Event Hall",
       "tags": "PyTorch, ml"
+     }, 
+     {
+      "id": 203,
+      "title": "한국 Elasticsearch 사용자 그룹 밋업",
+      "url": "https://www.facebook.com/events/1982659105391930/",
+      "start": "2018-02-06 19:00:00",
+      "end": "2018-02-06 22:00:00",
+      "address": "서울 강남구 테헤란로 507, WeWork 빌딩 지하1층 라운지",
+      "tags": "elastic"
      }
   ]
 }
