@@ -1810,6 +1810,34 @@
       "end": "2018-02-11 17:30:00",
       "address": "GDG Campus Korea",
       "tags": "google, devops"
+     },
+     {
+      "id": 205,
+      "title": "[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기",
+      "url": "https://www.meetup.com/ko-KR/OracleDeveloperKR/events/246439060/",
+      "start": "2018-01-27 12:30:00",
+      "end": "2018-01-27 17:30:00",
+      "address": "강남구 삼성1동 영동대로 157 아셈타워",
+      "tags": "oracle, serverless"
+     }, 
+     {
+      "id": 206,
+      "title": "[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기",
+      "url": "https://www.meetup.com/ko-KR/OracleDeveloperKR/events/246439060/",
+      "start": "2018-01-27 12:30:00",
+      "end": "2018-01-27 17:30:00",
+      "address": "강남구 삼성1동 영동대로 157 아셈타워",
+      "tags": "oracle, serverless"
+     },   
+    {
+      "id": 207,
+      "title": "Microsoft "IoT in Action Seoul" 컨퍼런스",
+      "url": "https://www.meetup.com/ko-KR/OracleDeveloperKR/events/246439060/",
+      "start": "2018-01-30 10:30:00",
+      "end": "2018-01-30 19:30:00",
+      "address": "https://iotinactionevents.com/Event/ICN",
+      "tags": "iot, ms"
      }
+    
   ]
 }
