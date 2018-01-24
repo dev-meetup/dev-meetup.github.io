@@ -1837,6 +1837,42 @@
       "end": "2018-01-30 19:30:00",
       "address": "https://iotinactionevents.com/Event/ICN",
       "tags": "iot, ms"
+     },
+     {
+      "id": 208,
+      "title": "GDG Korea Android 2018 라이트닝토크",
+      "url": "https://sites.google.com/view/gdg-and-2018-lt/",
+      "start": "2018-02-02 19:00:00",
+      "end": "2018-02-02 22:00:00",
+      "address": "마루180",
+      "tags": "google, android"
+     },
+     {
+      "id": 209,
+      "title": "Elastic Seoul Meetup",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfw9oiM3Wv2AD2xTJTzv-zZlWPvIMrHuiortpbRAz31HSjMng/viewform",
+      "start": "2018-02-06 19:00:00",
+      "end": "2018-02-06 21:00:00",
+      "address": "서울 강남구 테헤란로 507, WeWork 빌딩 지하1층 라운지",
+      "tags": "elastic"
+     }, 
+     {
+      "id": 210,
+      "title": "AWSKRUG 강남 소모임-DevOps 특집 Cloud Native Continuous Delivery Spinnaker 워크샵 (1일차)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/247081511",
+      "start": "2018-02-21 19:00:00",
+      "end": "2018-02-21 22:00:00",
+      "address": "메가존 협업공간 / 갈라빌딩 지하 1층 (지하철 2호선 역삼역 3번 출구 도보로 5분)",
+      "tags": "Spinnaker, aws"
+     },
+     {
+      "id": 211,
+      "title": "AWSKRUG 강남 소모임-DevOps 특집 Cloud Native Continuous Delivery Spinnaker 워크샵 (2일차)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/247081690/",
+      "start": "2018-02-28 19:00:00",
+      "end": "2018-02-28 22:00:00",
+      "address": "메가존 협업공간 / 갈라빌딩 지하 1층 (지하철 2호선 역삼역 3번 출구 도보로 5분)",
+      "tags": "Spinnaker, aws"
      }
     
   ]
