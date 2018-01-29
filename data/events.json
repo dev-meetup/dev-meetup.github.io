@@ -1846,15 +1846,6 @@
       "end": "2018-02-02 22:00:00",
       "address": "마루180",
       "tags": "google, android"
-     },
-     {
-      "id": 209,
-      "title": "Elastic Seoul Meetup",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfw9oiM3Wv2AD2xTJTzv-zZlWPvIMrHuiortpbRAz31HSjMng/viewform",
-      "start": "2018-02-06 19:00:00",
-      "end": "2018-02-06 21:00:00",
-      "address": "서울 강남구 테헤란로 507, WeWork 빌딩 지하1층 라운지",
-      "tags": "elastic"
      }, 
      {
       "id": 210,
@@ -1873,6 +1864,24 @@
       "end": "2018-02-28 22:00:00",
       "address": "메가존 협업공간 / 갈라빌딩 지하 1층 (지하철 2호선 역삼역 3번 출구 도보로 5분)",
       "tags": "Spinnaker, aws"
+     }, 
+     {
+      "id": 212,
+      "title": "Texture in Startup",
+      "url": "https://goo.gl/forms/9FPRqcZBybHbwdmA2",
+      "start": "2018-02-07 19:00:00",
+      "end": "2018-02-07 21:00:00",
+      "address": "강남구 선릉로 513 APEX타워 15층",
+      "tags": "ios, swift, objective-c"
+     },
+     {
+      "id": 213,
+      "title": "SQL Server 2017 on Linux Roadshow",
+      "url": "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3346471abcd",
+      "start": "2018-02-06 09:00:00",
+      "end": "2018-02-06 17:00:00",
+      "address": "서울특별시 서초구 양재동 24 엘타워 그레이스홀 6층",
+      "tags": "ms, sql server"
      }
     
   ]
