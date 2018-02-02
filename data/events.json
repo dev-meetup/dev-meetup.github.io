@@ -1882,6 +1882,15 @@
       "end": "2018-02-06 17:00:00",
       "address": "서울특별시 서초구 양재동 24 엘타워 그레이스홀 6층",
       "tags": "ms, sql server"
+     },
+     {
+      "id": 214,
+      "title": "Korea Community Day 2018",
+      "url": "https://kcd2018.festa.io/",
+      "start": "2018-02-24 10:30:00",
+      "end": "2018-02-24 18:00:00",
+      "address": "한국Microsoft 11층(광화문 더케이트윈타워 A동)",
+      "tags": "kcd"
      }
     
   ]
