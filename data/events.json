@@ -1891,6 +1891,15 @@
       "end": "2018-02-24 18:00:00",
       "address": "한국Microsoft 11층(광화문 더케이트윈타워 A동)",
       "tags": "kcd"
+     }, 
+     {
+      "id": 215,
+      "title": "2nd Naver OpenSource Seminar",
+      "url": "https://onoffmix.com/event/126495",
+      "start": "2018-02-23 14:30:00",
+      "end": "2018-02-23 18:00:00",
+      "address": "[그린팩토리]경기도 성남시 분당구 불정로 6 그린팩토리 2F 커넥트홀",
+      "tags": "naver, opensource"
      }
     
   ]
