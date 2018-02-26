@@ -1783,7 +1783,7 @@
       "end": "2018-01-18 17:30:00",
       "address": "서울 강남구 삼성동 그랜드 인터컨티넨탈 호텔 2층 오키드룸",
       "tags": "aws"
-     }, 
+     },
      {
       "id": 201,
       "title": "Hazelcast 7th IMDG Meetup : Hazelcast on Cloud",
@@ -1792,7 +1792,7 @@
       "end": "2018-01-11 22:00:00",
       "address": "역삼동 마루 180 (지하 1F 이벤트홀)",
       "tags": "Hazelcast IMDG, Kubernetes"
-     },   
+     },
      {
       "id": 203,
       "title": "한국 Elasticsearch 사용자 그룹 밋업",
@@ -1819,7 +1819,7 @@
       "end": "2018-01-27 17:30:00",
       "address": "강남구 삼성1동 영동대로 157 아셈타워",
       "tags": "oracle, serverless"
-     }, 
+     },
      {
       "id": 206,
       "title": "[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기",
@@ -1828,7 +1828,7 @@
       "end": "2018-01-27 17:30:00",
       "address": "강남구 삼성1동 영동대로 157 아셈타워",
       "tags": "oracle, serverless"
-     },   
+     },
      {
       "id": 207,
       "title": "Microsoft IoT in Action Seoul 컨퍼런스",
@@ -1846,7 +1846,7 @@
       "end": "2018-02-02 22:00:00",
       "address": "마루180",
       "tags": "google, android"
-     }, 
+     },
      {
       "id": 210,
       "title": "AWSKRUG 강남 소모임-DevOps 특집 Cloud Native Continuous Delivery Spinnaker 워크샵 (1일차)",
@@ -1864,7 +1864,7 @@
       "end": "2018-02-28 22:00:00",
       "address": "메가존 협업공간 / 갈라빌딩 지하 1층 (지하철 2호선 역삼역 3번 출구 도보로 5분)",
       "tags": "Spinnaker, aws"
-     }, 
+     },
      {
       "id": 212,
       "title": "Texture in Startup",
@@ -1891,7 +1891,7 @@
       "end": "2018-02-24 18:00:00",
       "address": "한국Microsoft 11층(광화문 더케이트윈타워 A동)",
       "tags": "kcd"
-     }, 
+     },
      {
       "id": 215,
       "title": "2nd Naver OpenSource Seminar",
@@ -1900,7 +1900,7 @@
       "end": "2018-02-23 18:00:00",
       "address": "[그린팩토리]경기도 성남시 분당구 불정로 6 그린팩토리 2F 커넥트홀",
       "tags": "naver, opensource"
-     }, 
+     },
      {
       "id": 216,
       "title": "Graph Database Meetup_2nd Graph Database Usecase #1",
@@ -1908,8 +1908,8 @@
       "start": "2018-02-26 18:30:00",
       "end": "2018-02-26 21:00:00",
       "address": "180",
-      "tags": "graph, db"
-     }, 
+      "tags": "graph, db" 
+     },
      {
       "id": 217,
       "title": "GDG Seoul 신년회",
@@ -1917,8 +1917,10 @@
       "start": "2018-02-28 20:30:00",
       "end": "2018-02-28 22:00:00",
       "address": "서울 강남 스타트업 얼라이언스",
-      "tags": "gdg seoul"
-     }, 
+      "tags": "gdg seoul",
+      "pay_amount":"5,000"
+
+     },
      {
       "id": 218,
       "title": "AWSKRUG #architecture 소모임 - 7번째 모임 (2018년 2월 27일)",
@@ -1926,8 +1928,9 @@
       "start": "2018-02-27 19:00:00",
       "end": "2018-02-27 22:00:00",
       "address": "GS Tower 12층 (지하철 2호선 역삼역 7번 출구)",
-      "tags": "aws"
-     },      
+      "tags": "aws",
+      "pay_amount":"5,000"
+     },
      {
       "id": 219,
       "title": "let us: Go! 2018 Spring",
@@ -1935,8 +1938,9 @@
       "start": "2018-03-10 13:00:00",
       "end": "2018-03-10 18:00:00",
       "address": "GS Tower 12층 (지하철 2호선 역삼역 7번 출구)",
-      "tags": "ios"
-     },      
+      "tags": "ios",
+      "pay_amount":"무료 ~ 20,000"
+     },
      {
       "id": 220,
       "title": "[Open Secure Lab] 제2회 정보보안 세미나",
@@ -1944,8 +1948,9 @@
       "start": "2018-03-01 13:00:00",
       "end": "2018-03-01 20:00:00",
       "address": "서울특별시 성동구 고산자로 270 성동구청 왕십리역 성동구청 대강당(3층)",
-      "tags": "security"
-     }, 
+      "tags": "security",
+      "pay_amount":"0"
+     },
      {
       "id": 221,
       "title": "3월 파이썬 격월 세미나",
@@ -1954,7 +1959,7 @@
       "end": "2018-03-10 19:00:00",
       "address": "서울 서대문구 연희로2길 62 한빛미디어 B동 1층 리더스 홀",
       "tags": "python, pycon"
-     }, 
+     },
      {
       "id": 222,
       "title": "EMOCON 2018 SS",
@@ -1962,8 +1967,9 @@
       "start": "2018-03-09 20:30:00",
       "end": "2018-03-09 23:00:00",
       "address": "my room",
-      "tags": "weirdx"
-     }, 
+      "tags": "weirdx",
+      "pay_amount":"0"
+     },
      {
       "id": 223,
       "title": "EMOCON 2018 SS",
@@ -1971,8 +1977,10 @@
       "start": "2018-03-10 20:30:00",
       "end": "2018-03-10 23:00:00",
       "address": "my room",
-      "tags": "weirdx"
+      "tags": "weirdx",
+      "pay_amount":"0"
+
      }
-  
+
   ]
 }
