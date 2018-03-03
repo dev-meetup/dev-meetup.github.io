@@ -1989,8 +1989,18 @@
       "address": "역삼역 위플레이스 다목적홀",
       "tags": "javascript, android, blockchain",
       "pay_amount":"0"
-
+     },
+     {
+      "id": 225,
+      "title": "2018년 3월 파이썬 세미나",
+      "url": "https://onoffmix.com/event/129456",
+      "start": "2018-03-10 14:00:00",
+      "end": "2018-03-10 19:00:00",
+      "address": "서울특별시 서대문구 연희로2길 62 한빛빌딩 B동 1층 리더스홀 (한빛미디어)",
+      "tags": "python",
+      "pay_amount":"10,000"
      }
+    
 
   ]
 }
