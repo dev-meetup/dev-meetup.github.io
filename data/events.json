@@ -1952,15 +1952,6 @@
       "pay_amount":"0"
      },
      {
-      "id": 221,
-      "title": "3월 파이썬 격월 세미나",
-      "url": "",
-      "start": "2018-03-10 14:00:00",
-      "end": "2018-03-10 19:00:00",
-      "address": "서울 서대문구 연희로2길 62 한빛미디어 B동 1층 리더스 홀",
-      "tags": "python, pycon"
-     },
-     {
       "id": 222,
       "title": "EMOCON 2018 SS",
       "url": "https://www.weirdx.io/emocon/",
