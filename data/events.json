@@ -2000,6 +2000,16 @@
       "address": "토즈강남2호점",
       "tags": "react native",
       "pay_amount":"0"
+     }, 
+     {
+      "id": 227,
+      "title": "AI 최신논문 연구회 T-TOC",
+      "url": "https://skt.event-us.kr/p/1938",
+      "start": "2018-03-14 09:30:00",
+      "end": "2018-03-14 12:30:00",
+      "address": "SK T타워 SUPEX-HALL",
+      "tags": "ai, rnn",
+      "pay_amount":"0"
      }
     
 
