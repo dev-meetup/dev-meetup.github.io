@@ -2010,8 +2010,47 @@
       "address": "SK T타워 SUPEX-HALL",
       "tags": "ai, rnn",
       "pay_amount":"0"
+     },
+     {
+      "id": 228,
+      "title": "DroidKnights",
+      "url": "https://festa.io/events/11",
+      "start": "2018-04-22 12:30:00",
+      "end": "2018-04-22 17:30:00",
+      "address": "코엑스 컨퍼런스룸 401호",
+      "tags": "android",
+      "pay_amount":"25000~30000"
+     },
+     {
+      "id": 228,
+      "title": "Saturday Azure Live! 1803",
+      "url": "https://festa.io/events/14",
+      "start": "2018-03-24 13:00:00",
+      "end": "2018-03-24 18:00:00",
+      "address": "토즈 강남컨퍼런스센터 강남점",
+      "tags": "azure",
+      "pay_amount":"10000"
+     },
+     {
+      "id": 229,
+      "title": "Facebook Developer Circles Seoul: 맛있는 Dev톡 (Delicious DevTalk)",
+      "url": "https://festa.io/events/13",
+      "start": "2018-03-14 19:00:00",
+      "end": "2018-03-14 21:00:00",
+      "address": "판교 Facebook Innovation Lab (판교 제2테크노밸리)",
+      "tags": "facebook",
+      "pay_amount":"0"
+     },
+     {
+      "id": 229,
+      "title": "Facebook Developer Circles Seoul: 맛있는 Dev톡 (Delicious DevTalk)",
+      "url": "https://festa.io/events/13",
+      "start": "2018-03-14 19:00:00",
+      "end": "2018-03-14 21:00:00",
+      "address": "판교 Facebook Innovation Lab (판교 제2테크노밸리)",
+      "tags": "facebook",
+      "pay_amount":"0"
      }
-    
 
   ]
 }
