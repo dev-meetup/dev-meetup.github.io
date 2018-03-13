@@ -1908,7 +1908,7 @@
       "start": "2018-02-26 18:30:00",
       "end": "2018-02-26 21:00:00",
       "address": "180",
-      "tags": "graph, db" 
+      "tags": "graph, db"
      },
      {
       "id": 217,
@@ -1990,7 +1990,7 @@
       "address": "서울특별시 서대문구 연희로2길 62 한빛빌딩 B동 1층 리더스홀 (한빛미디어)",
       "tags": "python",
       "pay_amount":"10000"
-     }, 
+     },
      {
       "id": 226,
       "title": "리액트네이티브서울 2018년 3월 세미나",
@@ -2000,7 +2000,7 @@
       "address": "토즈강남2호점",
       "tags": "react native",
       "pay_amount":"0"
-     }, 
+     },
      {
       "id": 227,
       "title": "AI 최신논문 연구회 T-TOC",
@@ -2040,7 +2040,17 @@
       "address": "판교 Facebook Innovation Lab (판교 제2테크노밸리)",
       "tags": "facebook",
       "pay_amount":"0"
-     }
+    },
+    {
+     "id": 230,
+     "title": "우분투한국커뮤니티 데비안 패키징 워크샵",
+     "url": "https://festa.io/events/15",
+     "start": "2018-03-31 13:00:00",
+     "end": "2018-03-31 18:00:00",
+     "address": "NAVER D2 STARTUP FACTORY(서울특별시 강남구 강남대로 382 메리츠타워 16층)",
+     "tags": "ubuntu linux debian packaging",
+     "pay_amount":"5000"
+    }
 
   ]
 }
