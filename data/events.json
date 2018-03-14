@@ -2050,7 +2050,16 @@
      "address": "NAVER D2 STARTUP FACTORY(서울특별시 강남구 강남대로 382 메리츠타워 16층)",
      "tags": "ubuntu linux debian packaging",
      "pay_amount":"5000"
-    }
-
+    },
+    {
+      "id": 231,
+      "title": "SPRING CAMP 2018",
+      "url": "http://www.springcamp.io/2018/",
+      "start": "2018-04-21 12:00:00",
+      "end": "2018-04-21 18:00:00",
+      "address": "쿠팡 17층",
+      "tags": "java spring",
+      "pay_amount":"미정"
+     }
   ]
 }
