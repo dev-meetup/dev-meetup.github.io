@@ -2060,6 +2060,16 @@
       "address": "쿠팡 17층",
       "tags": "java spring",
       "pay_amount":"미정"
+     },
+     {
+      "id": 232,
+      "title": "MXNet Korea User Group Meetup #1",
+      "url": "https://www.meetup.com/ko-KR/MXNet-Korea-User-Group/events/248531181/",
+      "start": "2018-03-29 19:00:00",
+      "end": "2018-03-29 21:00:00",
+      "address": "GS Tower 12층",
+      "tags": "Apache MXNet",
+      "pay_amount":"5000"
      }
   ]
 }
