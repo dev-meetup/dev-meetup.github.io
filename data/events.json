@@ -2097,7 +2097,18 @@
       "address": "메가존 강남 오피스",
       "tags": "pivotal",
       "pay_amount": "0"
+    }, 
+    {
+      "id": 232,
+      "title": "Graph Database Meetup_3rd GDB Use case #2. 텍스트 마이닝/감성분석",
+      "url": "https://www.meetup.com/ko-KR/graphdatabase/events/248912174/",
+      "start": "2018-04-03 18:30:00",
+      "end": "2018-04-03 21:00:00",
+      "address": "강남 스타트업 얼라이언스",
+      "tags": "graph database",
+      "pay_amount": "0"
     }
+
 
   ]
 }
