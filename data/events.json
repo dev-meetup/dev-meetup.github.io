@@ -2117,9 +2117,16 @@
       "address": "구글 캠퍼스 서울 메인 이벤트 홀",
       "tags": "vue.js",
       "pay_amount": "0"
+    },
+    {
+      "id": 234,
+      "title": "Ubuntu 18.04 LTS Release Party",
+      "url": "https://festa.io/events/19",
+      "start": "2018-04-28 12:40:00",
+      "end": "2018-04-28 17:30:00",
+      "address": "D.CAMP 6F 다목적홀",
+      "tags": "ubuntu, linux, comu",
+      "pay_amount": "0"
     }
-
-
-
   ]
 }
