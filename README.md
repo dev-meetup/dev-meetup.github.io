@@ -17,7 +17,8 @@
       "start": "2017-02-23 19:30:00",
       "end": "2017-02-23 22:00:00",
       "address":"서울특별시 강남구 논현1동 15-11 Fast Campus 별관 MH bld. 3rd floor",
-      "tags":"google, gdg, gdgkorea"
+      "tags":"google, gdg, gdgkorea", 
+      "pay_amount": "1,000 ~ 29,500" 
     },
    ...
 ]
