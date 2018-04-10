@@ -2137,6 +2137,46 @@
       "address": "한빛미디어",
       "tags": "scala, akka",
       "pay_amount": "20,000"
+    },
+    {
+      "id": 236,
+      "title": "Unity3D를 통한 채팅 프로젝트",
+      "url": "https://festa.io/events/22",
+      "start": "2018-04-21 16:00:00",
+      "end": "2018-04-21 18:00:00",
+      "address": "토즈 대학로점",
+      "tags": "unity",
+      "pay_amount": "0"
+    },
+    {
+      "id": 237,
+      "title": "Little Big Data #1 : 다양한 사람들의 데이터 사이언스 이야기",
+      "url": "https://festa.io/events/21",
+      "start": "2018-04-21 11:00:00",
+      "end": "2018-04-21 16:30:00",
+      "address": "삼성역 구글 캠퍼스",
+      "tags": "zepl, data",
+      "pay_amount": "0"
+    },
+    {
+      "id": 238,
+      "title": "Little Big Data #1 : 다양한 사람들의 데이터 사이언스 이야기",
+      "url": "https://festa.io/events/21",
+      "start": "2018-04-21 11:00:00",
+      "end": "2018-04-21 16:30:00",
+      "address": "삼성역 구글 캠퍼스",
+      "tags": "zepl, data",
+      "pay_amount": "0"
+    },
+    {
+      "id": 239,
+      "title": "Global Azure Bootcamp 2018xSeoul",
+      "url": "https://www.krazure.net/",
+      "start": "2018-04-21 10:00:00",
+      "end": "2018-04-21 18:00:00",
+      "address": "한국 마이크로소프트",
+      "tags": "azure",
+      "pay_amount": "0"
     }
   ]
 }
