@@ -2218,7 +2218,7 @@
       "tags": "community, meltingcon",
       "pay_amount": "0"
     }, 
-     {
+    {
       "id": 244,
       "title": "Google I/O Extended 2018 Seoul",
       "url": "https://festa.io/events/31",
@@ -2227,6 +2227,16 @@
       "address": "세종대학교 광개토관 컨벤션홀 (B2)",
       "tags": "google, ",
       "pay_amount": "5,000"
+    }, 
+    {
+      "id": 245, 
+      "title": "AWSKRUG #enterprise 소모임",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/249798209/",
+      "start": "2018-05-14 18:30:00",
+      "end": "2018-05-14 21:00:00",
+      "address": "잠실 SDS 잠실 서관 지하2층 다목적홀",
+      "tags": "aws, ",
+      "pay_amount": "0"
     }
   ]
 }
