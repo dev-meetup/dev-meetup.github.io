@@ -2237,6 +2237,26 @@
       "address": "잠실 SDS 잠실 서관 지하2층 다목적홀",
       "tags": "aws, ",
       "pay_amount": "0"
+    },
+    {
+      "id": 246, 
+      "title": "Clova Dev Days",
+      "url": "https://developers.naver.com/notice/article/10000000000030661363",
+      "start": "2018-06-01 15:00:00",
+      "end": "2018-06-01 18:00:00",
+      "address": "D2 Startup Factory (강남 메리츠 타워 16층) 라운지 ",
+      "tags": "naver, clova",
+      "pay_amount": "0"
+    },
+    {
+      "id": 247, 
+      "title": "5월 파이썬 격월 세미나 ‘나의 파이썬 레시피’",
+      "url": "https://festa.io/events/33",
+      "start": "2018-05-26 14:00:00",
+      "end": "2018-05-26 18:30:00",
+      "address": "코스랩 공개 SW개발자 센터",
+      "tags": "python, django",
+      "pay_amount": "10,000"
     }
   ]
 }
