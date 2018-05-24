@@ -2257,6 +2257,66 @@
       "address": "코스랩 공개 SW개발자 센터",
       "tags": "python, django",
       "pay_amount": "10,000"
+    },
+    {
+      "id": 248, 
+      "title": "GDG Campus Korea 6월 Meetup: 디자이너와 개발자, 그 둘의 소통",
+      "url": "https://festa.io/events/34",
+      "start": "2018-06-03 14:30:00",
+      "end": "2018-06-03 17:30:00",
+      "address": "마루 180 지하 1층 이벤트홀",
+      "tags": "google, gdg, designer, developer",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 249, 
+      "title": "GDG Campus Korea 6월 Meetup: 디자이너와 개발자, 그 둘의 소통",
+      "url": "https://festa.io/events/34",
+      "start": "2018-06-03 14:30:00",
+      "end": "2018-06-03 17:30:00",
+      "address": "마루 180 지하 1층 이벤트홀",
+      "tags": "google, gdg, designer, developer",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 250, 
+      "title": "워드프레스 15주년 기념 홈커밍 데이",
+      "url": "https://onoffmix.com/event/138620",
+      "start": "2018-05-27 14:00:00",
+      "end": "2018-05-27 17:00:00",
+      "address": "서울특별시 강남구 테헤란로 311 아남타워 7층 대강의실",
+      "tags": "wordpress",
+      "pay_amount": "0"
+    },
+    {
+      "id": 251, 
+      "title": "Azure Discovery Day - Azure 기초부터 활용까지 One day 클래스",
+      "url": "https://onoffmix.com/event/137641",
+      "start": "2018-05-31 09:30:00",
+      "end": "2018-05-31 17:00:00",
+      "address": "서울특별시 종로구 종로1길 50 더케이트윈타워 11층",
+      "tags": "azure",
+      "pay_amount": "0"
+    },
+    {
+      "id": 252, 
+      "title": "[카프카, 데이터 플랫폼의 최강자] 저자 직강 세미나",
+      "url": "https://onoffmix.com/event/137491",
+      "start": "2018-05-26 14:00:00",
+      "end": "2018-05-26 17:00:00",
+      "address": "[D.CAMP]서울특별시 강남구 선릉로 551 새롬빌딩 3층",
+      "tags": "kafka",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 253, 
+      "title": "개발자를 위한 공감 세미나: 16번째 이야기",
+      "url": "http://www.hanbit.co.kr/store/education/edu_view.html?p_code=S3029831564",
+      "start": "2018-06-09 10:30:00",
+      "end": "2018-06-09 18:00:00",
+      "address": "[한빛미디어]서울특별시 서대문구 연희로2길 62 한빛미디어 B동 1층 리더스홀",
+      "tags": "developer",
+      "pay_amount": "22,000"
     }
   ]
 }
