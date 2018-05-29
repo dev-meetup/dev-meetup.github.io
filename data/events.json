@@ -1,10 +1,4 @@
 {
-  "events": [
-    {
-      "id": 1,
-      "title": "GDG Korea WebTech meetup",
-      "url": "https://gdg-korea-webtech.firebaseapp.com/events/meetup-20170223/",
-      "start": "2017-02-23 19:30:00",
       "end": "2017-02-23 22:00:00",
       "address": "서울특별시 강남구 논현1동 15-11 Fast Campus 별관 MH bld. 3rd floor",
       "tags": "google, gdg, gdgkorea"
@@ -17,6 +11,12 @@
       "end": "2017-03-25 18:00:00",
       "address": "선릉역 5번출구 KossLab 세미나실",
       "tags": "python, python korea"
+  "events": [
+    {
+      "id": 1,
+      "title": "GDG Korea WebTech meetup",
+      "url": "https://gdg-korea-webtech.firebaseapp.com/events/meetup-20170223/",
+      "start": "2017-02-23 19:30:00",
     },
     {
       "id": 3,
@@ -2267,17 +2267,7 @@
       "address": "마루 180 지하 1층 이벤트홀",
       "tags": "google, gdg, designer, developer",
       "pay_amount": "10,000"
-    },
-    {
-      "id": 249, 
-      "title": "GDG Campus Korea 6월 Meetup: 디자이너와 개발자, 그 둘의 소통",
-      "url": "https://festa.io/events/34",
-      "start": "2018-06-03 14:30:00",
-      "end": "2018-06-03 17:30:00",
-      "address": "마루 180 지하 1층 이벤트홀",
-      "tags": "google, gdg, designer, developer",
-      "pay_amount": "10,000"
-    },
+    }, 
     {
       "id": 250, 
       "title": "워드프레스 15주년 기념 홈커밍 데이",
