@@ -2308,6 +2308,26 @@
       "address": "[한빛미디어]서울특별시 서대문구 연희로2길 62 한빛미디어 B동 1층 리더스홀",
       "tags": "developer",
       "pay_amount": "22,000"
+    },
+    {
+      "id": 254, 
+      "title": "Google I/O Extended @Suwon",
+      "url": "https://festa.io/events/37",
+      "start": "2018-06-19 18:00:00",
+      "end": "2018-06-19 22:00:00",
+      "address": "광교경기문화창조허브 광교비즈니스센터 11층",
+      "tags": "google, gdg",
+      "pay_amount": "4,000"
+    },
+    {
+      "id": 255, 
+      "title": "Ubuntu Fest in Daejeon",
+      "url": "https://festa.io/events/36",
+      "start": "2018-06-23 13:00:00",
+      "end": "2018-06-23 18:00:00",
+      "address": "대전평생교육진흥원 보문산컨퍼런스홀",
+      "tags": "ubuntu",
+      "pay_amount": "0"
     }
   ]
 }
