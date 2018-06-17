@@ -2328,6 +2328,60 @@
       "address": "대전평생교육진흥원 보문산컨퍼런스홀",
       "tags": "ubuntu",
       "pay_amount": "0"
+    },
+    {
+      "id": 256, 
+      "title": "Saturday Azure Live! 1806",
+      "url": "https://festa.io/events/39",
+      "start": "2018-06-30 13:00:00",
+      "end": "2018-06-30 18:00:00",
+      "address": "토즈 강남컨퍼런스",
+      "tags": "azure, chatbot",
+      "pay_amount": "10,000"
+    },      
+    {
+      "id": 257, 
+      "title": "2018 오픈소스 개발자 이야기",
+      "url": "https://festa.io/events/38",
+      "start": "2018-06-30 13:00:00",
+      "end": "2018-06-30 18:30:00",
+      "address": "한국마이크로소프트(더케이트윈타워 A동 11층)",
+      "tags": "opensource",
+      "pay_amount": "10,000 ~ 20,000"
+    },    
+    {
+      "id": 258, 
+      "title": "Facebook의 API 개발 트렌드와 Graph API 플랫폼 적용 사례 분석",
+      "url": "https://innovationlab180623seminar.splashthat.com/",
+      "start": "2018-06-23 14:00:00",
+      "end": "2018-06-23 15:30:00",
+      "address": "페이스북 이노베이션 랩",
+      "tags": "facebook, graphapi",
+      "pay_amount": "0"
+    },
+    {
+      "id": 259, 
+      "title": "OpenInfra Days Korea 2018",
+      "url": "https://event.openinfradays.kr/2018/about/",
+      "start": "2018-06-28 09:00:00",
+      "end": "2018-06-28 18:00:00",
+      "address": "코엑스",
+      "tags": "infra, iaas, paas, openstack, kuburnetes",
+      "pay_amount": "15,000 ~ 20,000"
+    },
+    {
+      "id": 260, 
+      "title": "OpenInfra Days Korea 2018",
+      "url": "https://event.openinfradays.kr/2018/about/",
+      "start": "2018-06-29 09:00:00",
+      "end": "2018-06-29 18:00:00",
+      "address": "코엑스",
+      "tags": "infra, iaas, paas, openstack, kuburnetes",
+      "pay_amount": "15,000 ~ 20,000"
     }
+            
+            
+            
+            
   ]
 }
