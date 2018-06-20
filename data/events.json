@@ -2378,10 +2378,37 @@
       "address": "코엑스",
       "tags": "infra, iaas, paas, openstack, kuburnetes",
       "pay_amount": "15,000 ~ 20,000"
+    },
+    {
+      "id": 261, 
+      "title": "OpenGL 한번 맛보기 프로젝트",
+      "url": "https://festa.io/events/42",
+      "start": "2018-07-03 19:00:00",
+      "end": "2018-07-03 21:00:00",
+      "address": "서울특별시 종로구 명륜2가 토즈 대학로점",
+      "tags": "opengl",
+      "pay_amount": "0"
+    },
+    {
+      "id": 262, 
+      "title": "다양한 DevOps ToolChain의 활용방법",
+      "url": "https://tacademy.sktechx.com/front/tacademy/courseinfo/campus.action",
+      "start": "2018-06-27 13:00:00",
+      "end": "2018-06-27 18:00:00",
+      "address": "서울대연구공원단지내 SK연구동",
+      "tags": "devops, toolchain",
+      "pay_amount": "0"
+    },
+    {
+      "id": 263, 
+      "title": "공개SW Grand Challenge",
+      "url": "https://onoffmix.com/event/141575",
+      "start": "2018-07-06 14:00:00",
+      "end": "2018-07-06 17:30:00",
+      "address": "코엑스",
+      "tags": "opensource",
+      "pay_amount": "0"
     }
-            
-            
-            
-            
+        
   ]
 }
