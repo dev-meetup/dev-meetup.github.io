@@ -2408,7 +2408,67 @@
       "address": "코엑스",
       "tags": "opensource",
       "pay_amount": "0"
+    },
+    {
+      "id": 264, 
+      "title": "AWSKRUG #Enterprise Meetup (잠실) - 네번째 이야기 (7월 16일)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/251942718/",
+      "start": "2018-07-16 18:30:00",
+      "end": "2018-07-16 21:00:00",
+      "address": "SDS 잠실타워 동관 지하2층 다목적홀",
+      "tags": "aws",
+      "pay_amount": "0"
+    }, 
+    {
+      "id": 265, 
+      "title": "AWSKRUG #architecture 소모임 - 11번째 모임 (6월 28일)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/251282069/",
+      "start": "2018-07-16 18:30:00",
+      "end": "2018-07-16 21:00:00",
+      "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+      "tags": "aws",
+      "pay_amount": "5,000"
+    },
+    {
+      "id": 266, 
+      "title": "AWSKRUG Hands-on Lab 2018 - Serverless #1 (6월 30일)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/251326459/",
+      "start": "2018-06-30 13:00:00",
+      "end": "2018-06-30 16:00:00",
+      "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+      "tags": "aws, serverless",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 267, 
+      "title": "AWSKRUG 데이터사이언스모임 (7월5일)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/251853850/",
+      "start": "2018-07-05 19:00:00",
+      "end": "2018-07-05 22:00:00",
+      "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+      "tags": "aws, data",
+      "pay_amount": "5,000"
+    },
+    {
+      "id": 268, 
+      "title": "AWSKRUG Hands-on Lab 2018 - Container #3 (7월 14일)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/251853850/",
+      "start": "2018-07-14 13:00:00",
+      "end": "2018-07-14 16:00:00",
+      "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+      "tags": "aws, container, jenkins, kubernetes",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 269, 
+      "title": "AWSKRUG #Beginner 모임 (6월 25일)",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/251394347/",
+      "start": "2018-06-25 19:00:00",
+      "end": "2018-06-25 21:00:00",
+      "address": "역삼동 갈라 빌딩 메가존(주) 지상 8층",
+      "tags": "aws",
+      "pay_amount": "0"
     }
-        
+          
   ]
 }
