@@ -2488,7 +2488,18 @@
       "address": "서울시 강남구 강남대로 62길 23 4층",
       "tags": "algorithm",
       "pay_amount": "0"
+    },
+    {
+      "id": 272, 
+      "title": "DevOps Talk 7월 - MyMusicTaste와 함께 하는 개발 이야기",
+      "url": "http://meetup.devopskorea.com/201807/",
+      "start": "2018-07-14 13:00:00",
+      "end": "2018-07-14 17:00:00",
+      "address": " 메가존 세미나룸(역삼동)",
+      "tags": "devops",
+      "pay_amount": "20,000"
     }
+            
           
   ]
 }
