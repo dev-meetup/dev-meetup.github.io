@@ -2538,7 +2538,29 @@
       "address": "경기도 수원시 영통구 봉영로 1612 보보스프라자 3층 306호 수원 모이자",
       "tags": "gdg",
       "pay_amount": "9,900 ~ 19,900"
+    },
+    {
+      "id": 277, 
+      "title": "AWSKRUG 컨테이너 소모임",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/252234960/",
+      "start": "2018-07-19 19:00:00",
+      "end": "2018-07-19 21:00:00",
+      "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+      "tags": "aws",
+      "pay_amount": "5,000"
+    },
+    {
+      "id": 278, 
+      "title": "리액트네이티브서울 - React Native UI 컴포넌트 종류별로 알아보기 & 화면 만들기 실습",
+      "url": "https://www.meetup.com/ko-KR/react-native-seoul/events/pptfxpyxkbhc/",
+      "start": "2018-07-25 19:00:00",
+      "end": "2018-07-25 21:00:00",
+      "address": "서초구 서초동 1303-34 백암빌딩 3층 · 서울",
+      "tags": "react",
+      "pay_amount": "6,000"
     }
+            
+         
             
             
           
