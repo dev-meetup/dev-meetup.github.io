@@ -2558,11 +2558,17 @@
       "address": "서초구 서초동 1303-34 백암빌딩 3층 · 서울",
       "tags": "react",
       "pay_amount": "6,000"
+    },
+    {
+      "id": 279, 
+      "title": "GDG WebTech Meetup 2018.07",
+      "url": "http://webtech.gdg.kr/180724_meetup/",
+      "start": "2018-07-24 19:30:00",
+      "end": "2018-07-24 21:30:00",
+      "address": "마루180",
+      "tags": "gdg, web, pwa",
+      "pay_amount": "10,000"
     }
-            
-         
-            
-            
-          
+       
   ]
 }
