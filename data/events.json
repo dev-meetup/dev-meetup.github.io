@@ -2568,7 +2568,78 @@
       "address": "마루180",
       "tags": "gdg, web, pwa",
       "pay_amount": "10,000"
+    },
+    {
+      "id": 280, 
+      "title": "우분투 기초 사용법 워크샵",
+      "url": "https://festa.io/events/61",
+      "start": "2018-08-25 13:00:00",
+      "end": "2018-08-25 17:20:00",
+      "address": "대전광역시 유성구 궁동 479-11, 더포럼",
+      "tags": "ubuntu",
+      "pay_amount": "5,000"
+    }, 
+    {
+      "id": 281, 
+      "title": "Google I/O Extended 2018 Busan",
+      "url": "https://festa.io/events/59",
+      "start": "2018-08-11 12:30:00",
+      "end": "2018-08-11 18:00:00",
+      "address": "부산광역시 광안4동 광안동 744-9번지 지우메디팰리스",
+      "tags": "google, gdg",
+      "pay_amount": "5,000"
+    },
+    {
+      "id": 282, 
+      "title": "Pycon2018 스트린트",
+      "url": "https://www.pycon.kr/2018/program/tutorials/",
+      "start": "2018-08-15 10:00:00",
+      "end": "2018-08-15 18:00:00",
+      "address": "코엑스 그랜드볼룸 2F",
+      "tags": "python, pycon",
+      "pay_amount": "-"
+    },
+    {
+      "id": 283, 
+      "title": "Pycon2018 스트린트",
+      "url": "https://www.pycon.kr/2018/program/tutorials/",
+      "start": "2018-08-17 10:00:00",
+      "end": "2018-08-17 18:00:00",
+      "address": "코엑스 그랜드볼룸 2F",
+      "tags": "python, pycon",
+      "pay_amount": "-"
+    },
+    {
+      "id": 284, 
+      "title": "Pycon2018 튜토리얼",
+      "url": "https://www.pycon.kr/2018/program/tutorials/",
+      "start": "2018-08-17 10:00:00",
+      "end": "2018-08-17 18:00:00",
+      "address": "코엑스 그랜드볼룸 2F",
+      "tags": "python, pycon",
+      "pay_amount": "-"
+    },
+    {
+      "id": 285, 
+      "title": "Pycon2018 컨퍼런스",
+      "url": "https://www.pycon.kr/2018/program/list/",
+      "start": "2018-08-18 09:30:00",
+      "end": "2018-08-18 17:00:00",
+      "address": "코엑스 그랜드볼룸 2F",
+      "tags": "python, pycon",
+      "pay_amount": "-"
+    },
+    {
+      "id": 286, 
+      "title": "Pycon2018 컨퍼런스",
+      "url": "https://www.pycon.kr/2018/program/list/",
+      "start": "2018-08-19 10:00:00",
+      "end": "2018-08-19 16:30:00",
+      "address": "코엑스 그랜드볼룸 2F",
+      "tags": "python, pycon",
+      "pay_amount": "-"
     }
+       
        
   ]
 }
