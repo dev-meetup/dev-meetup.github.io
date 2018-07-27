@@ -2668,6 +2668,16 @@
       "address": "12F, GS Tower (지하철 2호선 역삼역 7번 출구) 강남구 논현로 5084",
       "tags": "aws, cli",
       "pay_amount": "0"
+    },
+    {
+      "id": 290, 
+      "title": "Vuetiful Korea 다섯번째 모임",
+      "url": "https://meetgo.kr/#/userEventDetail/vuetiful05",
+      "start": "2018-08-08 19:30:00",
+      "end": "2018-08-08 21:15:00",
+      "address": "서울특별시 강남구 대치2동 영동대로 417 구글 캠퍼스 서울",
+      "tags": "Vue.js, Nuxt.js, Spring Boot, Thymeleaf, RxJS, Firebase, socket.io",
+      "pay_amount": "11,000 ~ 33,000"
     }
        
        
