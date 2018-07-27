@@ -28,10 +28,11 @@
 - pull request 혹은 commit 후 반영됨.
 
 ## TODO 
-- [x] mobile support
-- [ ] subscribe email 
-- [ ] dump google calendar ics
-- [ ] search hashtag 
+- [O] mobile support
+- [ ] clova extension  
+- [ ] google calendar ics
+- [ ] google/naver map 
+- [ ] meetup site auto parsing 
 
 ## event source 
 - http://onoffmix.com
@@ -39,6 +40,7 @@
 - https://festa.io
 - facebook group/timeline
 - https://tacademy.sktechx.com
+- https://meetgo.kr
 
 
 ### References :
