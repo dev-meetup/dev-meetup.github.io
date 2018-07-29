@@ -8,3 +8,6 @@ install:
 
 script:
   - python ./test/test.py
+
+notifications:
+  slack: ash84:XLALpV0b20grjYRBYJ9ooVaE
