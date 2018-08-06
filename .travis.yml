@@ -7,6 +7,7 @@ script:
 - python ./test/test.py
 after_success:
 - python ./script/event_seperator.py
+- ls -al ./data/
 - git add -A ./data/*
 - git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
 - git push https://AhnSeongHyun:${GH_TOKEN}@github.com/dev-meetup/dev-meetup.github.io HEAD:develop
