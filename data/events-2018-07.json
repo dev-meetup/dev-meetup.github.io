@@ -1,0 +1,154 @@
+{
+    "events": [
+        {
+            "id": 261,
+            "title": "OpenGL 한번 맛보기 프로젝트",
+            "url": "https://festa.io/events/42",
+            "start": "2018-07-03 19:00:00",
+            "end": "2018-07-03 21:00:00",
+            "address": "서울특별시 종로구 명륜2가 토즈 대학로점",
+            "tags": "opengl",
+            "pay_amount": "0"
+        },
+        {
+            "id": 263,
+            "title": "공개SW Grand Challenge",
+            "url": "https://onoffmix.com/event/141575",
+            "start": "2018-07-06 14:00:00",
+            "end": "2018-07-06 17:30:00",
+            "address": "코엑스",
+            "tags": "opensource",
+            "pay_amount": "0"
+        },
+        {
+            "id": 264,
+            "title": "AWSKRUG #Enterprise Meetup (잠실) - 네번째 이야기 (7월 16일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/251942718/",
+            "start": "2018-07-16 18:30:00",
+            "end": "2018-07-16 21:00:00",
+            "address": "SDS 잠실타워 동관 지하2층 다목적홀",
+            "tags": "aws",
+            "pay_amount": "0"
+        },
+        {
+            "id": 267,
+            "title": "AWSKRUG 데이터사이언스모임 (7월5일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/251853850/",
+            "start": "2018-07-05 19:00:00",
+            "end": "2018-07-05 22:00:00",
+            "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+            "tags": "aws, data",
+            "pay_amount": "5,000"
+        },
+        {
+            "id": 268,
+            "title": "AWSKRUG Hands-on Lab 2018 - Container #3 (7월 14일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/251853850/",
+            "start": "2018-07-14 13:00:00",
+            "end": "2018-07-14 16:00:00",
+            "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+            "tags": "aws, container, jenkins, kubernetes",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 272,
+            "title": "DevOps Talk 7월 - MyMusicTaste와 함께 하는 개발 이야기",
+            "url": "http://meetup.devopskorea.com/201807/",
+            "start": "2018-07-14 13:00:00",
+            "end": "2018-07-14 17:00:00",
+            "address": " 메가존 세미나룸(역삼동)",
+            "tags": "devops",
+            "pay_amount": "20,000"
+        },
+        {
+            "id": 273,
+            "title": "하시코프 한국 사용자 모임 밋업",
+            "url": "https://festa.io/events/45",
+            "start": "2018-07-28 13:00:00",
+            "end": "2018-07-28 18:00:00",
+            "address": "공개SW개발자센터 대강의장",
+            "tags": "devops, terraform, vault, consul, packer, vagrant",
+            "pay_amount": "10,000 ~ 20,000"
+        },
+        {
+            "id": 274,
+            "title": "Seoul.js Lightning Talk",
+            "url": "https://festa.io/events/49",
+            "start": "2018-07-27 19:00:00",
+            "end": "2018-07-27 22:00:00",
+            "address": "서울시 강남구 테헤란로 311 아남타워빌딩 7층",
+            "tags": "javascript",
+            "pay_amount": "0"
+        },
+        {
+            "id": 275,
+            "title": "OpenStack 8th Birthday Celebration Party with K8s!",
+            "url": "https://festa.io/events/50",
+            "start": "2018-07-27 19:00:00",
+            "end": "2018-07-27 22:00:00",
+            "address": "서울특별시 강남구 테헤란로70길 12 2층",
+            "tags": "openstack",
+            "pay_amount": "30,000"
+        },
+        {
+            "id": 276,
+            "title": "Freestyle Developer Party @Suwon",
+            "url": "https://festa.io/events/48",
+            "start": "2018-07-16 19:00:00",
+            "end": "2018-07-16 22:00:00",
+            "address": "경기도 수원시 영통구 봉영로 1612 보보스프라자 3층 306호 수원 모이자",
+            "tags": "gdg",
+            "pay_amount": "9,900 ~ 19,900"
+        },
+        {
+            "id": 277,
+            "title": "AWSKRUG 컨테이너 소모임",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/252234960/",
+            "start": "2018-07-19 19:00:00",
+            "end": "2018-07-19 21:00:00",
+            "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+            "tags": "aws",
+            "pay_amount": "5,000"
+        },
+        {
+            "id": 278,
+            "title": "리액트네이티브서울 - React Native UI 컴포넌트 종류별로 알아보기 & 화면 만들기 실습",
+            "url": "https://www.meetup.com/ko-KR/react-native-seoul/events/pptfxpyxkbhc/",
+            "start": "2018-07-25 19:00:00",
+            "end": "2018-07-25 21:00:00",
+            "address": "서초구 서초동 1303-34 백암빌딩 3층 · 서울",
+            "tags": "react",
+            "pay_amount": "6,000"
+        },
+        {
+            "id": 279,
+            "title": "GDG WebTech Meetup 2018.07",
+            "url": "http://webtech.gdg.kr/180724_meetup/",
+            "start": "2018-07-24 19:30:00",
+            "end": "2018-07-24 21:30:00",
+            "address": "마루180",
+            "tags": "gdg, web, pwa",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 288,
+            "title": "AWSKRUG #architecture 소모임 - 12번째 모임",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/252249556/",
+            "start": "2018-07-26 19:00:00",
+            "end": "2018-07-26 22:00:00",
+            "address": "12F, GS Tower (지하철 2호선 역삼역 7번 출구) 강남구 논현로 5084",
+            "tags": "aws",
+            "pay_amount": "5,000"
+        },
+        {
+            "id": 289,
+            "title": "AWSKRUG CLI모임",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/252699532/",
+            "start": "2018-07-31 19:00:00",
+            "end": "2018-07-31 22:00:00",
+            "address": "12F, GS Tower (지하철 2호선 역삼역 7번 출구) 강남구 논현로 5084",
+            "tags": "aws, cli",
+            "pay_amount": "0"
+        }
+    ]
+}

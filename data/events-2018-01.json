@@ -1,0 +1,85 @@
+{
+    "events": [
+        {
+            "id": 177,
+            "title": "Korea DevOps meetup '18",
+            "url": "https://www.facebook.com/groups/TeAnE/",
+            "start": "2018-01-13 13:00:00",
+            "end": "2018-01-13 18:00:00",
+            "address": "한국마이크로소프트(광화문)",
+            "tags": "devops"
+        },
+        {
+            "id": 195,
+            "title": "모던 php 유저 그룹 2018 신년회",
+            "url": "https://www.facebook.com/events/150968008791155/",
+            "start": "2018-01-03 19:30:00",
+            "end": "2018-01-03 21:00:00",
+            "address": "네이버 D2 스타트업 팩토리 (서울특별시 강남구 강남대로 382 메리츠타워 16층)",
+            "tags": "php"
+        },
+        {
+            "id": 196,
+            "title": "PyTorch KR 1차 오프라인 모임",
+            "url": "https://onoffmix.com/event/122625",
+            "start": "2018-01-21 13:00:00",
+            "end": "2018-01-21 19:00:00",
+            "address": "MARU 180 Event Hall (서울시 강남구 역삼동)",
+            "tags": "pytorch"
+        },
+        {
+            "id": 197,
+            "title": "AWS CLOUD",
+            "url": "https://aws.amazon.com/ko/events/aws-cloud-seoul/",
+            "start": "2018-01-18 10:00:00",
+            "end": "2018-01-18 17:30:00",
+            "address": "서울 강남구 삼성동 그랜드 인터컨티넨탈 호텔 5층 그랜드볼룸",
+            "tags": "aws"
+        },
+        {
+            "id": 198,
+            "title": "AWS Media Day",
+            "url": "https://aws.amazon.com/ko/events/aws-cloud-seoul/media-day/",
+            "start": "2018-01-18 10:00:00",
+            "end": "2018-01-18 17:30:00",
+            "address": "서울 강남구 삼성동 그랜드 인터컨티넨탈 호텔 2층 오키드룸",
+            "tags": "aws"
+        },
+        {
+            "id": 199,
+            "title": "Hazelcast 7th IMDG Meetup : Hazelcast on Cloud",
+            "url": "https://www.meetup.com/ko-KR/Seoul-Hazelcast-Meetup/events/245546862/",
+            "start": "2018-01-11 19:00:00",
+            "end": "2018-01-11 22:00:00",
+            "address": "역삼동 마루 180 (지하 1F 이벤트홀)",
+            "tags": "Hazelcast IMDG, Kubernetes"
+        },
+        {
+            "id": 202,
+            "title": "[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기",
+            "url": "https://www.meetup.com/ko-KR/OracleDeveloperKR/events/246439060/",
+            "start": "2018-01-27 12:30:00",
+            "end": "2018-01-27 17:30:00",
+            "address": "강남구 삼성1동 영동대로 157 아셈타워",
+            "tags": "oracle, serverless"
+        },
+        {
+            "id": 203,
+            "title": "[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기",
+            "url": "https://www.meetup.com/ko-KR/OracleDeveloperKR/events/246439060/",
+            "start": "2018-01-27 12:30:00",
+            "end": "2018-01-27 17:30:00",
+            "address": "강남구 삼성1동 영동대로 157 아셈타워",
+            "tags": "oracle, serverless"
+        },
+        {
+            "id": 204,
+            "title": "Microsoft IoT in Action Seoul 컨퍼런스",
+            "url": "https://www.meetup.com/ko-KR/OracleDeveloperKR/events/246439060/",
+            "start": "2018-01-30 10:30:00",
+            "end": "2018-01-30 19:30:00",
+            "address": "https://iotinactionevents.com/Event/ICN",
+            "tags": "iot, ms"
+        }
+    ]
+}

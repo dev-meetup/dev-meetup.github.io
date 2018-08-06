@@ -1,0 +1,174 @@
+{
+    "events": [
+        {
+            "id": 244,
+            "title": "Google I/O Extended 2018 Seoul",
+            "url": "https://festa.io/events/31",
+            "start": "2018-06-10 11:00:00",
+            "end": "2018-06-10 17:00:00",
+            "address": "세종대학교 광개토관 컨벤션홀 (B2)",
+            "tags": "google, ",
+            "pay_amount": "5,000"
+        },
+        {
+            "id": 246,
+            "title": "Clova Dev Days",
+            "url": "https://developers.naver.com/notice/article/10000000000030661363",
+            "start": "2018-06-01 15:00:00",
+            "end": "2018-06-01 18:00:00",
+            "address": "D2 Startup Factory (강남 메리츠 타워 16층) 라운지 ",
+            "tags": "naver, clova",
+            "pay_amount": "0"
+        },
+        {
+            "id": 248,
+            "title": "GDG Campus Korea 6월 Meetup: 디자이너와 개발자, 그 둘의 소통",
+            "url": "https://festa.io/events/34",
+            "start": "2018-06-03 14:30:00",
+            "end": "2018-06-03 17:30:00",
+            "address": "마루 180 지하 1층 이벤트홀",
+            "tags": "google, gdg, designer, developer",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 253,
+            "title": "개발자를 위한 공감 세미나: 16번째 이야기",
+            "url": "http://www.hanbit.co.kr/store/education/edu_view.html?p_code=S3029831564",
+            "start": "2018-06-09 10:30:00",
+            "end": "2018-06-09 18:00:00",
+            "address": "[한빛미디어]서울특별시 서대문구 연희로2길 62 한빛미디어 B동 1층 리더스홀",
+            "tags": "developer",
+            "pay_amount": "22,000"
+        },
+        {
+            "id": 254,
+            "title": "Google I/O Extended @Suwon",
+            "url": "https://festa.io/events/37",
+            "start": "2018-06-19 18:00:00",
+            "end": "2018-06-19 22:00:00",
+            "address": "광교경기문화창조허브 광교비즈니스센터 11층",
+            "tags": "google, gdg",
+            "pay_amount": "4,000"
+        },
+        {
+            "id": 255,
+            "title": "Ubuntu Fest in Daejeon",
+            "url": "https://festa.io/events/36",
+            "start": "2018-06-23 13:00:00",
+            "end": "2018-06-23 18:00:00",
+            "address": "대전평생교육진흥원 보문산컨퍼런스홀",
+            "tags": "ubuntu",
+            "pay_amount": "0"
+        },
+        {
+            "id": 256,
+            "title": "Saturday Azure Live! 1806",
+            "url": "https://festa.io/events/39",
+            "start": "2018-06-30 13:00:00",
+            "end": "2018-06-30 18:00:00",
+            "address": "토즈 강남컨퍼런스",
+            "tags": "azure, chatbot",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 257,
+            "title": "2018 오픈소스 개발자 이야기",
+            "url": "https://festa.io/events/38",
+            "start": "2018-06-30 13:00:00",
+            "end": "2018-06-30 18:30:00",
+            "address": "한국마이크로소프트(더케이트윈타워 A동 11층)",
+            "tags": "opensource",
+            "pay_amount": "10,000 ~ 20,000"
+        },
+        {
+            "id": 258,
+            "title": "Facebook의 API 개발 트렌드와 Graph API 플랫폼 적용 사례 분석",
+            "url": "https://innovationlab180623seminar.splashthat.com/",
+            "start": "2018-06-23 14:00:00",
+            "end": "2018-06-23 15:30:00",
+            "address": "페이스북 이노베이션 랩",
+            "tags": "facebook, graphapi",
+            "pay_amount": "0"
+        },
+        {
+            "id": 259,
+            "title": "OpenInfra Days Korea 2018",
+            "url": "https://event.openinfradays.kr/2018/about/",
+            "start": "2018-06-28 09:00:00",
+            "end": "2018-06-28 18:00:00",
+            "address": "코엑스",
+            "tags": "infra, iaas, paas, openstack, kuburnetes",
+            "pay_amount": "15,000 ~ 20,000"
+        },
+        {
+            "id": 260,
+            "title": "OpenInfra Days Korea 2018",
+            "url": "https://event.openinfradays.kr/2018/about/",
+            "start": "2018-06-29 09:00:00",
+            "end": "2018-06-29 18:00:00",
+            "address": "코엑스",
+            "tags": "infra, iaas, paas, openstack, kuburnetes",
+            "pay_amount": "15,000 ~ 20,000"
+        },
+        {
+            "id": 262,
+            "title": "다양한 DevOps ToolChain의 활용방법",
+            "url": "https://tacademy.sktechx.com/front/tacademy/courseinfo/campus.action",
+            "start": "2018-06-27 13:00:00",
+            "end": "2018-06-27 18:00:00",
+            "address": "서울대연구공원단지내 SK연구동",
+            "tags": "devops, toolchain",
+            "pay_amount": "0"
+        },
+        {
+            "id": 265,
+            "title": "AWSKRUG #architecture 소모임 - 11번째 모임 (6월 28일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/251282069/",
+            "start": "2018-06-29 18:30:00",
+            "end": "2018-06-28 21:00:00",
+            "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+            "tags": "aws",
+            "pay_amount": "5,000"
+        },
+        {
+            "id": 266,
+            "title": "AWSKRUG Hands-on Lab 2018 - Serverless #1 (6월 30일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/251326459/",
+            "start": "2018-06-30 13:00:00",
+            "end": "2018-06-30 16:00:00",
+            "address": "GS TOWER 강남구 논현로 508, Seoul, kr",
+            "tags": "aws, serverless",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 269,
+            "title": "AWSKRUG #Beginner 모임 (6월 25일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/251394347/",
+            "start": "2018-06-25 19:00:00",
+            "end": "2018-06-25 21:00:00",
+            "address": "역삼동 갈라 빌딩 메가존(주) 지상 8층",
+            "tags": "aws",
+            "pay_amount": "0"
+        },
+        {
+            "id": 270,
+            "title": "제5회 공개SW 거버넌스 아카데미",
+            "url": "https://festa.io/events/44",
+            "start": "2018-06-27 13:30:00",
+            "end": "2018-06-27 17:10:00",
+            "address": "누리꿈스퀘어",
+            "tags": "opensource",
+            "pay_amount": "0"
+        },
+        {
+            "id": 271,
+            "title": "제5회 마스터즈 오픈 세미나",
+            "url": "https://festa.io/events/43",
+            "start": "2018-06-27 19:30:00",
+            "end": "2018-06-27 21:30:00",
+            "address": "서울시 강남구 강남대로 62길 23 4층",
+            "tags": "algorithm",
+            "pay_amount": "0"
+        }
+    ]
+}

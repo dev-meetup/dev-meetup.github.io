@@ -1,0 +1,139 @@
+{
+    "events": [
+        {
+            "id": 153,
+            "title": "React Seoul",
+            "url": "http://seoul.reactjs.kr/",
+            "start": "2017-11-14 13:00:00",
+            "end": "2017-11-14 16:00:00",
+            "address": "서울시 강남구 테헤란로 142 캐피탈타워 22층",
+            "tags": "react"
+        },
+        {
+            "id": 158,
+            "title": "GDG DevFest Seoul 2017",
+            "url": "about:blank",
+            "start": "2017-11-19 13:00:00",
+            "end": "2017-11-19 18:00:00",
+            "address": "서울대학교 글로벌 컨벤션 플라자 5층",
+            "tags": "gdg"
+        },
+        {
+            "id": 162,
+            "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 4차 워크샵",
+            "url": "http://onoffmix.com/event/109466",
+            "start": "2017-11-11 14:00:00",
+            "end": "2017-11-11 17:00:00",
+            "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+            "tags": "aws"
+        },
+        {
+            "id": 167,
+            "title": "PgDay.Seoul 2017",
+            "url": "https://onoffmix.com/event/114109",
+            "start": "2017-11-04 13:00:00",
+            "end": "2017-11-04 18:00:00",
+            "address": "[KTDS] 서울 서초구 방배동 KTDS 2층 유니버스티",
+            "tags": "pgday, postgresql"
+        },
+        {
+            "id": 168,
+            "title": "play.node 2017",
+            "url": "http://playnode.io/2017/",
+            "start": "2017-11-09 10:30:00",
+            "end": "2017-11-09 17:55:00",
+            "address": "서울시 강남구 봉은사로 120 르메르디앙 서울",
+            "tags": "node.js"
+        },
+        {
+            "id": 169,
+            "title": "초보자들도 쉽게 할 수 있는 Azure Function 과 Cognitive 개발 세미나",
+            "url": "https://onoffmix.com/event/116031",
+            "start": "2017-11-04 14:30:00",
+            "end": "2017-11-04 18:30:00",
+            "address": "[MARU180] 서울 강남구 역삼동",
+            "tags": "azure"
+        },
+        {
+            "id": 170,
+            "title": "JetBrains Night 2017 서울",
+            "url": "https://onoffmix.com/event/114809",
+            "start": "2017-11-21 18:00:00",
+            "end": "2017-11-21 22:00:00",
+            "address": "[엘타워] 서울 서초구 양재동 양재 엘타워 7F [그랜드홀]",
+            "tags": "ide, jetbrains"
+        },
+        {
+            "id": 172,
+            "title": "WebRTC big meetup 2017 Seoul with global leaders",
+            "url": "https://onoffmix.com/event/115962",
+            "start": "2017-11-17 18:00:00",
+            "end": "2017-11-17 21:00:00",
+            "address": "[해성빌딩] 서울 강남구 역삼동 해성빌딩 팁스타운 팁스홀",
+            "tags": "webrtc"
+        },
+        {
+            "id": 173,
+            "title": "우분투한국커뮤니티 11월 대전지역 세미나",
+            "url": "https://ubuntu-kr.github.io/events/2017/09/19/november-daejeon-seminar.html",
+            "start": "2017-11-04 13:10:00",
+            "end": "2017-11-04 18:00:00",
+            "address": "토즈 TSC대전탄방센터(대전광역시 서구 계룡로 586 KMT빌딩 7층) 정액25인 부스",
+            "tags": "ubuntu, linux, daejeon, embeded, iot"
+        },
+        {
+            "id": 175,
+            "title": "개발자를 위한 공감 세미나: 15번째 이야기",
+            "url": "http://www.hanbit.co.kr/store/education/edu_view.html?p_code=S3310290057",
+            "start": "2017-11-04 10:40:00",
+            "end": "2017-11-04 16:00:00",
+            "address": "한빛빌딩 B동 1층 리더스홀",
+            "tags": "developer"
+        },
+        {
+            "id": 178,
+            "title": "GDG Korea Campus 1주년 Meet-up",
+            "url": "http://lemonlab.co.kr/gdg/1year/",
+            "start": "2017-11-03 19:30:00",
+            "end": "2017-11-03 23:00:00",
+            "address": "D.CAMP 6층 메인홀",
+            "tags": "GDG, Campus"
+        },
+        {
+            "id": 180,
+            "title": "Java And Spring forward",
+            "url": "http://www.ksug.org/seminar/20171126/",
+            "start": "2017-11-26 12:40:00",
+            "end": "2017-11-26 18:00:00",
+            "address": "을지로입구역 페럼타워 - 페럼홀(3층)",
+            "tags": "java"
+        },
+        {
+            "id": 181,
+            "title": "Azure Web App과 네트워크 디자인, 그리고 리눅스",
+            "url": "https://onoffmix.com/event/116879",
+            "start": "2017-11-18 13:00:00",
+            "end": "2017-11-18 18:00:00",
+            "address": "역삼동 마루180 지하1층 Think 홀",
+            "tags": "azure"
+        },
+        {
+            "id": 182,
+            "title": "ASP.NET Core와 Azure App Service의 환상적인 만남",
+            "url": "https://onoffmix.com/event/118865",
+            "start": "2017-11-25 13:00:00",
+            "end": "2017-11-25 18:00:00",
+            "address": "[한국마이크로소프트] 서울 종로구 중학동 한국마이크로소프트 (서울특별시 종로구 종로1길 50 더케이트윈타워 A동 11층)",
+            "tags": "azure, asp.net core"
+        },
+        {
+            "id": 185,
+            "title": "MASOCON 2017",
+            "url": "http://www.imaso.co.kr/masocon2017/index.html",
+            "start": "2017-11-25 10:00:00",
+            "end": "2017-11-25 18:30:00",
+            "address": "누리꿈스퀘어 국제회의실 (서울특별시 마포구 상암동 월드컵북로 396(상암동)",
+            "tags": "microsoft, developer, conference"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "events": [
+        {
+            "id": 116,
+            "title": "DEVIEW 2017",
+            "url": "https://deview.kr/2017/cfs",
+            "start": "2017-10-16 09:00:00",
+            "end": "2017-10-17 18:00:00",
+            "address": "코엑스 그랜드볼륨, 서울 (COEX Grand BallRoom, SEOUL)",
+            "tags": "deview, naver"
+        },
+        {
+            "id": 148,
+            "title": "EMOCON",
+            "url": "https://www.weirdx.io/emocon/",
+            "start": "2017-10-27 21:00:00",
+            "end": "2017-10-28 01:00:00",
+            "address": "온라인",
+            "tags": "emocon, weirdx"
+        },
+        {
+            "id": 149,
+            "title": "EMOCON",
+            "url": "https://www.weirdx.io/emocon/",
+            "start": "2017-10-28 21:00:00",
+            "end": "2017-10-29 01:00:00",
+            "address": "온라인",
+            "tags": "emocon, weirdx"
+        },
+        {
+            "id": 151,
+            "title": "데이터야놀자",
+            "url": "https://datayanolja.github.io/",
+            "start": "2017-10-13 09:00:00",
+            "end": "2017-10-13 19:00:00",
+            "address": "한빛미디어 홍대 신사옥(03785) 서울 서대문구 연희로2길 62",
+            "tags": "data"
+        },
+        {
+            "id": 154,
+            "title": "FEConf2017",
+            "url": "https://2017.feconf.kr/",
+            "start": "2017-10-21 09:30:00",
+            "end": "2017-10-21 16:30:00",
+            "address": "서울 강남구 역삼로 180(역삼동, 790-6)",
+            "tags": "frontend"
+        },
+        {
+            "id": 160,
+            "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 2차 워크샵",
+            "url": "http://onoffmix.com/event/109466",
+            "start": "2017-10-14 14:00:00",
+            "end": "2017-10-14 17:00:00",
+            "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+            "tags": "aws"
+        },
+        {
+            "id": 161,
+            "title": "AWS 서버리스(Serverless) 워크샵 시리즈 2017 - 3차 워크샵",
+            "url": "http://onoffmix.com/event/109466",
+            "start": "2017-10-28 14:00:00",
+            "end": "2017-10-28 17:00:00",
+            "address": "[GS타워] 서울 강남구 역삼동 역삼역 7번 출구 GS타워 (12층)",
+            "tags": "aws"
+        },
+        {
+            "id": 163,
+            "title": "GDG DevFest Incheon 2017",
+            "url": "https://sites.google.com/view/gdg-incheon-devfest-17",
+            "start": "2017-10-21 13:00:00",
+            "end": "2017-10-21 18:00:00",
+            "address": "인천 주안시민지하상가 문화공간 Art Avenue 27",
+            "tags": "gdg"
+        },
+        {
+            "id": 164,
+            "title": "삼성 오픈소스 컨퍼런스 2017",
+            "url": "https://onoffmix.com/event/112923",
+            "start": "2017-10-25 09:00:00",
+            "end": "2017-10-25 17:30:00",
+            "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
+            "tags": "open source"
+        },
+        {
+            "id": 165,
+            "title": "삼성 오픈소스 컨퍼런스 2017",
+            "url": "https://onoffmix.com/event/112923",
+            "start": "2017-10-26 09:00:00",
+            "end": "2017-10-26 17:30:00",
+            "address": "[삼성전자 서울R&D캠퍼스] 서울 서초구 우면동 A타워 & D타워",
+            "tags": "open source"
+        },
+        {
+            "id": 166,
+            "title": "R User Conference in Korea 2017",
+            "url": "https://onoffmix.com/event/114006",
+            "start": "2017-10-28 09:30:00",
+            "end": "2017-10-28 18:00:00",
+            "address": "[서울대학교 공대대형강의동] 서울 관악구 신림동",
+            "tags": "data, r"
+        },
+        {
+            "id": 171,
+            "title": "파이썬을 이용한 머쉰러닝 / Azure 마이크로서비스의 진화 / 챗봇 핸즈온",
+            "url": "https://onoffmix.com/event/115846",
+            "start": "2017-10-28 18:00:00",
+            "end": "2017-10-28 22:00:00",
+            "address": "[부산정보산업진흥원] 부산 해운대구 우동 부산광역시 해운대구 센텀동로 41, 센텀벤처타운 7층",
+            "tags": "azure, chatbot, python. serverless"
+        },
+        {
+            "id": 174,
+            "title": "MeltingCon L!VE 1710",
+            "url": "https://onoffmix.com/event/115786",
+            "start": "2017-10-21 14:00:00",
+            "end": "2017-10-21 18:00:00",
+            "address": "[마이크로소프트웨어] 서울특별시 중구 세종대로21길 22 태성빌딩 3층 마이크로소프트웨어",
+            "tags": "open source, azure"
+        },
+        {
+            "id": 176,
+            "title": "[2017년 10월 파이썬 세미나] Python & Data",
+            "url": "https://onoffmix.com/event/116021",
+            "start": "2017-10-21 14:00:00",
+            "end": "2017-10-21 18:00:00",
+            "address": "[페이스북코리아] 서울 강남구 역삼동 [역삼역 3번 출구] 서울 강남구 테헤란로 142 캐피탈타워 22층",
+            "tags": "python, data"
+        },
+        {
+            "id": 179,
+            "title": "AWSKRUG 클라우드 경력 개발 소모임 - 솔루션즈아키텍트에 대해 (10월 31일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/244366022/?eventId=244366022",
+            "start": "2017-10-31 19:00:00",
+            "end": "2017-10-31 23:00:00",
+            "address": "역삼GS타워 12층 AWS 코리아 트레이닝 룸 ",
+            "tags": "aws"
+        }
+    ]
+}
