@@ -10,12 +10,10 @@ after_success:
 - ls -al ./data/
 - git add -A ./data/*
 - git commit -a -m "Travis build $TRAVIS_BUILD_NUMBER msg:seperate event files"
-- git push https://AhnSeongHyun:${GH_TOKEN}@github.com/dev-meetup/dev-meetup.github.io HEAD:develop
-
+- git push https://AhnSeongHyun:${GH_TOKEN}@github.com/dev-meetup/dev-meetup.github.io
+  HEAD:develop
 env:
   global:
-    secure: J0lsYnL++Pfz8pTb2jidaw1epAbH1RJKzOprUJ/mbq8Uu0jy4ZtiRyeyPCXv2OC1GlNZi7kE1YeIEuYcMTH7p/HiSeyOur1SC9xrWotNxg4ceV0Imdzv8q79un5ycvhTPikJ77AuecYxyCUto3gExFNE0+JZwWIwTBSB3g+P97Ld9vMtVS8/ndXhImrzfNtWZL1WnyTG09r3QUKp6/QjT987uLpT5wDzTQYIYKKAJYSXKWoJZxJLTefiJuT7wYNlNPwXQoONvdYZsUuRsowD3b9NA9mnCWkCgaxBpivfWpskB50vHLaKJ9NCmXVZ+gTMjMhp73Veqioq/x5jm7WcdSDj9YztIwt/uh1NvHsfs9uw3s9rtQoazUsMzTB7waUEuhZ1/7zsFZctum/rn47Dmri6BJtPNE4c96wy+P7E63bP8spoVhScmSRUBelS+OgKvqk9YbATQKrkYRisrQ/uqgKesEJ7GIMvVC4ur4mCZMT2UO9Si48xuCQpJbi3VJLpbLg4omOhTHeweM2eGWT3CBW749sBywE9ml0eApDj5WpcqRMQVKt8/OI+WhpmIgWldd+JpfprASaGjE7I1YQMbJc8vowBWhcY3KgiIE83LjSRj5XtYQK9m1YwBbT3qqJ2b99N23Eh8anPwpDyNIN4ZXvGqDDRzMaljL6dMLLp/MM=
-
+    secure: FInQfL8UUp7fGI+42J1JVX7N3LMILAcoa/3dvOIscE9JHQV/nfH6gL5ab/nyUMpIXUwk+D5Ugpr5KZOY5Sh0KrMF2PMZBc1Q6SOu4rkmCBd89mQ+BYd3AAkMVPAK16/WyOZS90S72VcnVP0lRZbwlO+2a2JHzSBwIOgFELeZKw8lWpLZkXJiqvaAa0abzrrsMwTragoClr22/QH1pnGVX/tu+S2te1ueujZvoinoNdRYR6KcoCjC2/u+/tN3WTdyhBrmWcfXcvdU1p2HC//9OyUVPJ20x79U17WlOHGxhXy8WbyE58aVi+rmod4BXWvkMWVSgnATg9T2FtiFE+/9W+Mt7UvBAFClKw9QDtkiKA/HwzzAPfGVqYR2DenzXcfQDCZHE1Ya7Bv5c3+SOo4oHGjkdA5V5+b/espEyf79+toTDg4FgrVOTdX59Fq8M5aASKwbI1lIMv36945Mk96h4WGwoJFrSzOXNCEAoGz6kq2/N7sOTDAJcDhlWwXyuIQNNDbzRS3BNf3LTdgFHFhetol+IgGgS7MNP6HN2f1jmAgQygwxoVr+fAk5OaMO1jHzCOHe0rbNVBfmdi4Wtc58imLlnzWcmdbSYbcNm4zAMYJXr8mnts2I6SNPvJHj6qRqDalfOXRTJA5TYUWtfDKzpg6TJtOekE+HMaGlJz51JX4=
 notifications:
   slack: ash84:XLALpV0b20grjYRBYJ9ooVaE
-
