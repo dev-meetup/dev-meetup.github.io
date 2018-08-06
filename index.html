@@ -127,7 +127,13 @@
 <script src="./static/js/nouislider.min.js"></script>
 
 <script type="text/babel">
-
+    var EventColor = {
+      "FREE_CURRENT":"#03A9F4",
+      "FREE_AGO":"#B3E5FC",
+      "PAY_CURRENT":"#D73964",
+      "PAY_AGO":"#FFDBE5"
+    };
+    var EventPayType = {"PAY":2, "FREE":1, "UNKNOWN":0};
     class CalendarView extends React.Component {
         render() {
             return (
@@ -254,11 +260,21 @@
 
                     for(var i=0; i<result.events.length; i++) {
                         var start = result.events[i].start;
+                        var eventPayType = isEventPayType(result.events[i].pay_amount);
                         if (moment(start).isAfter(moment())) {
-                            result.events[i]['color'] = '#03A9F4';
+                            if(eventPayType === EventPayType.PAY){
+                              result.events[i]['color'] = EventColor.PAY_CURRENT
+                            }else{
+                              result.events[i]['color'] = EventColor.FREE_CURRENT
+                            }
                         }
                         else{
-                            result.events[i]['color'] = '#B3E5FC';
+                            if(eventPayType === EventPayType.PAY){
+                              result.events[i]['color'] = EventColor.PAY_AGO
+                            }
+                            else{
+                              result.events[i]['color'] = EventColor.FREE_AGO
+                            }
                         }
                     }
                     callback(result.events);
@@ -278,6 +294,16 @@
                 content +="<li>" + calEvent.address + "</li>";
                 content +="<li>" + calEvent.tags + "</li>";
 
+                var eventPayType = isEventPayType(calEvent.pay_amount);
+                if(eventPayType === EventPayType.FREE){
+                    content +="<li>가격 : 무료</li>";
+                }
+                else if(eventPayType === EventPayType.PAY){
+                    content +="<li>가격 : "+calEvent.pay_amount+"원</li>";
+                }
+                else{
+                    content +="<li>가격 : 알 수 없음</li>";
+                }
                 $(domEvent.currentTarget).popover({
                     title:title,
                     content:content,
@@ -313,11 +339,21 @@
 
                     for(var i=0; i<result.events.length; i++) {
                         var start = result.events[i].start;
+                        var eventPayType = isEventPayType(result.events[i].pay_amount);
                         if (moment(start).isAfter(moment())) {
-                            result.events[i]['color'] = '#03A9F4';
+                            if(eventPayType === EventPayType.PAY){
+                              result.events[i]['color'] = EventColor.PAY_CURRENT
+                            }else{
+                              result.events[i]['color'] = EventColor.FREE_CURRENT
+                            }
                         }
                         else{
-                            result.events[i]['color'] = '#B3E5FC';
+                            if(eventPayType === EventPayType.PAY){
+                              result.events[i]['color'] = EventColor.PAY_AGO
+                            }
+                            else{
+                              result.events[i]['color'] = EventColor.FREE_AGO
+                            }
                         }
                     }
                     callback(result.events);
@@ -369,6 +405,20 @@
     $('body').on('click', function (e) {
         closePopovers();
     });
+
+    function isEventPayType(payAmount){
+      if(payAmount !== undefined){
+        if(payAmount === "0") {
+          //무료
+          return EventPayType.FREE;
+        }
+        else{
+          //유료
+          return EventPayType.PAY;
+        }
+      }
+      return EventPayType.UNKNOWN;
+    }
 
 </script>
 </html>

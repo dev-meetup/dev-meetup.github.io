@@ -5,6 +5,7 @@
 
 ## 이벤트 추가하기
 - `data/events.json`에 데이터 추가
+- `master` branch 대상으로 추가
 
 ```json
 {
@@ -16,20 +17,31 @@
       "start": "2017-02-23 19:30:00",
       "end": "2017-02-23 22:00:00",
       "address":"서울특별시 강남구 논현1동 15-11 Fast Campus 별관 MH bld. 3rd floor",
-      "tags":"google, gdg, gdgkorea"
+      "tags":"google, gdg, gdgkorea", 
+      "pay_amount": "1,000 ~ 29,500" 
     },
    ...
 ]
 }
 ```
+
 - pull request 혹은 commit 후 반영됨.
 
-
 ## TODO 
-- [x] mobile support
-- [ ] subscribe email 
-- [ ] dump google calendar ics
-- [ ] search hashtag 
+- [O] mobile support
+- [ ] clova extension  
+- [ ] google calendar ics
+- [ ] google/naver map 
+- [ ] meetup site auto parsing 
+
+## event source 
+- http://onoffmix.com
+- https://www.meetup.com
+- https://festa.io
+- facebook group/timeline
+- https://tacademy.sktechx.com
+- https://meetgo.kr
+
 
 ### References :
 - [React](https://facebook.github.io/react/)
