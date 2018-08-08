@@ -2688,9 +2688,77 @@
       "address": " 판교 카카오페이 오피스",
       "tags": "android, blockchain, dapp",
       "pay_amount": "10,000"
-    }
-            
-       
+    }, 
+    {
+      "id": 292, 
+      "title": "8월 오픈랩세미나",
+      "url": "https://festa.io/events/65",
+      "start": "2018-08-13 19:00:00",
+      "end": "2018-08-13 21:50:00",
+      "address": "(선릉) 아남타워 7층 대강의장",
+      "tags": "bdf, xdf, linux",
+      "pay_amount": "0"
+    },
+    {
+      "id": 293, 
+      "title": "AWSKRUG Hands-on Lab 2018 - Data Analysis #1",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/253585367/",
+      "start": "2018-08-25 13:00:00",
+      "end": "2018-08-25 16:00:00",
+      "address": "GSTower 12F",
+      "tags": "aws, glue, emr spark, zepplelin",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 294, 
+      "title": "리액트네이티브서울 - Social Login 라이브러리들을 활용한 Native Module 연동 시키기 실습",
+      "url": "https://www.meetup.com/ko-KR/react-native-seoul/events/252138039/",
+      "start": "2018-08-08 19:00:00",
+      "end": "2018-08-08 21:00:00",
+      "address": "토즈강남2호점",
+      "tags": "react",
+      "pay_amount": "5,000"
+    },
+    {
+      "id": 295, 
+      "title": "AWSKRUG Hands-on Lab 2018 - Serverless #3",
+      "url": "https://www.meetup.com/ko-KR/awskrug/events/252838800/",
+      "start": "2018-08-11 13:00:00",
+      "end": "2018-08-11 16:00:00",
+      "address": "GSTower 12F",
+      "tags": "aws, serverless",
+      "pay_amount": "10,000"
+    },
+    {
+      "id": 296, 
+      "title": "PHP website programming language (free tutoring!)",
+      "url": "https://www.meetup.com/ko-KR/Learn-Teach-Code-Seoul/events/253156633/",
+      "start": "2018-08-08 14:00:00",
+      "end": "2018-08-08 17:30:00",
+      "address": "서울특별시 마포구 백범로31길 21 서울창업허9층 아이디어룸2",
+      "tags": "php",
+      "pay_amount": "0"
+    },    
+    {
+      "id": 297, 
+      "title": "Grow With Developer Community ",
+      "url": "https://innovationlab180825meetup.splashthat.com/",
+      "start": "2018-08-25 14:00:00",
+      "end": "2018-08-25 17:00:00",
+      "address": "페이스북 이노베이션 랩",
+      "tags": "developer",
+      "pay_amount": "0"
+    }, 
+    {
+      "id": 298, 
+      "title": "Chrome Dev Meetup",
+      "url": "http://webtech.gdg.kr/180820_chrome_dev_meetup/",
+      "start": "2018-08-20 20:00:00",
+      "end": "2018-08-20 22:15:00",
+      "address": "마루180",
+      "tags": "google, dgd, chrome, pwa, css",
+      "pay_amount": "10,000"
+    } 
        
   ]
 }
