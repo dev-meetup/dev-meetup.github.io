@@ -2758,7 +2758,17 @@
       "address": "마루180",
       "tags": "google, dgd, chrome, pwa, css",
       "pay_amount": "10,000"
-    } 
+    },
+    {
+    	"id": 299,
+    	"title": "우분투한국커뮤니티 9월 서울지역 세미나",
+    	"url": "http://event.ubuntu-kr.org/2018/07/31/sept-seoul-seminar.html",
+    	"start": "2018-09-15 13:00",
+    	"end": "2018-09-15 17:30",
+    	"address": "KossLab 대회의실(서울특별시 강남구 테헤란로 311 아남타워빌딩 7층)",
+    	"tags": "ubuntu, debian, debconf, input-method, hanjp, intern, gpg, keysigning",
+    	"pay_amount": "0"
+    }
        
   ]
 }
