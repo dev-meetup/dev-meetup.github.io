@@ -2768,7 +2768,58 @@
     	"address": "KossLab 대회의실(서울특별시 강남구 테헤란로 311 아남타워빌딩 7층)",
     	"tags": "ubuntu, debian, debconf, input-method, hanjp, intern, gpg, keysigning",
     	"pay_amount": "0"
+    },
+    {
+    	"id": 300,
+    	"title": "Popit 멘토링 데이",
+    	"url": "https://festa.io/events/70",
+    	"start": "2018-08-31 19:00",
+    	"end": "2018-08-31 21:30",
+    	"address": "강남역 4번출구 패스트캠퍼스 11층 강의실",
+    	"tags": "developer",
+    	"pay_amount": "10,000"
+    },   
+    {
+    	"id": 301,
+    	"title": "우분투 기초 사용법 워크샵",
+    	"url": "https://festa.io/events/61",
+    	"start": "2018-09-22 13:00",
+    	"end": "2018-09-22 16:30",
+    	"address": "대전광역시 중구 대흥동 중앙로 124, 대흥노마드",
+    	"tags": "ubuntu",
+    	"pay_amount": "5,000"
+    },
+    {
+    	"id": 302,
+    	"title": "Saturday Azure live! 1808",
+    	"url": "https://festa.io/events/71",
+    	"start": "2018-08-25 13:00",
+    	"end": "2018-08-25 16:00",
+    	"address": "대한민국 서울특별시 마포구 노고산동 106-5",
+    	"tags": "azure",
+    	"pay_amount": "10,000"
+    },
+    {
+    	"id": 303,
+    	"title": "Planet Hackathon 2018 by GDG x 9XD",
+    	"url": "https://goree.io/events/3",
+    	"start": "2018-09-01 11:00",
+    	"end": "2018-09-01 19:00",
+    	"address": "삼성역 캠퍼스 서울 by Google",
+    	"tags": "gdg, hackathon",
+    	"pay_amount": "20,000"
+    },
+    {
+    	"id": 304,
+    	"title": "Planet Hackathon 2018 by GDG x 9XD",
+    	"url": "https://goree.io/events/3",
+    	"start": "2018-09-02 08:00",
+    	"end": "2018-09-02 12:00",
+    	"address": "삼성역 캠퍼스 서울 by Google",
+    	"tags": "gdg, hackathon",
+    	"pay_amount": "20,000"
     }
-       
+              
+             
   ]
 }
