@@ -2763,8 +2763,8 @@
     	"id": 299,
     	"title": "우분투한국커뮤니티 9월 서울지역 세미나",
     	"url": "http://event.ubuntu-kr.org/2018/07/31/sept-seoul-seminar.html",
-    	"start": "2018-09-15 13:00",
-    	"end": "2018-09-15 17:30",
+    	"start": "2018-09-15 13:00:00",
+    	"end": "2018-09-15 17:30:00",
     	"address": "KossLab 대회의실(서울특별시 강남구 테헤란로 311 아남타워빌딩 7층)",
     	"tags": "ubuntu, debian, debconf, input-method, hanjp, intern, gpg, keysigning",
     	"pay_amount": "0"
@@ -2773,8 +2773,8 @@
     	"id": 300,
     	"title": "Popit 멘토링 데이",
     	"url": "https://festa.io/events/70",
-    	"start": "2018-08-31 19:00",
-    	"end": "2018-08-31 21:30",
+    	"start": "2018-08-31 19:00:00",
+    	"end": "2018-08-31 21:30:00",
     	"address": "강남역 4번출구 패스트캠퍼스 11층 강의실",
     	"tags": "developer",
     	"pay_amount": "10,000"
@@ -2783,8 +2783,8 @@
     	"id": 301,
     	"title": "우분투 기초 사용법 워크샵",
     	"url": "https://festa.io/events/61",
-    	"start": "2018-09-22 13:00",
-    	"end": "2018-09-22 16:30",
+    	"start": "2018-09-22 13:00:00",
+    	"end": "2018-09-22 16:30:00",
     	"address": "대전광역시 중구 대흥동 중앙로 124, 대흥노마드",
     	"tags": "ubuntu",
     	"pay_amount": "5,000"
@@ -2793,8 +2793,8 @@
     	"id": 302,
     	"title": "Saturday Azure live! 1808",
     	"url": "https://festa.io/events/71",
-    	"start": "2018-08-25 13:00",
-    	"end": "2018-08-25 16:00",
+    	"start": "2018-08-25 13:00:00",
+    	"end": "2018-08-25 16:00:00",
     	"address": "대한민국 서울특별시 마포구 노고산동 106-5",
     	"tags": "azure",
     	"pay_amount": "10,000"
@@ -2803,8 +2803,8 @@
     	"id": 303,
     	"title": "Planet Hackathon 2018 by GDG x 9XD",
     	"url": "https://goree.io/events/3",
-    	"start": "2018-09-01 11:00",
-    	"end": "2018-09-01 19:00",
+    	"start": "2018-09-01 11:00:00",
+    	"end": "2018-09-01 19:00:00",
     	"address": "삼성역 캠퍼스 서울 by Google",
     	"tags": "gdg, hackathon",
     	"pay_amount": "20,000"
@@ -2813,8 +2813,8 @@
     	"id": 304,
     	"title": "Planet Hackathon 2018 by GDG x 9XD",
     	"url": "https://goree.io/events/3",
-    	"start": "2018-09-02 08:00",
-    	"end": "2018-09-02 12:00",
+    	"start": "2018-09-02 08:00:00",
+    	"end": "2018-09-02 12:00:00",
     	"address": "삼성역 캠퍼스 서울 by Google",
     	"tags": "gdg, hackathon",
     	"pay_amount": "20,000"
@@ -2823,8 +2823,8 @@
     	"id": 305,
     	"title": "이론부터 배포까지, 단계별로 익히는 이더리움 DApp 개발",
     	"url": "https://tacademy.sktechx.com/front/tacademy/courseinfo/campus.action#",
-    	"start": "2018-09-06 13:00",
-    	"end": "2018-09-06 19:00",
+    	"start": "2018-09-06 13:00:00",
+    	"end": "2018-09-06 19:00:00",
     	"address": "서울대연구공원단지내 SK연구동",
     	"tags": "blockchain, dapp, ethereum",
     	"pay_amount": "0"
@@ -2833,8 +2833,8 @@
     	"id": 306,
     	"title": "Oneday Workshop: 코딩 입문부터 나만의 웹 페이지 제작까지",
     	"url": "https://innovationlab180829workshop.splashthat.com/",
-    	"start": "2018-08-29 14:00",
-    	"end": "2018-08-29 18:00",
+    	"start": "2018-08-29 14:00:00",
+    	"end": "2018-08-29 18:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "html, web",
     	"pay_amount": "0"
@@ -2843,8 +2843,8 @@
     	"id": 307,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 1회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-09-17 15:00",
-    	"end": "2018-09-17 17:00",
+    	"start": "2018-09-17 15:00:00",
+    	"end": "2018-09-17 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2853,8 +2853,8 @@
     	"id": 308,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 2회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-09-27 15:00",
-    	"end": "2018-09-27 17:00",
+    	"start": "2018-09-27 15:00:00",
+    	"end": "2018-09-27 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2863,8 +2863,8 @@
     	"id": 309,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 3회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-10-01 15:00",
-    	"end": "2018-10-01 17:00",
+    	"start": "2018-10-01 15:00:00",
+    	"end": "2018-10-01 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2873,8 +2873,8 @@
     	"id": 310,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 4회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-10-08 15:00",
-    	"end": "2018-10-08 17:00",
+    	"start": "2018-10-08 15:00:00",
+    	"end": "2018-10-08 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2883,8 +2883,8 @@
     	"id": 311,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 5회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-10-15 15:00",
-    	"end": "2018-10-15 17:00",
+    	"start": "2018-10-15 15:00:00",
+    	"end": "2018-10-15 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2893,8 +2893,8 @@
     	"id": 312,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 6회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-10-22 15:00",
-    	"end": "2018-10-22 17:00",
+    	"start": "2018-10-22 15:00:00",
+    	"end": "2018-10-22 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2903,8 +2903,8 @@
     	"id": 313,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 7회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-10-29 15:00",
-    	"end": "2018-10-29 17:00",
+    	"start": "2018-10-29 15:00:00",
+    	"end": "2018-10-29 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
@@ -2913,18 +2913,12 @@
     	"id": 314,
     	"title": "Class :React Native를 통한 네이티브 앱 개발 - 8회",
     	"url": "https://innovationlab180917class.splashthat.com/",
-    	"start": "2018-11-05 15:00",
-    	"end": "2018-11-05 17:00",
+    	"start": "2018-11-05 15:00:00",
+    	"end": "2018-11-05 17:00:00",
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
     }
-          
-           
-            
-             
-             
-              
              
   ]
 }
