@@ -169,6 +169,36 @@
             "address": "마루180",
             "tags": "google, dgd, chrome, pwa, css",
             "pay_amount": "10,000"
+        },
+        {
+            "id": 300,
+            "title": "Popit 멘토링 데이",
+            "url": "https://festa.io/events/70",
+            "start": "2018-08-31 19:00:00",
+            "end": "2018-08-31 21:30:00",
+            "address": "강남역 4번출구 패스트캠퍼스 11층 강의실",
+            "tags": "developer",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 302,
+            "title": "Saturday Azure live! 1808",
+            "url": "https://festa.io/events/71",
+            "start": "2018-08-25 13:00:00",
+            "end": "2018-08-25 16:00:00",
+            "address": "대한민국 서울특별시 마포구 노고산동 106-5",
+            "tags": "azure",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 306,
+            "title": "Oneday Workshop: 코딩 입문부터 나만의 웹 페이지 제작까지",
+            "url": "https://innovationlab180829workshop.splashthat.com/",
+            "start": "2018-08-29 14:00:00",
+            "end": "2018-08-29 18:00:00",
+            "address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
+            "tags": "html, web",
+            "pay_amount": "0"
         }
     ]
 }
