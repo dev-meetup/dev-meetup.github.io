@@ -2918,7 +2918,28 @@
     	"address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
     	"tags": "react, js, react native",
     	"pay_amount": "0"
+    },
+    {
+    	"id": 315,
+    	"title": "아두이노 IoT 컨퍼런스",
+    	"url": "https://onoffmix.com/event/149959",
+    	"start": "2018-09-12 14:00:00",
+    	"end": "2018-09-12 18:00:00",
+    	"address": "[드림플러스]서울특별시 서초구 강남대로 311 한화생명보험빌딩 한화 드림플러스 강남 이벤트홀(B1)",
+    	"tags": "iot, android",
+    	"pay_amount": "50,000"
+    },
+    {
+    	"id": 316,
+    	"title": "내가 짠 코드 얼마나 안전한가요? #무료실습 #개발자 #보안취약점",
+    	"url": "https://onoffmix.com/event/149459",
+    	"start": "2018-09-07 14:00:00",
+    	"end": "2018-09-07 18:00:00",
+    	"address": "[MARU180 by 아산나눔재단]서울특별시 강남구 역삼로 180 이벤트홀",
+    	"tags": "security",
+    	"pay_amount": "0"
     }
+          
              
   ]
 }
