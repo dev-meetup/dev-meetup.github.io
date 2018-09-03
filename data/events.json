@@ -2938,7 +2938,38 @@
     	"address": "[MARU180 by 아산나눔재단]서울특별시 강남구 역삼로 180 이벤트홀",
     	"tags": "security",
     	"pay_amount": "0"
+    },
+    {
+    	"id": 317,
+    	"title": "Rockplace OpenDay",
+    	"url": "http://www.mktg.co.kr/eDM/20180906_Rockplace/rockplace_eDM.html",
+    	"start": "2018-09-06 13:40:00",
+    	"end": "2018-09-06 17:20:00",
+    	"address": "마이크로소프트본사11층",
+    	"tags": "ansible, sql, azure",
+    	"pay_amount": "0"
+    }, 
+    {
+    	"id": 318,
+    	"title": "지금은 Azure 시대! - 도전! Dr. Azure 1일차",
+    	"url": "https://onoffmix.com/event/150067",
+    	"start": "2018-09-13 10:00:00",
+    	"end": "2018-09-13 18:00:00",
+    	"address": "[코엑스]서울특별시 강남구 영동대로 513 코엑스 4층 무역아카데미 10호",
+    	"tags": "azure",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 318,
+    	"title": "지금은 Azure 시대! - 도전! Dr. Azure 2일차",
+    	"url": "https://onoffmix.com/event/150067",
+    	"start": "2018-09-14 10:00:00",
+    	"end": "2018-09-14 18:00:00",
+    	"address": "[코엑스]서울특별시 강남구 영동대로 513 코엑스 4층 무역아카데미 10호",
+    	"tags": "azure",
+    	"pay_amount": "0"
     }
+          
           
              
   ]
