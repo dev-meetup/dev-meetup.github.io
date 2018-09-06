@@ -2978,9 +2978,67 @@
     	"address": "대한민국 서울특별시 강남구 역삼1동 역삼로 180",
     	"tags": "pwa, gdg",
     	"pay_amount": "10,000"
-    }
-          
-          
+    },
+    {
+    	"id": 320,
+    	"title": "쿠버네티스 차근차근 다지기! -기초부터 중급까지",
+    	"url": "https://www.meetup.com/ko-KR/IBM-developerWorks-Meetup/events/254343211/",
+    	"start": "2018-09-17 13:00:00",
+    	"end": "2018-09-17 17:30:00",
+    	"address": "마루180 지하1층 이벤트홀",
+    	"tags": "k8s, docker",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 321,
+    	"title": "Azure X Kaggle : 미국 택시요금 싸게 내는 법",
+    	"url": "https://festa.io/events/80",
+    	"start": "2018-09-15 13:00:00",
+    	"end": "2018-09-15 18:00:00",
+    	"address": "강남 토즈타워점 (강남역 3번 출구)",
+    	"tags": "azure, R, kaggle",
+    	"pay_amount": "10,000"
+    }, 
+    {
+    	"id": 322,
+    	"title": "AWSKRUG 구로디지털단지 모임 - 20회차",
+    	"url": "https://www.meetup.com/ko-KR/awskrug/events/254435002/",
+    	"start": "2018-09-18 19:30:00",
+    	"end": "2018-09-18 21:00:00",
+    	"address": "서울 구로구 디지털로26길 72 서울창업지원센터(서울IoT센터) 4층 중회의실",
+    	"tags": "ansible, aws",
+    	"pay_amount": "5,000"
+    }, 
+    {
+    	"id": 323,
+    	"title": "AWSKRUG 주니어모임 (9월11일)",
+    	"url": "https://www.meetup.com/ko-KR/awskrug/events/253843349/",
+    	"start": "2018-09-11 19:00:00",
+    	"end": "2018-09-11 21:00:00",
+    	"address": "마이뮤직테이스트 3층",
+    	"tags": "aws",
+    	"pay_amount": "5,000"
+    }, 
+    {
+    	"id": 324,
+    	"title": "AWSKRUG #enterprise 소모임 - 6번째 모임 (9월 10일)",
+    	"url": "https://www.meetup.com/ko-KR/awskrug/events/253939781/",
+    	"start": "2018-09-10 18:30:00",
+    	"end": "2018-09-10 20:30:00",
+    	"address": "삼성 SDS East Campus 다목적홀",
+    	"tags": "aws, devops, msa",
+    	"pay_amount": "0"
+    }, 
+    {
+    	"id": 325,
+    	"title": "9월 Clova Dev Days 세미나",
+    	"url": "http://bit.ly/clova-dev-days-0918",
+    	"start": "2018-09-18 15:00:00",
+    	"end": "2018-09-18 18:00:00",
+    	"address": "D2 Startup Factory 라운지 (강남 메리츠 타워 16층)",
+    	"tags": "naver, clova",
+    	"pay_amount": "0"
+    }  
              
   ]
 }
