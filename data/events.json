@@ -3063,12 +3063,63 @@
     	"id": 328,
     	"title": "송도 인공지능 스터디 powered by GDG",
     	"url": "https://www.meetup.com/ko-KR/GDG-SongDo/events/kwbffqyxmbrb/",
-    	"start": "2018-09-13 19:00:00",
-    	"end": "2018-09-13 21:00:00",
+    	"start": "2018-09-11 19:00:00",
+    	"end": "2018-09-11 21:00:00",
     	"address": "인천대학교 미래관",
     	"tags": "ai",
     	"pay_amount": "0"
+    },
+    {
+    	"id": 329,
+    	"title": "[KISA 핀테크 기술지원센터] 기술 세미나 :: 파이썬을 활용한 금융 데이터 크롤링(심화과정)",
+    	"url": "https://onoffmix.com/event/149743",
+    	"start": "2018-09-13 14:00:00",
+    	"end": "2018-09-13 18:00:00",
+    	"address": "서울특별시 송파구 가락동 78 핀테크 기술지원센터",
+    	"tags": "python",
+    	"pay_amount": "0"
+    } ,
+    {
+    	"id": 330,
+    	"title": "[KISA 핀테크 기술지원센터] 기술 세미나 :: 파이썬을 활용한 금융 데이터 크롤링(심화과정)",
+    	"url": "https://onoffmix.com/event/149743",
+    	"start": "2018-09-12 14:00:00",
+    	"end": "2018-09-12 18:00:00",
+    	"address": "서울특별시 송파구 가락동 78 핀테크 기술지원센터",
+    	"tags": "python",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 331,
+    	"title": "[KISA 핀테크 기술지원센터] 기술 세미나 :: 파이썬을 활용한 금융 데이터 크롤링(심화과정)",
+    	"url": "https://onoffmix.com/event/149743",
+    	"start": "2018-09-13 14:00:00",
+    	"end": "2018-09-13 18:00:00",
+    	"address": "서울특별시 송파구 가락동 78 핀테크 기술지원센터",
+    	"tags": "python",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 332,
+    	"title": "삼성 청소로봇 주행 알고리즘 해커톤",
+    	"url": "https://onoffmix.com/event/149949",
+    	"start": "2018-10-17 13:30:00",
+    	"end": "2018-10-17 23:59:00",
+    	"address": "[D 삼성전자서울R&D캠퍼스] 서울 서초구 우면동 D타워 1층",
+    	"tags": "python, robot",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 333,
+    	"title": "삼성 청소로봇 주행 알고리즘 해커톤",
+    	"url": "https://onoffmix.com/event/149949",
+    	"start": "2018-10-18 08:00:00",
+    	"end": "2018-10-18 23:59:00",
+    	"address": "[D 삼성전자서울R&D캠퍼스] 서울 서초구 우면동 D타워 1층",
+    	"tags": "python, robot",
+    	"pay_amount": "0"
     } 
+            
             
              
   ]
