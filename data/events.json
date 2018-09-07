@@ -3048,6 +3048,26 @@
     	"address": "서울대연구공원단지내 sk연구동",
     	"tags": "java, spring, springboot",
     	"pay_amount": "0"
+    },
+    {
+    	"id": 327,
+    	"title": "How do we make AMP Stories tool (with tyle.io)",
+    	"url": "https://www.meetup.com/ko-KR/GDG-Seoul/events/254344860/?eventId=254344860&isFirstPublish=true",
+    	"start": "2018-09-13 19:30:00",
+    	"end": "2018-09-13 21:30:00",
+    	"address": "메가존 이벤트홀(B1)",
+    	"tags": "amp",
+    	"pay_amount": "5000"
+    },
+    {
+    	"id": 328,
+    	"title": "송도 인공지능 스터디 powered by GDG",
+    	"url": "https://www.meetup.com/ko-KR/GDG-SongDo/events/kwbffqyxmbrb/",
+    	"start": "2018-09-13 19:00:00",
+    	"end": "2018-09-13 21:00:00",
+    	"address": "인천대학교 미래관",
+    	"tags": "ai",
+    	"pay_amount": "0"
     } 
             
              
