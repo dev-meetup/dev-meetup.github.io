@@ -249,6 +249,36 @@
             "address": "서울특별시 송파구 가락동 78 핀테크 기술지원센터",
             "tags": "python",
             "pay_amount": "0"
+        },
+        {
+            "id": 334,
+            "title": "리액트네이티브서울 - React Lifecycle 심층 분석",
+            "url": "https://www.meetup.com/ko-KR/react-native-seoul/events/253604990/",
+            "start": "2018-09-19 19:00:00",
+            "end": "2018-09-19 21:00:00",
+            "address": "토즈강남2호점",
+            "tags": "react",
+            "pay_amount": "5000"
+        },
+        {
+            "id": 335,
+            "title": "AWSKRUG Hands-on Lab 2018 - Data Analysis #2 (9월 29일)",
+            "url": "https://www.meetup.com/ko-KR/awskrug/events/253585367/",
+            "start": "2018-09-29 13:00:00",
+            "end": "2018-09-29 16:00:00",
+            "address": "GSTower 12F",
+            "tags": "aws, spark, zeppelin, glue",
+            "pay_amount": "10,000"
+        },
+        {
+            "id": 336,
+            "title": "부산 GDG Android Tech Meetup",
+            "url": "https://onoffmix.com/event/151146",
+            "start": "2018-09-15 09:30:00",
+            "end": "2018-09-15 13:00:00",
+            "address": "부산 금정구 장전2동 403-8 제6공학관",
+            "tags": "gdg, android",
+            "pay_amount": "5,000"
         }
     ]
 }
