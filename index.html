@@ -61,6 +61,12 @@
                         List
                     </a>
                 </li>
+             <!--      <li id="btn-graph">
+                    <a>
+                        <i class="fa fa-signal" aria-hidden="true"></i>
+                        Graph
+                    </a>
+                </li>-->
                 <li id="btn-comment">
                     <a>
                         <i class="fa fa-commenting-o" aria-hidden="true"></i>
@@ -138,7 +144,7 @@
         render() {
             return (
                     <div id="calendar">
-                    <div id='fullcalendar'></div>
+                        <div id='fullcalendar'></div>
                     </div>
         );
         }
@@ -148,7 +154,7 @@
         render() {
             return (
                     <div id="calendar">
-                    <div id='fullcalendar'></div>
+                        <div id='fullcalendar'></div>
                     </div>
         );
         }
@@ -156,9 +162,13 @@
 
     class CommentView extends React.Component {
         render() {
-            return (
-                    <div id="disqus_thread"></div>
-        );
+            return (<div id="disqus_thread"></div>);
+        }
+    }
+
+    class GraphView extends React.Component {
+        render() {
+            return (<div id="graph"></div>);
         }
     }
 
@@ -219,8 +229,6 @@
 
     function drawCommentView(){
         ReactDOM.render(<CommentView />, document.getElementById('container'));
-
-
         var disqus_config = function () {
             this.page.url = 'https://dev-meetup.github.io/';
             this.page.identifier = 'https://dev-meetup.github.io/';
@@ -234,6 +242,12 @@
             (d.head || d.body).appendChild(s);
         })();
 
+    }
+
+
+    function drawGraphView(){
+        ReactDOM.render(<CalendarView />, document.getElementById('container'));
+        drawCalendarMonth();
     }
 
     function drawCalendarMonth() {
@@ -370,6 +384,7 @@
     $("#btn-calendar").click(function(e){
         $("#btn-list").removeClass('active');
         $("#btn-comment").removeClass('active');
+        $("#btn-graph").removeClass('active');
         $(this).addClass('active');
         drawCalendarView();
     });
@@ -378,6 +393,7 @@
     $("#btn-list").click(function(e){
         $("#btn-comment").removeClass('active');
         $("#btn-calendar").removeClass('active');
+        $("#btn-graph").removeClass('active');
         $(this).addClass('active');
         drawListView();
     });
@@ -385,9 +401,20 @@
     $("#btn-comment").click(function(e){
         $("#btn-list").removeClass('active');
         $("#btn-calendar").removeClass('active');
+        $("#btn-graph").removeClass('active');
         $(this).addClass('active');
         drawCommentView();
     });
+
+    $("#btn-graph").click(function(e){
+        $("#btn-list").removeClass('active');
+        $("#btn-calendar").removeClass('active');
+        $("#btn-comment").removeClass('active');
+        $(this).addClass('active');
+        drawGraphView();
+    });
+
+
 
     var hammertime = new Hammer(document.getElementById("body"));
     hammertime.on('swipeleft', function(ev) {
