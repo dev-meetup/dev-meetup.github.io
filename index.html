@@ -127,10 +127,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.5/mobile-detect.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-
 <script src="./static/js/material.min.js"></script>
 <script src="./static/js/nouislider.min.js"></script>
 
@@ -172,8 +170,8 @@
         render() {
             return (<div id="graph">
                     <div className="col-xs-6">
-                        <div className="panel panel-default">
-                            <div className="panel-heading"><strong>Event Tag Chart</strong></div>
+                        <div className="panel panel-info">
+                            <div className="panel-heading">Event Tag Chart</div>
                             <div className="panel-body">
                                 <canvas id="tag_chart"></canvas>
                             </div>
@@ -182,8 +180,8 @@
 
 
                     <div className="col-xs-6">
-                        <div className="panel panel-default">
-                            <div className="panel-heading"><strong>Month Chart</strong></div>
+                        <div className="panel panel-info">
+                            <div className="panel-heading"> Month Chart </div>
                             <div className="panel-body">
                                 <canvas id="month_chart"></canvas>
                             </div>
@@ -192,8 +190,8 @@
 
 
                     <div className="col-xs-12">
-                        <div className="panel panel-default">
-                            <div className="panel-heading"><strong>Week Day Chart</strong></div>
+                        <div className="panel panel-info">
+                            <div className="panel-heading">Week Day Chart</div>
                             <div className="panel-body">
                                 <canvas id="weekday_chart"></canvas>
                             </div>
@@ -363,24 +361,39 @@
         let i = 0;
         for(i=0; i<weekday_keys.length; i++){
             weekday_values.push(raw_weekday_data[weekday_keys[i]]);
-            // if(weekday_keys[i] === 0){
-            //     weekday_keys[i] = "MON";
-            // }
-            // else if(weekday_keys[i] == 1){
-            //     weekday_keys[i] = "MON";
-            // }
+            switch (parseInt(weekday_keys[i])) {
+                case 0:
+                    weekday_keys[i] = "MON";
+                    break;
+                case 1:
+                    weekday_keys[i] = "TUE";
+                    break;
+                case 2:
+                    weekday_keys[i] = "WED";
+                    break;
+                case 3:
+                    weekday_keys[i] = "THU";
+                    break;
+                case 4:
+                    weekday_keys[i] = "FRI";
+                    break;
+                case 5:
+                    weekday_keys[i] = "SAT";
+                    break;
+                case 6:
+                    weekday_keys[i] = "SUN";
+                    break;
+            }
         }
 
-
         let weekday_ctx = document.getElementById("weekday_chart");
-
         new Chart(weekday_ctx, {
             type: 'line',
             data: {
                 labels: weekday_keys,
                 datasets: [{
-                    backgroundColor: transparentize(chartColors.red),
-                    borderColor:  chartColors.red,
+                    backgroundColor: transparentize('#03A9F4'),
+                    borderColor: '#03A9F4',
                     data: weekday_values,
                     label: 'WeekDay Event Count',
                     fill: 'start'
@@ -413,8 +426,8 @@
             data: {
                 labels: month_keys,
                 datasets: [{
-                    backgroundColor: transparentize(chartColors.red),
-                    borderColor:  chartColors.red,
+                    backgroundColor: transparentize('#03A9F4'),
+                    borderColor:  '#03A9F4',
                     data: month_values,
                     label: 'Monthly Event Count',
                     fill: 'start'
