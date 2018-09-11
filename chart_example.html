@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myChart" width="400" height="400"></canvas>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+
+<script>
+    var ctx = document.getElementById("myChart");
+    window.chartColors = {
+        red: 'rgb(255, 99, 132)',
+        orange: 'rgb(255, 159, 64)',
+        yellow: 'rgb(255, 205, 86)',
+        green: 'rgb(75, 192, 192)',
+        blue: 'rgb(54, 162, 235)',
+        purple: 'rgb(153, 102, 255)',
+        grey: 'rgb(201, 203, 207)'
+    };
+
+
+    let raw_data =  {
+        "aws": 37,
+        "python": 28,
+        "azure": 23,
+        "gdg": 21,
+        "react": 16,
+        "opensource": 14,
+        "developer": 13,
+        "google": 12,
+        "js": 11
+    };
+
+    keys = _.keys(raw_data);
+    values = _.values(raw_data);
+
+    pieData = {
+        datasets: [{
+            data: values,
+            backgroundColor: [
+                window.chartColors.red,
+                window.chartColors.orange,
+                window.chartColors.yellow,
+                window.chartColors.green,
+                window.chartColors.blue,
+            ]
+        }],
+
+        // These labels appear in the legend and in the tooltips when hovering different arcs
+        labels:keys
+    };
+
+    var myPieChart = new Chart(ctx,{
+        type: 'pie',
+        data: pieData,
+        options: {responsive: true}
+    });
+
+
+</script>
+</html>

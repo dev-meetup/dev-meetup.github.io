@@ -1,6 +1,21 @@
 # -*- coding:utf-8 -*-
 import json
 from datetime import datetime
+from collections import OrderedDict
+
+
+def sorting_dict_by_key(src_dict, reverse=False):
+    return _sorting_dict(src_dict=src_dict, sorting_index=0, reverse=reverse)
+
+
+def sorting_dict_by_value(src_dict, reverse=False):
+    return _sorting_dict(src_dict=src_dict, sorting_index=1, reverse=reverse)
+
+
+def _sorting_dict(src_dict, sorting_index=0, reverse=False):
+    return dict(OrderedDict(sorted(src_dict.items(), key=lambda t: t[sorting_index], reverse=reverse)))
+
+
 json_data_file_path = './data/events.json'
 
 events = None
@@ -38,16 +53,16 @@ if events:
             month_result[month_key] = 0
         month_result[month_key] += 1
 
-    from collections import OrderedDict
+    tag_result = sorting_dict_by_value(src_dict=tag_result, reverse=True)
+    date_result = sorting_dict_by_value(src_dict=date_result, reverse=True)
+    month_result = sorting_dict_by_value(src_dict=month_result, reverse=True)
 
-    tag_result = dict(OrderedDict(sorted(tag_result.items(), key=lambda t: t[1], reverse=True)))
-    date_result = dict(OrderedDict(sorted(date_result.items(), key=lambda t: t[0], reverse=True)))
-    month_result = dict(OrderedDict(sorted(month_result.items(), key=lambda t: t[0], reverse=True)))
     statistic = {
         'tag': tag_result,
         'date': date_result,
         'month': month_result
     }
+
     write_file_path = './data/statistic.json'
     with open(write_file_path, 'w') as f:
         f.write(json.dumps(statistic, ensure_ascii=False, indent=4))
