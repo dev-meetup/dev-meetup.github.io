@@ -28,7 +28,8 @@
 - pull request 혹은 commit 후 반영됨.
 
 ## TODO 
-- [O] mobile support
+- [x] mobile support
+- [x] statistic
 - [ ] clova extension  
 - [ ] google calendar ics
 - [ ] google/naver map 
