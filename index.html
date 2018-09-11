@@ -387,8 +387,8 @@
 
     function drawMonthChart(raw_month_data){
 
-        let month_keys = _.keys(raw_month_data).slice(0, 6).reverse();
-        let month_values = _.values(raw_month_data).slice(0, 6).reverse();
+        let month_keys = _.keys(raw_month_data);
+        let month_values = _.values(raw_month_data);
         let month_ctx = document.getElementById("month_chart");
 
         new Chart(month_ctx, {

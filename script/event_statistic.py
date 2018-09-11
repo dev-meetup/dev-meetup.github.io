@@ -30,6 +30,7 @@ if events:
     tag_result = dict()
     date_result = dict()
     month_result = dict()
+    week_day_result = dict()
 
     for e in event_list:
         # tag
@@ -42,8 +43,9 @@ if events:
 
         # date
         st = datetime.strptime(e['start'], "%Y-%m-%d %H:%M:%S")
+        week_day_key = st.weekday()
         date_key = st.strftime('%Y-%m-%d')
-        month_key = st.strftime('%Y-%m')
+        month_key = st.strftime('%m')
         if date_key not in date_result:
             date_result[date_key] = 0
         date_result[date_key] += 1
@@ -53,14 +55,21 @@ if events:
             month_result[month_key] = 0
         month_result[month_key] += 1
 
+        # week_day_result
+        if week_day_key not in week_day_result:
+            week_day_result[week_day_key] = 0
+        week_day_result[week_day_key] += 1
+
     tag_result = sorting_dict_by_value(src_dict=tag_result, reverse=True)
     date_result = sorting_dict_by_key(src_dict=date_result, reverse=True)
-    month_result = sorting_dict_by_key(src_dict=month_result, reverse=True)
+    month_result = sorting_dict_by_key(src_dict=month_result, reverse=False)
+    week_day_result = sorting_dict_by_key(src_dict=week_day_result, reverse=False)
 
     statistic = {
         'tag': tag_result,
         'date': date_result,
-        'month': month_result
+        'month': month_result,
+        'week_day_result': week_day_result
     }
 
     write_file_path = './data/statistic.json'
