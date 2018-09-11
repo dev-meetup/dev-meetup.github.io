@@ -387,8 +387,14 @@
 
     function drawMonthChart(raw_month_data){
 
-        let month_keys = _.keys(raw_month_data);
-        let month_values = _.values(raw_month_data);
+        let month_keys = _.sortBy(_.keys(raw_month_data));
+        let month_values = [];
+        let i = 0;
+        for(i=0; i<month_keys.length; i++){
+            month_values.append(raw_month_data[month_keys[i]]);
+        }
+        console.log(month_keys);
+        console.log(month_values);
         let month_ctx = document.getElementById("month_chart");
 
         new Chart(month_ctx, {
