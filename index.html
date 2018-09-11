@@ -63,7 +63,7 @@
                 </li>
                 <li id="btn-graph">
                     <a>
-                        <i class="fa fa-signal" aria-hidden="true"></i>
+                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
                         Graph
                     </a>
                 </li>
@@ -73,7 +73,6 @@
                         Comment
                     </a>
                 </li>
-
             </ul>
         </div>
     </div>
@@ -173,15 +172,34 @@
         render() {
             return (<div id="graph">
                     <div className="col-xs-6">
-
                         <div className="panel panel-default">
                             <div className="panel-heading"><strong>Event Tag Chart</strong></div>
                             <div className="panel-body">
                                 <canvas id="tag_chart"></canvas>
                             </div>
                         </div>
-
                     </div>
+
+
+                    <div className="col-xs-6">
+                        <div className="panel panel-default">
+                            <div className="panel-heading"><strong>Month Chart</strong></div>
+                            <div className="panel-body">
+                                <canvas id="month_chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="col-xs-12">
+                        <div className="panel panel-default">
+                            <div className="panel-heading"><strong>Date Chart</strong></div>
+                            <div className="panel-body">
+                                <canvas id="date_chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             );
         }
@@ -273,7 +291,7 @@
             console.log(result);
             drawTagChart(result.tag);
             drawDateChart(result.date);
-            drawMonthChart(result.result);
+            drawMonthChart(result.month);
 
         };
         $.ajax({
@@ -286,6 +304,15 @@
     }
 
 
+    let chartColors = {
+        red: 'rgb(255, 99, 132)',
+        orange: 'rgb(255, 159, 64)',
+        yellow: 'rgb(255, 205, 86)',
+        green: 'rgb(75, 192, 192)',
+        blue: 'rgb(54, 162, 235)',
+        purple: 'rgb(153, 102, 255)',
+        grey: 'rgb(201, 203, 207)'
+    };
 
     function drawTagChart(raw_tag_data){
         console.log(raw_tag_data);
@@ -294,38 +321,29 @@
         let values = _.values(raw_tag_data).slice(0, 10);
 
         let tag_ctx = document.getElementById("tag_chart");
-        window.chartColors = {
-            red: 'rgb(255, 99, 132)',
-            orange: 'rgb(255, 159, 64)',
-            yellow: 'rgb(255, 205, 86)',
-            green: 'rgb(75, 192, 192)',
-            blue: 'rgb(54, 162, 235)',
-            purple: 'rgb(153, 102, 255)',
-            grey: 'rgb(201, 203, 207)'
-        };
 
         let pieData = {
             datasets: [{
                 data: values,
                 backgroundColor: [
-                    window.chartColors.red,
-                    window.chartColors.orange,
-                    window.chartColors.yellow,
-                    window.chartColors.green,
-                    window.chartColors.blue,
+                    chartColors.red,
+                    chartColors.orange,
+                    chartColors.yellow,
+                    chartColors.green,
+                    chartColors.blue,
                 ]
             }],
             labels:keys
         };
 
-        var tagChart = new Chart(tag_ctx,{
+        new Chart(tag_ctx,{
             type: 'doughnut',
             data: pieData,
             options: {
                 title: {
-					display: true,
-					text: 'Top 10 Tags'
-				},
+                    display: true,
+                    text: 'Top 10 Tags'
+                },
                 responsive: true,
                 animation:{
                     animateScale: true,
@@ -339,14 +357,66 @@
     }
 
     function drawDateChart(raw_date_data){
+        console.log(raw_date_data);
 
+        let date_keys = _.keys(raw_date_data).slice(0, 30).reverse();
+        let date_values = _.values(raw_date_data).slice(0, 30).reverse();
+        let date_ctx = document.getElementById("date_chart");
+
+        new Chart(date_ctx, {
+            type: 'line',
+            data: {
+                labels: date_keys,
+                datasets: [{
+                    backgroundColor: transparentize(chartColors.red),
+                    borderColor:  chartColors.red,
+                    data: date_values,
+                    label: 'Daily Event Count',
+                    fill: 'start'
+                }]
+            },
+            options: {
+                elements: {
+                    line: {
+                        tension: 0.000001
+                    }
+                }
+            }
+        });
     }
 
     function drawMonthChart(raw_month_data){
 
+        let month_keys = _.keys(raw_month_data).slice(0, 6).reverse();
+        let month_values = _.values(raw_month_data).slice(0, 6).reverse();
+        let month_ctx = document.getElementById("month_chart");
+
+        new Chart(month_ctx, {
+            type: 'line',
+            data: {
+                labels: month_keys,
+                datasets: [{
+                    backgroundColor: transparentize(chartColors.red),
+                    borderColor:  chartColors.red,
+                    data: month_values,
+                    label: 'Monthly Event Count',
+                    fill: 'start'
+                }]
+            },
+            options: {
+                elements: {
+                    line: {
+                        tension: 0.000001
+                    }
+                }
+            }
+        });
     }
 
-
+    function transparentize(color, opacity) {
+        var alpha = opacity === undefined ? 0.5 : 1 - opacity;
+        return Color(color).alpha(alpha).rgbString();
+    }
     function drawCalendarMonth() {
         $('#fullcalendar').fullCalendar({
 

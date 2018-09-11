@@ -54,8 +54,8 @@ if events:
         month_result[month_key] += 1
 
     tag_result = sorting_dict_by_value(src_dict=tag_result, reverse=True)
-    date_result = sorting_dict_by_value(src_dict=date_result, reverse=True)
-    month_result = sorting_dict_by_value(src_dict=month_result, reverse=True)
+    date_result = sorting_dict_by_key(src_dict=date_result, reverse=True)
+    month_result = sorting_dict_by_key(src_dict=month_result, reverse=True)
 
     statistic = {
         'tag': tag_result,
