@@ -172,18 +172,18 @@
     class GraphView extends React.Component {
         render() {
             return (<div id="graph">
-                <div className="col-xs-6">
+                    <div className="col-xs-6">
 
-                    <div className="panel panel-default">
-                        <div className="panel-heading"><strong>Event Tag Chart</strong></div>
-                        <div className="panel-body">
-                            <canvas id="tag_chart"></canvas>
+                        <div className="panel panel-default">
+                            <div className="panel-heading"><strong>Event Tag Chart</strong></div>
+                            <div className="panel-body">
+                                <canvas id="tag_chart"></canvas>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
-                </div>
-               );
+            );
         }
     }
 
@@ -290,8 +290,8 @@
     function drawTagChart(raw_tag_data){
         console.log(raw_tag_data);
 
-        let keys = _.keys(raw_tag_data);
-        let values = _.values(raw_tag_data);
+        let keys = _.keys(raw_tag_data).slice(0, 10);
+        let values = _.values(raw_tag_data).slice(0, 10);
 
         let tag_ctx = document.getElementById("tag_chart");
         window.chartColors = {
@@ -321,8 +321,19 @@
         var tagChart = new Chart(tag_ctx,{
             type: 'doughnut',
             data: pieData,
-            options: {responsive: true,  legend: {
-                    display: false
+            options: {
+                title: {
+					display: true,
+					text: 'Top 10 Tags'
+				},
+                responsive: true,
+                animation:{
+                    animateScale: true,
+                    animateRotate: true
+                },
+                legend: {
+                    display: true,
+                    position: 'bottom'
                 },}
         });
     }
@@ -353,8 +364,6 @@
             editable: false,
             eventLimit: true,
             events: function (start, end, timezone, callback) {
-
-
                 var date = $('#fullcalendar').fullCalendar('getDate');
                 $.getJSON( "data/events-" + date.format('YYYY-MM') + ".json", function( result ) {
 
