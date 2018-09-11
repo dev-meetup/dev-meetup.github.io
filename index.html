@@ -358,11 +358,6 @@
 
     function drawWeekDayChart(raw_weekday_data){
         console.log(raw_weekday_data);
-
-        let date_keys = _.keys(raw_weekday_data).slice(0, 30).reverse();
-        let date_values = _.values(raw_weekday_data).slice(0, 30).reverse();
-
-
         let weekday_keys = _.sortBy(_.keys(raw_weekday_data));
         let weekday_values = [];
         let i = 0;
