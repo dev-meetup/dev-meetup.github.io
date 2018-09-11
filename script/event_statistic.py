@@ -69,7 +69,7 @@ if events:
         'tag': tag_result,
         'date': date_result,
         'month': month_result,
-        'week_day_result': week_day_result
+        'weekday': week_day_result
     }
 
     write_file_path = './data/statistic.json'

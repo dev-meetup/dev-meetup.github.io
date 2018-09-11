@@ -193,9 +193,9 @@
 
                     <div className="col-xs-12">
                         <div className="panel panel-default">
-                            <div className="panel-heading"><strong>Date Chart</strong></div>
+                            <div className="panel-heading"><strong>Week Day Chart</strong></div>
                             <div className="panel-body">
-                                <canvas id="date_chart"></canvas>
+                                <canvas id="weekday_chart"></canvas>
                             </div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
         let success_func = function (result) {
             console.log(result);
             drawTagChart(result.tag);
-            drawDateChart(result.date);
+            drawWeekDayChart(result.weekday);
             drawMonthChart(result.month);
 
         };
@@ -356,22 +356,38 @@
         });
     }
 
-    function drawDateChart(raw_date_data){
-        console.log(raw_date_data);
+    function drawWeekDayChart(raw_weekday_data){
+        console.log(raw_weekday_data);
 
-        let date_keys = _.keys(raw_date_data).slice(0, 30).reverse();
-        let date_values = _.values(raw_date_data).slice(0, 30).reverse();
-        let date_ctx = document.getElementById("date_chart");
+        let date_keys = _.keys(raw_weekday_data).slice(0, 30).reverse();
+        let date_values = _.values(raw_weekday_data).slice(0, 30).reverse();
 
-        new Chart(date_ctx, {
+
+        let weekday_keys = _.sortBy(_.keys(raw_weekday_data));
+        let weekday_values = [];
+        let i = 0;
+        for(i=0; i<weekday_keys.length; i++){
+            weekday_values.push(raw_weekday_data[weekday_keys[i]]);
+            // if(weekday_keys[i] === 0){
+            //     weekday_keys[i] = "MON";
+            // }
+            // else if(weekday_keys[i] == 1){
+            //     weekday_keys[i] = "MON";
+            // }
+        }
+
+
+        let weekday_ctx = document.getElementById("weekday_chart");
+
+        new Chart(weekday_ctx, {
             type: 'line',
             data: {
-                labels: date_keys,
+                labels: weekday_keys,
                 datasets: [{
                     backgroundColor: transparentize(chartColors.red),
                     borderColor:  chartColors.red,
-                    data: date_values,
-                    label: 'Daily Event Count',
+                    data: weekday_values,
+                    label: 'WeekDay Event Count',
                     fill: 'start'
                 }]
             },
