@@ -79,6 +79,36 @@
             "address": "[한빛미디어]서울특별시 서대문구 연희로2길 62 한빛미디어",
             "tags": "msa, architecture",
             "pay_amount": "5,000"
+        },
+        {
+            "id": 338,
+            "title": "Dev Django Korea 2018",
+            "url": "https://devdjangokr.github.io/2018",
+            "start": "2018-10-07 09:00:00",
+            "end": "2018-10-07 18:00:00",
+            "address": "대한민국 서울특별시 마포구 공덕동 백범로31길 21",
+            "tags": "python, django",
+            "pay_amount": "-"
+        },
+        {
+            "id": 339,
+            "title": "Google Cloud Summit",
+            "url": "https://cloudplatformonline.com/2018-Summit-Korea-Home.html",
+            "start": "2018-10-25 08:00:00",
+            "end": "2018-10-25 18:00:00",
+            "address": "코엑스",
+            "tags": "google, mcp, automl, k8s, sre, spinnaker, knative, gsuite, stackdriver",
+            "pay_amount": "0"
+        },
+        {
+            "id": 340,
+            "title": "How To Build A Rocket StartUp 로켓 스타트업 CTO들의 대화",
+            "url": "https://innovationlab181004seminar.splashthat.com/",
+            "start": "2018-10-04 19:30:00",
+            "end": "2018-10-04 21:50:00",
+            "address": "페이스북 이노베이션 랩",
+            "tags": "cto",
+            "pay_amount": "0"
         }
     ]
 }
