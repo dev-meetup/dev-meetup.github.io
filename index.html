@@ -178,7 +178,6 @@
                         </div>
                     </div>
 
-
                     <div className="col-xs-6">
                         <div className="panel panel-info">
                             <div className="panel-heading"> Month Chart </div>
@@ -188,8 +187,7 @@
                         </div>
                     </div>
 
-
-                    <div className="col-xs-12">
+                    <div className="col-xs-6">
                         <div className="panel panel-info">
                             <div className="panel-heading">Week Day Chart</div>
                             <div className="panel-body">
@@ -197,6 +195,16 @@
                             </div>
                         </div>
                     </div>
+
+                    <div className="col-xs-6">
+                        <div className="panel panel-info">
+                            <div className="panel-heading">Hour Chart</div>
+                            <div className="panel-body">
+                                <canvas id="hour_chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             );
@@ -290,6 +298,8 @@
             drawTagChart(result.tag);
             drawWeekDayChart(result.weekday);
             drawMonthChart(result.month);
+            drawHourChart(result.st_hour, result.ed_hour)
+
 
         };
         $.ajax({
@@ -314,10 +324,8 @@
 
     function drawTagChart(raw_tag_data){
         console.log(raw_tag_data);
-
         let keys = _.keys(raw_tag_data).slice(0, 10);
         let values = _.values(raw_tag_data).slice(0, 10);
-
         let tag_ctx = document.getElementById("tag_chart");
 
         let pieData = {
@@ -442,6 +450,53 @@
             }
         });
     }
+
+
+    function drawHourChart(raw_st_hour_data, raw_ed_hour_data){
+        let hour_keys = _.sortBy(_.keys(raw_st_hour_data));
+        let st_hour_values = [];
+        let ed_hour_values = [];
+        let i = 0;
+        for(i=0; i<hour_keys.length; i++){
+            st_hour_values.push(raw_st_hour_data[hour_keys[i]]);
+            ed_hour_values.push(raw_ed_hour_data[hour_keys[i]]);
+        }
+
+        console.log(st_hour_values);
+        console.log(ed_hour_values);
+        let hour_ctx = document.getElementById("hour_chart");
+
+        new Chart(hour_ctx, {
+            type: 'line',
+            data: {
+                labels: hour_keys,
+                datasets: [
+                    {
+                        backgroundColor: transparentize(chartColors.red),
+                        borderColor:  chartColors.red,
+                        data: st_hour_values,
+                        label: 'Start Hour Event Count',
+                        fill: 'start'
+                    },
+                    {
+                        backgroundColor: transparentize('#03A9F4'),
+                        borderColor:  '#03A9F4',
+                        data: ed_hour_values,
+                        label: 'End Hour Event Count',
+                        fill: 'start'
+                    }]
+            },
+            options: {
+                elements: {
+                    line: {
+                        tension: 0.000001
+                    }
+                }
+            }
+        });
+    }
+
+
 
     function transparentize(color, opacity) {
         var alpha = opacity === undefined ? 0.5 : 1 - opacity;

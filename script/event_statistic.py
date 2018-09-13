@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 import json
+from collections import defaultdict
 from datetime import datetime
 from collections import OrderedDict
 
@@ -27,49 +28,67 @@ if events:
     events_json = json.loads(events, encoding="utf-8")
     event_list = events_json['events']
 
-    tag_result = dict()
-    date_result = dict()
-    month_result = dict()
-    week_day_result = dict()
+    tag_result = defaultdict(lambda: 0)
+    date_result = defaultdict(lambda: 0)
+    month_result = defaultdict(lambda: 0)
+    week_day_result = defaultdict(lambda: 0)
+    st_hour_result = defaultdict(lambda: 0)
+    ed_hour_result = defaultdict(lambda: 0)
 
     for e in event_list:
+        st = datetime.strptime(e['start'], "%Y-%m-%d %H:%M:%S")
+        ed = datetime.strptime(e['end'], "%Y-%m-%d %H:%M:%S")
+
         # tag
         tag_list = e['tags'].split(',')
         for tag_key in tag_list:
             tag_key = tag_key.strip().lower()
-            if tag_key not in tag_result:
-                tag_result[tag_key] = 0
             tag_result[tag_key] += 1
 
-        # date
-        st = datetime.strptime(e['start'], "%Y-%m-%d %H:%M:%S")
+        # keys :  date & weekday & month & st & ed
         week_day_key = st.weekday()
         date_key = st.strftime('%Y-%m-%d')
         month_key = st.strftime('%m')
-        if date_key not in date_result:
-            date_result[date_key] = 0
+        st_hour_key = st.strftime('%H')
+        ed_hour_key = ed.strftime('%H')
+
+        # date
         date_result[date_key] += 1
 
         # month
-        if month_key not in month_result:
-            month_result[month_key] = 0
         month_result[month_key] += 1
 
         # week_day_result
-        if week_day_key not in week_day_result:
-            week_day_result[week_day_key] = 0
         week_day_result[week_day_key] += 1
 
+        # st_hour_result
+        st_hour_result[st_hour_key] += 1
+
+        # ed_hour_result
+        ed_hour_result[ed_hour_key] += 1
+
+    # sorting
     tag_result = sorting_dict_by_value(src_dict=tag_result, reverse=True)
     date_result = sorting_dict_by_key(src_dict=date_result, reverse=True)
     month_result = sorting_dict_by_key(src_dict=month_result, reverse=False)
     week_day_result = sorting_dict_by_key(src_dict=week_day_result, reverse=False)
+    st_hour_result = sorting_dict_by_key(src_dict=st_hour_result, reverse=False)
+    ed_hour_result = sorting_dict_by_key(src_dict=ed_hour_result, reverse=False)
+    hour_keys = ["%02d" % i for i in range(0, 24)]
+
+    for hour_key in hour_keys:
+        if hour_key not in st_hour_result:
+            st_hour_result[hour_key] = 0
+        if hour_key not in ed_hour_result:
+            ed_hour_result[hour_key] = 0
 
     statistic = {
         'tag': tag_result,
         'date': date_result,
         'month': month_result,
-        'weekday': week_day_result
+        'weekday': week_day_result,
+        'st_hour': st_hour_result,
+        'ed_hour': ed_hour_result
     }
 
     write_file_path = './data/statistic.json'
