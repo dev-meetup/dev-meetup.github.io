@@ -30,8 +30,8 @@
 ## TODO 
 - [x] mobile support
 - [x] statistic
-- [ ] clova extension  
-- [ ] google calendar ics
+- [x] google calendar
+- [ ] clova extension
 - [ ] google/naver map 
 - [ ] meetup site auto parsing 
 
