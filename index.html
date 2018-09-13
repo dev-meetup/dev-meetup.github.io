@@ -568,6 +568,11 @@
                 else{
                     content +="<li>가격 : 알 수 없음</li>";
                 }
+
+                let gcStart =  moment(calEvent.start).format('YYYYMMDD') + 'T' +  moment(calEvent.start).format('HHmmss');
+                let gcEnd = moment(calEvent.end).format('YYYYMMDD') + 'T' +  moment(calEvent.end).format('HHmmss');
+                let calendarLink = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + calEvent.title + "&dates=" + gcStart + "/" + gcEnd + "&ctz=Asia/Seoul&details=" + calEvent.tags + "&location=" + calEvent.address;
+                content +="<li><a target='_blank' href='" + calendarLink + "'>캘린더에 추가</a></li>";
                 $(domEvent.currentTarget).popover({
                     title:title,
                     content:content,
