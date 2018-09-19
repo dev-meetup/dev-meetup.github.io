@@ -68,8 +68,8 @@ if events:
         # ed_hour_result
         ed_hour_result[ed_hour_key] += 1
 
-        if e.url:
-            url_list.append(e.url)
+        if e.get('url', None):
+            url_list.append(e['url'])
 
     # sorting
     tag_result = sorting_dict_by_value(src_dict=tag_result, reverse=True)
