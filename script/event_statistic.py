@@ -34,6 +34,7 @@ if events:
     week_day_result = defaultdict(lambda: 0)
     st_hour_result = defaultdict(lambda: 0)
     ed_hour_result = defaultdict(lambda: 0)
+    url_list = []
 
     for e in event_list:
         st = datetime.strptime(e['start'], "%Y-%m-%d %H:%M:%S")
@@ -67,6 +68,9 @@ if events:
         # ed_hour_result
         ed_hour_result[ed_hour_key] += 1
 
+        if e.url:
+            url_list.append(e.url)
+
     # sorting
     tag_result = sorting_dict_by_value(src_dict=tag_result, reverse=True)
     date_result = sorting_dict_by_key(src_dict=date_result, reverse=True)
@@ -95,6 +99,10 @@ if events:
     tags = {
         'tags': sorted_tags
     }
+    sorted_url = sorted(url_list)
+    urls = {
+        'url': sorted_url
+    }
 
     write_file_path = './data/statistic.json'
     with open(write_file_path, 'w') as f:
@@ -103,3 +111,7 @@ if events:
     write_file_path = './data/tags.json'
     with open(write_file_path, 'w') as f:
         f.write(json.dumps(tags, ensure_ascii=False, indent=4))
+
+    write_file_path = './data/url.json'
+    with open(write_file_path, 'w') as f:
+        f.write(json.dumps(urls, ensure_ascii=False, indent=4))
