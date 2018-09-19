@@ -91,6 +91,15 @@ if events:
         'ed_hour': ed_hour_result
     }
 
+    sorted_tags = sorted(tag_result.keys())
+    tags = {
+        'tags': sorted_tags
+    }
+
     write_file_path = './data/statistic.json'
     with open(write_file_path, 'w') as f:
         f.write(json.dumps(statistic, ensure_ascii=False, indent=4))
+
+    write_file_path = './data/tags.json'
+    with open(write_file_path, 'w') as f:
+        f.write(json.dumps(tags, ensure_ascii=False, indent=4))
