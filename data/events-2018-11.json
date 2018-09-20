@@ -9,6 +9,16 @@
             "address": "경기 성남시 수정구 대왕판교로 815 판교 제2테크노벨리 기업지원허브 ICT-문화융합센터 2층",
             "tags": "react, js, react native",
             "pay_amount": "0"
+        },
+        {
+            "id": 341,
+            "title": "GDG DevFest Seoul 2018",
+            "url": "https://festa.io/events/88",
+            "start": "2018-11-10 12:00:00",
+            "end": "2018-11-10 18:30:00",
+            "address": "세종대학교 광개토대관 컨벤션홀",
+            "tags": "gdg",
+            "pay_amount": "15,000"
         }
     ]
 }

@@ -109,6 +109,26 @@
             "address": "페이스북 이노베이션 랩",
             "tags": "cto",
             "pay_amount": "0"
+        },
+        {
+            "id": 342,
+            "title": "DataBreak 2018 : Hello Kaggler!",
+            "url": "https://festa.io/events/87",
+            "start": "2018-10-07 10:00:00",
+            "end": "2018-10-07 18:30:00",
+            "address": "세종대학교 광개토대관 컨벤션홀",
+            "tags": "data, kaggle",
+            "pay_amount": "15,000 ~ 50,000"
+        },
+        {
+            "id": 344,
+            "title": "데이터 분석을 이용한 네트워크보안",
+            "url": "https://tacademy.skplanet.com/front/tacademy/courseinfo/campus.action",
+            "start": "2018-10-11 13:30:00",
+            "end": "2018-10-11 18:00:00",
+            "address": "서울대연구공원단지내 SK연구동",
+            "tags": "security, network, data, snort sql injection, hacking, elk",
+            "pay_amount": "0"
         }
     ]
 }
