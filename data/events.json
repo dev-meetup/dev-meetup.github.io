@@ -3238,6 +3238,46 @@
     	"address": "롯데타워 31층 SKY 31 컨벤션 / 서울시 송파구 올림픽로 300",
     	"tags": "js, redux, font, three.js, react",
     	"pay_amount": "30,000"
+    },
+    {
+    	"id": 346,
+    	"title": "Lightning Talk & Networking with GDG Campus Korea",
+    	"url": "https://festa.io/events/92",
+    	"start": "2018-10-12 19:00:00",
+    	"end": "2018-10-12 21:00:00",
+    	"address": "대한민국 서울특별시 강남구 대치2동 영동대로 417, 오토웨이타워 지하 2층",
+    	"tags": "gdg",
+    	"pay_amount": "5,000"
+    },
+    {
+    	"id": 347,
+    	"title": "뻔뻔한 발표",
+    	"url": "https://festa.io/events/93",
+    	"start": "2018-10-17 19:00:00",
+    	"end": "2018-10-17 22:30:00",
+    	"address": "에스티유니타스 오토웨이타워 2층 대회의실 (에스컬레이터 를 이용하세요. 엘레베이터 이용 불가)",
+    	"tags": "funcion programming",
+    	"pay_amount": "5,000"
+    },
+    {
+    	"id": 348,
+    	"title": "AWSKRUG 데이터사이언스모임 (10월4일)",
+    	"url": "https://www.meetup.com/ko-KR/awskrug/events/255084203/",
+    	"start": "2018-10-04 18:50:00",
+    	"end": "2018-10-04 20:50:00",
+    	"address": "디캠프",
+    	"tags": "aws",
+    	"pay_amount": "5,000"
+    },
+    {
+    	"id": 349,
+    	"title": "AWSKRUG CLI모임 (10월 16일 화요일)",
+    	"url": "https://www.meetup.com/ko-KR/awskrug/events/255081286/",
+    	"start": "2018-10-16 19:00:00",
+    	"end": "2018-10-16 21:00:00",
+    	"address": "베스핀글로벌 요다룸",
+    	"tags": "aws, cli",
+    	"pay_amount": "5,000"
     } 
              
   ]
