@@ -3278,7 +3278,47 @@
     	"address": "베스핀글로벌 요다룸",
     	"tags": "aws, cli",
     	"pay_amount": "5,000"
-    } 
+    },
+    {
+    	"id": 350,
+    	"title": "SAMSUNG OPEN SOURCE CONFERENCE 2018",
+    	"url": "https://www.soscon.net/",
+    	"start": "2018-10-17 09:00:00",
+    	"end": "2018-10-17 17:15:00",
+    	"address": "Samsung Seoul R&D Campus",
+    	"tags": "samsung, open_source",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 351,
+    	"title": "SAMSUNG OPEN SOURCE CONFERENCE 2018",
+    	"url": "https://www.soscon.net/",
+    	"start": "2018-10-18 09:00:00",
+    	"end": "2018-10-18 17:15:00",
+    	"address": "Samsung Seoul R&D Campus",
+    	"tags": "samsung, open_source",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 352,
+    	"title": "DEVIEW 2018",
+    	"url": "https://deview.kr/2018",
+    	"start": "2018-10-11 09:00:00",
+    	"end": "2018-10-11 17:00:00",
+    	"address": "COEX Grand Ballroom, Seoul",
+    	"tags": "naver",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 353,
+    	"title": "DEVIEW 2018",
+    	"url": "https://deview.kr/2018",
+    	"start": "2018-10-12 09:00:00",
+    	"end": "2018-10-12 17:00:00",
+    	"address": "COEX Grand Ballroom, Seoul",
+    	"tags": "naver",
+    	"pay_amount": "0"
+    }  
              
   ]
 }
