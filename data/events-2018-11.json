@@ -29,6 +29,16 @@
             "address": "롯데타워 31층 SKY 31 컨벤션 / 서울시 송파구 올림픽로 300",
             "tags": "js, redux, font, three.js, react",
             "pay_amount": "30,000"
+        },
+        {
+            "id": 354,
+            "title": "SpringOne Tour",
+            "url": "http://springonetour.io/2018/seoul",
+            "start": "2018-11-08 09:00:00",
+            "end": "2018-11-08 18:00:00",
+            "address": "아모리스 역삼, GS Tower, 서울특별시 강남구 역삼동 679-1",
+            "tags": "java, spring, cloud, serverless, pivotal",
+            "pay_amount": "0"
         }
     ]
 }
