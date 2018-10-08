@@ -239,6 +239,36 @@
             "address": "삼성SDS타워 서관, B1 마젤란홀",
             "tags": "okky, tdd",
             "pay_amount": "25,000~55,000"
+        },
+        {
+            "id": 358,
+            "title": "10월 파이썬 격월 세미나 Hello Python World!",
+            "url": "https://festa.io/events/99",
+            "start": "2018-10-13 12:30:00",
+            "end": "2018-10-13 17:30:00",
+            "address": "한빛미디어 리더스홀, 대한민국 서울특별시 서대문구 신촌동 연희로2길 62",
+            "tags": "python, data",
+            "pay_amount": "15,000"
+        },
+        {
+            "id": 359,
+            "title": "하시코프 한국 사용자모임의 두 번째 서울 밋업",
+            "url": "https://festa.io/events/105",
+            "start": "2018-10-23 19:00:00",
+            "end": "2018-10-23 21:30:00",
+            "address": "지하철 2호선 역삼역 7번 출구 GS타워 12층 세미나실",
+            "tags": "hashicorp",
+            "pay_amount": "5,000"
+        },
+        {
+            "id": 360,
+            "title": "2018 Korea Mesosphere DC/OS First Conference!",
+            "url": "https://festa.io/events/100",
+            "start": "2018-10-26 13:00:00",
+            "end": "2018-10-26 18:00:00",
+            "address": "인터콘티넨탈 코엑스 호텔 다이아몬드홀",
+            "tags": "msa, ci, cd, docker",
+            "pay_amount": "0"
         }
     ]
 }

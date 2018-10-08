@@ -39,6 +39,36 @@
             "address": "아모리스 역삼, GS Tower, 서울특별시 강남구 역삼동 679-1",
             "tags": "java, spring, cloud, serverless, pivotal",
             "pay_amount": "0"
+        },
+        {
+            "id": 361,
+            "title": "Ubuntu Fest 우분투와 딥러닝",
+            "url": "https://festa.io/events/94",
+            "start": "2018-11-10 13:00:00",
+            "end": "2018-11-10 18:00:00",
+            "address": "충남대학교 공과대학1호관 취봉홀",
+            "tags": "ubuntu",
+            "pay_amount": "0"
+        },
+        {
+            "id": 362,
+            "title": "Red Hat Forum Seoul 2018",
+            "url": "https://www.redhat.com/ko/events/red-hat-forum-seoul-2018",
+            "start": "2018-11-06 09:00:00",
+            "end": "2018-11-06 17:30:00",
+            "address": "인터컨티넨탈 서울 코엑스 하모니볼룸(B1F)",
+            "tags": "redhat",
+            "pay_amount": "0"
+        },
+        {
+            "id": 363,
+            "title": "Zabbix Korean Community 세미나",
+            "url": "https://onoffmix.com/event/154542",
+            "start": "2018-11-02 13:30:00",
+            "end": "2018-11-02 17:30:00",
+            "address": "[아남타워빌딩]서울특별시 강남구 테헤란로 311 7층 (공개SW 개발자 센터 대 강의장)",
+            "tags": "redhat",
+            "pay_amount": "0"
         }
     ]
 }
