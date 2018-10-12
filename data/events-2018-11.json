@@ -79,6 +79,26 @@
             "address": "삼성SDS 서관 지하 1층",
             "tags": "agile",
             "pay_amount": "55,000"
+        },
+        {
+            "id": 365,
+            "title": "Tech Meets Startup",
+            "url": "http://tech-startup.kr",
+            "start": "2018-11-02 09:30:00",
+            "end": "2018-11-02 16:00:00",
+            "address": "코엑스",
+            "tags": "startup",
+            "pay_amount": "0"
+        },
+        {
+            "id": 368,
+            "title": "Let's Swift",
+            "url": "http://letswift.kr/2018/",
+            "start": "2018-11-06 09:00:00",
+            "end": "2018-11-06 18:00:00",
+            "address": "서울특별시 강남구 테헤란로7길 22",
+            "tags": "iOS, swift",
+            "pay_amount": "32,000 ~ 39,000"
         }
     ]
 }
