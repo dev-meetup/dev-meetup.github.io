@@ -3488,7 +3488,17 @@
     	"address": "대한민국 부산광역시 해운대구 우2동 APEC로 55",
     	"tags": "gdg, amp, android, vr",
     	"pay_amount": "10,000 ~ 13,000"
-    } 
+    },
+    {
+    	"id": 371,
+    	"title": "R User Conference in Korea 2018",
+    	"url": "https://onoffmix.com/event/153305",
+    	"start": "2018-10-26 09:00:00",
+    	"end": "2018-10-26 18:00:00",
+    	"address": "서울특별시 시민청",
+    	"tags": "r",
+    	"pay_amount": "0 ~ 33,000"
+    }
              
   ]
 }
