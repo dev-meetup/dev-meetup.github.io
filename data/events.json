@@ -3428,9 +3428,67 @@
     	"address": "삼성SDS 서관 지하 1층",
     	"tags": "agile",
     	"pay_amount": "55,000"
-    }    
-             
-                          
+    },
+    {
+    	"id": 365,
+    	"title": "Tech Meets Startup",
+    	"url": "http://tech-startup.kr",
+    	"start": "2018-11-02 09:30:00",
+    	"end": "2018-11-02 16:00:00",
+    	"address": "코엑스",
+    	"tags": "startup",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 366,
+    	"title": "지금은 Azure 시대! - Azure의 정석",
+    	"url": "https://m.onoffmix.com/event/153410",
+    	"start": "2018-10-24 09:00:00",
+    	"end": "2018-10-24 18:00:00",
+    	"address": "코엑스",
+    	"tags": "azure, django, chatbot, docker",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 367,
+    	"title": "지금은 Azure 시대! - Azure의 정석",
+    	"url": "https://m.onoffmix.com/event/153410",
+    	"start": "2018-10-24 09:00:00",
+    	"end": "2018-10-24 18:00:00",
+    	"address": "코엑스",
+    	"tags": "azure, django, chatbot, docker",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 368,
+    	"title": "Let's Swift",
+    	"url": "http://letswift.kr/2018/",
+    	"start": "2018-11-06 09:00:00",
+    	"end": "2018-11-06 18:00:00",
+    	"address": "서울특별시 강남구 테헤란로7길 22",
+    	"tags": "iOS, swift",
+    	"pay_amount": "32,000 ~ 39,000"
+    },
+    {
+    	"id": 369,
+    	"title": "Yocto Project Dev Day Korea",
+    	"url": "https://festa.io/events/117",
+    	"start": "2018-11-07 18:00:00",
+    	"end": "2018-11-07 21:00:00",
+    	"address": "서울시 강남구 테헤란로 311 아남타워빌딩(Kosslab) 7층",
+    	"tags": "yocto",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 370,
+    	"title": "GDG Devfest Busan 2018",
+    	"url": "https://festa.io/events/119",
+    	"start": "2018-11-24 12:00:00",
+    	"end": "2018-11-24 18:00:00",
+    	"address": "대한민국 부산광역시 해운대구 우2동 APEC로 55",
+    	"tags": "gdg, amp, android, vr",
+    	"pay_amount": "10,000 ~ 13,000"
+    } 
              
   ]
 }
