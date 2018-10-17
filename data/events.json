@@ -3498,6 +3498,56 @@
     	"address": "서울특별시 시민청",
     	"tags": "r",
     	"pay_amount": "0 ~ 33,000"
+    },
+    {
+    	"id": 372,
+    	"title": "NAVER Tech Concert: Android",
+    	"url": "http://techcon.naver.com/?fbclid=IwAR2uyR1hb02ac4rCaizpKh-PkV7p0myUAm1m9xIr48rB-OHzrpjSoTeyhGo",
+    	"start": "2018-11-01 09:00:00",
+    	"end": "2018-11-01 18:00:00",
+    	"address": "정자동 네이버 그린팩토리 본사 2층 CONNECT HALL",
+    	"tags": "android, mvvm, kotlin",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 373,
+    	"title": "NAVER Tech Concert: Android",
+    	"url": "http://techcon.naver.com/?fbclid=IwAR2uyR1hb02ac4rCaizpKh-PkV7p0myUAm1m9xIr48rB-OHzrpjSoTeyhGo",
+    	"start": "2018-11-02 09:00:00",
+    	"end": "2018-11-02 18:00:00",
+    	"address": "정자동 네이버 그린팩토리 본사 2층 CONNECT HALL",
+    	"tags": "android, mvvm, kotlin",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 374,
+    	"title": "PgDay.Seoul 2018",
+    	"url": "https://onoffmix.com/event/154463?fbclid=IwAR0mwhZaEI3ncPb7n2bCsvd2vyLeyyUXCHASnWF4Xzrj1ob5tOjWeprasDM",
+    	"start": "2018-11-03 13:00:00",
+    	"end": "2018-11-03 18:00:00",
+    	"address": "KTDS 방배 사옥 2층 KTDS 아카데미",
+    	"tags": "aws, postgresql, sql",
+    	"pay_amount": "10,000"
+    },
+    {
+    	"id": 375,
+    	"title": "TAEYO.NET과 ASP.NET Korea가 함께하는 스폐셜 기술 세미나!",
+    	"url": "https://m.onoffmix.com/event/155392?fbclid=IwAR2BwtStgeiCQR4AuR6awJ77FblxhI2zB-MhlwsH6lXA6XnHe307hFsK7VE",
+    	"start": "2018-10-27 13:30:00",
+    	"end": "2018-10-27 18:00:00",
+    	"address": "서울특별시 종로구 종로1길 50 중학오피스빌딩 에이동 11층",
+    	"tags": "ddd, cqrs, event sourcing",
+    	"pay_amount": "5,000"
+    },
+    {
+    	"id": 376,
+    	"title": "[TOAST FORWARD] Scouter를 이용한 성능분석",
+    	"url": "https://onoffmix.com/event/155609?fbclid=IwAR1bKBLrBVRJR6_LkLM3_UCkToItg18dDQguXKmdksqeFJo5G-2oAkzK0_Y",
+    	"start": "2018-10-25 14:00:00",
+    	"end": "2018-10-25 18:00:00",
+    	"address": "경기도 성남시 분당구 대왕판교로645번길 16 NHN엔터테인먼트 플레이뮤지엄",
+    	"tags": "java, performance, scouter",
+    	"pay_amount": "10,000"
     }
              
   ]
