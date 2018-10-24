@@ -149,6 +149,46 @@
             "address": "KTDS 방배 사옥 2층 KTDS 아카데미",
             "tags": "aws, postgresql, sql",
             "pay_amount": "10,000"
+        },
+        {
+            "id": 378,
+            "title": "UNIST X Naver D2SF X 멋쟁이 사자처럼 해커톤",
+            "url": "https://festa.io/events/129",
+            "start": "2018-11-23 14:00:00",
+            "end": "2018-11-23 19:00:00",
+            "address": "울산광역시 울주군 언양읍 유니스트길 50 UNIST 경동홀",
+            "tags": "hackerton",
+            "pay_amount": "0"
+        },
+        {
+            "id": 379,
+            "title": "UNIST X Naver D2SF X 멋쟁이 사자처럼 해커톤",
+            "url": "https://festa.io/events/129",
+            "start": "2018-11-24 09:00:00",
+            "end": "2018-11-24 19:00:00",
+            "address": "울산광역시 울주군 언양읍 유니스트길 50 UNIST 경동홀",
+            "tags": "hackerton",
+            "pay_amount": "0"
+        },
+        {
+            "id": 380,
+            "title": "AWS DevDay 2018",
+            "url": "https://festa.io/events/120",
+            "start": "2018-11-06 12:00:00",
+            "end": "2018-11-06 18:00:00",
+            "address": "삼성동 코엑스 그랜드볼륨",
+            "tags": "aws, serverless, blockchain, gpu, nosql, k8s",
+            "pay_amount": "0"
+        },
+        {
+            "id": 381,
+            "title": "GDG DevFest Suwon",
+            "url": "https://festa.io/events/123",
+            "start": "2018-11-13 18:30:00",
+            "end": "2018-11-13 22:30:00",
+            "address": "광교 경기문화창조허브",
+            "tags": "gdg",
+            "pay_amount": "4,900 ~ 9,900"
         }
     ]
 }
