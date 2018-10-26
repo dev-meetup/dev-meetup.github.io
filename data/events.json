@@ -3608,6 +3608,36 @@
     	"address": "코엑스 컨퍼런스룸 401호",
     	"tags": "line, blockchain",
     	"pay_amount": "30,000"
+    },
+    {
+    	"id": 383,
+      "title": "[안드로이드 컨퍼런스]우리는 안드로이드 개발자입니다",
+    	"url": "https://linelinkdev2018.bloter.net/",
+    	"start": "2018-11-25 13:00:00",
+    	"end": "2018-11-25 18:40:00",
+    	"address": "마루180",
+    	"tags": "android, kotlin, aac",
+    	"pay_amount": "29,000"
+    },
+    {
+    	"id": 384,
+      "title": "머신러닝 첫 단추",
+    	"url": "https://innovationlab181113class.splashthat.com/?fbclid=IwAR0JqK6fQRZJjwfdnPiAho1YWRizGz6mLQiHySY9Xb9WZmzQHz2h9KfnPWQ",
+    	"start": "2018-11-13 14:00:00",
+    	"end": "2018-11-13 17:00:00",
+    	"address": "페이스북 이노베이션 랩",
+    	"tags": "data, ml, numpy, pandas",
+    	"pay_amount": "0"
+    },
+    {
+    	"id": 385,
+      "title": "원티드와 함께하는 개발자 커리어 터치",
+    	"url": "https://innovationlab181114seminar.splashthat.com/?fbclid=IwAR0cagLe1Yb34Jmy01vikNLuGKOxmAKYXkwR6QscM8rDk13XR6AoejiAu2U",
+    	"start": "2018-11-14 14:00:00",
+    	"end": "2018-11-14 17:00:00",
+    	"address": "페이스북 이노베이션 랩",
+    	"tags": "developer, career",
+    	"pay_amount": "0"
     }
           
              
