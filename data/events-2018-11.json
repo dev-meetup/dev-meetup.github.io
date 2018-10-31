@@ -229,6 +229,16 @@
             "address": "페이스북 이노베이션 랩",
             "tags": "developer, career",
             "pay_amount": "0"
+        },
+        {
+            "id": 386,
+            "title": "DevFest Pangyo 2018 : AI FOR EVERYONE",
+            "url": "https://festa.io/events/136",
+            "start": "2018-11-23 19:00:00",
+            "end": "2018-11-23 22:00:00",
+            "address": "판교 테크노밸리 (자세한 장소는 추후 업데이트됩니다.)",
+            "tags": "ai, ml",
+            "pay_amount": "10,000 ~ 30,000"
         }
     ]
 }
